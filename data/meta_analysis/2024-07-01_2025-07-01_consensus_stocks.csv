@@ -1,0 +1,6 @@
+stock,consensus_rate,agent_count,recommending_agents
+AAPL,1.0,5,"graham, piotroski, greenblatt, carlisle, driehaus"
+MSFT,1.0,5,"graham, piotroski, greenblatt, carlisle, driehaus"
+TSLA,1.0,5,"graham, piotroski, greenblatt, carlisle, driehaus"
+AMZN,1.0,5,"graham, piotroski, greenblatt, carlisle, driehaus"
+NVDA,1.0,5,"graham, piotroski, greenblatt, carlisle, driehaus"
