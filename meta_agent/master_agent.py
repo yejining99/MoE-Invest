@@ -152,6 +152,8 @@ Chat History:
         workflow = StateGraph(MasterAgentState)
         
         # 노드 추가
+        # agent들 중에서 이 상황에 맞는 애를 고르는 노드 추가
+        workflow.add_node("select_agents", self._select_agents)
         workflow.add_node("run_agents_parallel", self._run_agents_parallel)
         workflow.add_node("analyze_consensus", self._analyze_consensus) 
         workflow.add_node("generate_cot_analysis", self._generate_cot_analysis)
