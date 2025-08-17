@@ -1,0 +1,11 @@
+Ticker,Score,Weight (%),Reason
+MSFT,0.95,13,Strong liquidity and profitability; low leverage.
+NVDA,0.93,13,High profitability and asset turnover; strong interest coverage.
+TXN,0.92,13,High profit margin and ROE; strong liquidity.
+AAPL,0.91,13,High ROE and profit margin; strong market position.
+AMAT,0.90,12,Strong profitability and asset turnover; good liquidity.
+KLAC,0.89,12,High ROE and profit margin; strong financial metrics.
+AVGO,0.88,12,Strong profitability and liquidity; good asset turnover.
+CDNS,0.87,12,High profit margin and ROE; strong interest coverage.
+SNPS,0.86,12,Strong profitability and interest coverage; good liquidity.
+AMD,0.85,10,Good asset turnover and profitability; strong market position.

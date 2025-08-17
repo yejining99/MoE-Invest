@@ -1,0 +1,11 @@
+Ticker,Score,Weight (%),Reason
+MSFT,0.95,25,Strong liquidity and profitability; high interest coverage.
+NVDA,0.92,25,Excellent profitability and asset turnover; high interest coverage.
+META,0.90,25,Strong profitability and interest coverage; good liquidity.
+ADBE,0.88,10,High profitability and interest coverage; good liquidity.
+TXN,0.87,5,Strong profitability and liquidity; good interest coverage.
+REGN,0.86,5,High profitability and interest coverage; strong liquidity.
+NFLX,0.85,5,Strong profitability and interest coverage; good liquidity.
+AMZN,0.84,5,Good profitability and asset turnover; high interest coverage.
+GOOGL,0.83,0,Strong profitability and interest coverage; good liquidity.
+KLAC,0.82,0,High profitability and interest coverage; good liquidity.
