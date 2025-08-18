@@ -1,0 +1,25 @@
+Ticker,Score,Weight (%),Reason
+AAPL,0.89,8,F=8/9; strong ROA & margin growth.
+AMD,0.89,8,F=8/9; positive ROA & margin.
+CRWD,0.89,8,F=8/9; strong profitability signals.
+KDP,0.89,8,F=8/9; strong ROA & liquidity.
+LULU,0.89,8,F=8/9; strong ROA & liquidity.
+META,0.89,8,F=8/9; strong ROA & margin.
+NVDA,0.89,8,F=8/9; strong ROA & margin.
+ADP,0.78,7,F=7/9; strong ROA & liquidity.
+AMAT,0.78,7,F=7/9; strong ROA & liquidity.
+CTAS,0.78,7,F=7/9; strong ROA & liquidity.
+DXCM,0.78,7,F=7/9; strong ROA & liquidity.
+FANG,0.78,7,F=7/9; strong ROA & liquidity.
+GILD,0.78,7,F=7/9; strong ROA & liquidity.
+GOOGL,0.78,7,F=7/9; strong ROA & margin.
+IDXX,0.78,7,F=7/9; strong ROA & liquidity.
+KHC,0.78,7,F=7/9; strong ROA & liquidity.
+LRCX,0.78,7,F=7/9; strong ROA & liquidity.
+MNST,0.78,7,F=7/9; strong ROA & liquidity.
+NXPI,0.78,7,F=7/9; strong ROA & liquidity.
+PAYX,0.78,7,F=7/9; strong ROA & liquidity.
+PLTR,0.78,7,F=7/9; strong ROA & liquidity.
+ROST,0.78,7,F=7/9; strong ROA & liquidity.
+SNPS,0.78,7,F=7/9; strong ROA & liquidity.
+TMUS,0.78,7,F=7/9; strong ROA & liquidity.

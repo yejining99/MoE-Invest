@@ -1,5 +1,16 @@
 Ticker,Score,Weight (%),Reason
-MSFT,0.95,25,"Strong liquidity, high profit margin, and excellent interest coverage."
-TXN,0.92,25,High profit margin and strong liquidity; good interest coverage.
-REGN,0.90,25,Excellent liquidity and profit margin; low debt-to-equity.
-MU,0.88,25,Strong liquidity and profit margin; good interest coverage.
+MSFT,0.95,10,Strong liquidity and profitability; high interest coverage.
+AAPL,0.92,9,Excellent profitability and asset turnover; strong liquidity.
+TXN,0.90,9,High profit margin and ROE; strong liquidity.
+NVDA,0.88,8,Strong asset turnover and profitability; good liquidity.
+QCOM,0.87,8,High profit margin and ROE; good liquidity.
+REGN,0.86,8,Strong liquidity and profitability; high interest coverage.
+MU,0.85,8,High profit margin and ROE; strong liquidity.
+GOOGL,0.84,8,Strong liquidity and profitability; high interest coverage.
+AMAT,0.83,8,High profit margin and ROE; good liquidity.
+AMD,0.82,8,Strong asset turnover and profitability; good liquidity.
+ROST,0.81,7,High asset turnover and profit margin; good liquidity.
+ODFL,0.80,7,Strong asset turnover and profitability; high interest coverage.
+PCAR,0.79,7,High asset turnover and profit margin; good liquidity.
+PEP,0.78,7,Strong profitability and asset turnover; good liquidity.
+MNST,0.77,6,High profit margin and ROE; strong liquidity.

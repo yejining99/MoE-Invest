@@ -1,0 +1,13 @@
+Ticker,Score,Weight (%),Reason
+MSFT,0.92,10,"High ROE, strong interest coverage, fair valuation."
+AAPL,0.91,10,"High ROE, strong cash flow, fair valuation."
+GOOGL,0.89,9,"Strong interest coverage, high profit margin, fair valuation."
+META,0.88,9,"High ROE, strong interest coverage, fair valuation."
+NVDA,0.87,9,"Strong interest coverage, high profit margin, fair valuation."
+TXN,0.86,8,"High ROE, strong interest coverage, fair valuation."
+AVGO,0.85,8,"High ROE, strong cash flow, fair valuation."
+ADP,0.84,8,"High ROE, strong interest coverage, fair valuation."
+COST,0.83,8,"Strong interest coverage, high profit margin, fair valuation."
+CSCO,0.82,7,"Strong interest coverage, high profit margin, fair valuation."
+PEP,0.81,7,"Strong interest coverage, high profit margin, fair valuation."
+ROST,0.80,7,"Strong interest coverage, high profit margin, fair valuation."

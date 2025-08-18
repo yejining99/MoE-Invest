@@ -1,0 +1,31 @@
+Ticker,Score,Weight (%),Reason
+REGN,1.00,4,High EY & ROIC; no safety penalty.
+MU,0.99,4,High EY & moderate ROIC; no safety penalty.
+FANG,0.99,4,High EY & moderate ROIC; no safety penalty.
+GILD,0.99,4,High EY & ROIC; no safety penalty.
+ROST,0.98,4,High EY & moderate ROIC; no safety penalty.
+WBD,0.98,4,High EY & ROIC; mild D/E penalty.
+QCOM,0.98,4,High EY & ROIC; mild D/E penalty.
+BIIB,0.98,4,High EY & moderate ROIC; no safety penalty.
+LRCX,0.98,4,High EY & ROIC; mild D/E penalty.
+META,0.98,4,High EY & moderate ROIC; no safety penalty.
+AMAT,0.98,4,High EY & ROIC; mild D/E penalty.
+KHC,0.98,4,High EY & ROIC; no safety penalty.
+ON,0.98,4,High EY & moderate ROIC; mild D/E penalty.
+TXN,0.98,4,High EY & ROIC; no safety penalty.
+NXPI,0.98,4,High EY & ROIC; mild D/E penalty.
+CMCSA,0.97,4,High EY & moderate ROIC; mild D/E penalty.
+ORLY,0.97,4,High EY & moderate ROIC; no safety penalty.
+CSCO,0.97,4,High EY & moderate ROIC; no safety penalty.
+HON,0.97,4,High EY & ROIC; mild D/E penalty.
+MSFT,0.97,4,Moderate EY & high ROIC; no safety penalty.
+MNST,0.97,4,Moderate EY & high ROIC; no safety penalty.
+PEP,0.97,4,Moderate EY & high ROIC; mild D/E penalty.
+CP,0.97,4,Moderate EY & high ROIC; no safety penalty.
+ADP,0.97,4,Moderate EY & high ROIC; mild D/E penalty.
+AAPL,0.97,4,Moderate EY & high ROIC; mild D/E penalty.
+GOOGL,0.97,4,Moderate EY & high ROIC; no safety penalty.
+AMD,0.97,4,Moderate EY & high ROIC; no safety penalty.
+KLAC,0.97,4,Moderate EY & high ROIC; mild D/E penalty.
+PAYX,0.97,4,Moderate EY & high ROIC; mild D/E penalty.
+MCHP,0.97,4,Moderate EY & high ROIC; mild D/E penalty.

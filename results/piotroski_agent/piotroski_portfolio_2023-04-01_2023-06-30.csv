@@ -1,0 +1,16 @@
+Ticker,Score,Weight (%),Reason
+AAPL,0.89,5,F=8/9; strong profitability and efficiency.
+AVGO,0.89,5,F=8/9; robust margin and leverage improvements.
+CRWD,0.89,5,F=8/9; positive ROA and liquidity.
+CSCO,0.89,5,F=8/9; strong margin and liquidity.
+CTAS,0.89,5,F=8/9; excellent profitability and leverage.
+FAST,0.89,5,F=8/9; strong liquidity and efficiency.
+FTNT,0.89,5,F=8/9; solid profitability and leverage.
+INTU,0.89,5,F=8/9; strong ROA and liquidity.
+KHC,0.89,5,F=8/9; positive margin and leverage.
+MCHP,0.89,5,F=8/9; strong profitability and efficiency.
+MELI,0.89,5,F=8/9; robust ROA and liquidity.
+NVDA,0.89,5,F=8/9; excellent margin and turnover.
+PANW,0.89,5,F=8/9; strong ROA and margin.
+SNPS,0.89,5,F=8/9; solid profitability and efficiency.
+Remaining,0.00,0,Not selected due to lower F-Score.

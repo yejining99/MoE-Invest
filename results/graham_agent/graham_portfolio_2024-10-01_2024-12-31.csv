@@ -1,5 +1,60 @@
 Ticker,Score,Weight (%),Reason
-MSFT,0.95,25,"Strong liquidity, high ROE, excellent interest coverage."
-NVDA,0.92,25,"High profit margin, strong asset turnover, excellent interest coverage."
-META,0.89,25,"High profit margin, strong ROE, excellent interest coverage."
-ADBE,0.87,25,"High profit margin, strong ROE, excellent interest coverage."
+PLTR,0.95,3,Strong liquidity and working capital; low D/E.
+MNST,0.92,3,High current ratio and profit margin; low D/E.
+MSFT,0.91,3,Excellent interest coverage and profit margin.
+REGN,0.90,3,Strong liquidity and interest coverage; low D/E.
+FAST,0.89,3,High current ratio and interest coverage.
+NVDA,0.88,3,Strong profit margin and interest coverage.
+TXN,0.87,3,High profit margin and interest coverage.
+ADBE,0.86,3,Strong profit margin and interest coverage.
+GOOGL,0.85,3,High interest coverage and profit margin.
+META,0.84,3,Strong profit margin and interest coverage.
+KLAC,0.83,3,High ROE and profit margin.
+ISRG,0.82,3,Strong liquidity and profit margin.
+LULU,0.81,3,High ROE and profit margin.
+ON,0.80,3,Strong working capital and profit margin.
+AMD,0.79,3,High interest coverage and working capital.
+CDNS,0.78,3,Strong profit margin and ROE.
+SNPS,0.77,3,High ROE and profit margin.
+CPRT,0.76,3,Strong liquidity and profit margin.
+ROST,0.75,3,High profit margin and interest coverage.
+QCOM,0.74,3,Strong profit margin and interest coverage.
+PAYX,0.73,3,High profit margin and interest coverage.
+IDXX,0.72,3,Strong profit margin and ROE.
+AMAT,0.71,3,High ROE and profit margin.
+EA,0.70,3,Strong profit margin and interest coverage.
+DXCM,0.69,3,High profit margin and interest coverage.
+MELI,0.68,3,Strong ROE and profit margin.
+AAPL,0.67,3,High ROE and profit margin.
+AVGO,0.66,3,Strong profit margin and ROE.
+ADP,0.65,3,High ROE and profit margin.
+AMZN,0.64,3,Strong profit margin and interest coverage.
+PEP,0.63,3,High profit margin and interest coverage.
+VRTX,0.62,3,Strong profit margin and ROE.
+ADI,0.61,3,High ROE and profit margin.
+CTAS,0.60,3,Strong profit margin and ROE.
+CSCO,0.59,3,High profit margin and interest coverage.
+INTU,0.58,3,Strong profit margin and interest coverage.
+BIIB,0.57,3,High profit margin and interest coverage.
+BKR,0.56,3,Strong profit margin and interest coverage.
+LIN,0.55,3,High profit margin and interest coverage.
+HON,0.54,3,Strong profit margin and interest coverage.
+GEHC,0.53,3,High profit margin and interest coverage.
+FANG,0.52,3,Strong profit margin and interest coverage.
+KHC,0.51,3,High profit margin and interest coverage.
+TMUS,0.50,3,Strong profit margin and interest coverage.
+CDW,0.49,3,High profit margin and interest coverage.
+CSX,0.48,3,Strong profit margin and interest coverage.
+CTAS,0.47,3,High profit margin and interest coverage.
+CTSH,0.46,3,Strong profit margin and interest coverage.
+CPRT,0.45,3,High profit margin and interest coverage.
+COST,0.44,3,Strong profit margin and interest coverage.
+CSGP,0.43,3,High profit margin and interest coverage.
+CDW,0.42,3,Strong profit margin and interest coverage.
+AVGO,0.41,3,High profit margin and interest coverage.
+TMUS,0.40,3,Strong profit margin and interest coverage.
+SNPS,0.39,3,High profit margin and interest coverage.
+NVDA,0.38,3,Strong profit margin and interest coverage.
+ORLY,0.37,3,High profit margin and interest coverage.
+TTWO,0.36,3,Strong profit margin and interest coverage.
+VRTX,0.35,3,High profit margin and interest coverage.

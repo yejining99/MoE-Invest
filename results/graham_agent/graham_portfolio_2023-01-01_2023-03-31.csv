@@ -1,5 +1,16 @@
 Ticker,Score,Weight (%),Reason
-MSFT,0.95,25,"Strong liquidity, high profit margin, and excellent interest coverage."
-TXN,0.92,25,"High profit margin, strong ROE, and good interest coverage."
-ADBE,0.90,25,"High profit margin, strong ROE, and excellent interest coverage."
-MNST,0.88,25,"High profit margin, strong liquidity, and excellent interest coverage."
+MSFT,0.95,10,Strong liquidity and profitability; high interest coverage.
+AAPL,0.92,9,Excellent profitability and asset turnover; strong liquidity.
+NVDA,0.90,9,High profitability and asset turnover; strong interest coverage.
+TXN,0.88,8,Strong profitability and liquidity; good interest coverage.
+ADP,0.87,8,High profitability and asset turnover; strong liquidity.
+AMZN,0.85,8,Strong asset turnover and profitability; good liquidity.
+GOOGL,0.84,7,Strong profitability and liquidity; good interest coverage.
+AVGO,0.83,7,High profitability and asset turnover; strong liquidity.
+CDNS,0.82,7,Strong profitability and asset turnover; good liquidity.
+COST,0.81,7,High asset turnover and profitability; strong liquidity.
+INTU,0.80,6,Strong profitability and liquidity; good interest coverage.
+KLAC,0.79,6,High profitability and asset turnover; strong liquidity.
+LRCX,0.78,6,Strong profitability and asset turnover; good liquidity.
+SNPS,0.77,6,High profitability and asset turnover; strong liquidity.
+VRTX,0.76,6,Strong profitability and liquidity; good interest coverage.

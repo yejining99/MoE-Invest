@@ -1,11 +1,68 @@
 Ticker,Score,Weight (%),Reason
-MSFT,0.95,25,Strong liquidity and profitability; high interest coverage.
-NVDA,0.92,25,Excellent profitability and asset turnover; high interest coverage.
-META,0.90,25,Strong profitability and interest coverage; good liquidity.
-ADBE,0.88,10,High profitability and interest coverage; good liquidity.
-TXN,0.87,5,Strong profitability and liquidity; good interest coverage.
-REGN,0.86,5,High profitability and interest coverage; strong liquidity.
-NFLX,0.85,5,Strong profitability and interest coverage; good liquidity.
-AMZN,0.84,5,Good profitability and asset turnover; high interest coverage.
-GOOGL,0.83,0,Strong profitability and interest coverage; good liquidity.
-KLAC,0.82,0,High profitability and interest coverage; good liquidity.
+PLTR,0.95,3,Strong liquidity and working capital; low D/E.
+REGN,0.92,3,High current ratio and profit margin; low D/E.
+TXN,0.91,3,Strong liquidity and profitability; low D/E.
+NVDA,0.90,3,High interest coverage and profit margin.
+MSFT,0.89,3,Strong liquidity and profitability; high interest coverage.
+ADBE,0.88,3,High profit margin and interest coverage.
+META,0.87,3,Strong liquidity and profitability; high interest coverage.
+NFLX,0.86,3,High profit margin and interest coverage.
+MNST,0.85,3,Strong liquidity and profitability; low D/E.
+GOOGL,0.84,3,High interest coverage and profit margin.
+ISRG,0.83,3,Strong liquidity and profitability; low D/E.
+KLAC,0.82,3,High profit margin and ROE.
+AMAT,0.81,3,Strong liquidity and profitability.
+LRCX,0.80,3,High profit margin and interest coverage.
+AMD,0.79,3,Strong liquidity and profitability.
+QCOM,0.78,3,High profit margin and ROE.
+ON,0.77,3,Strong liquidity and profitability.
+MU,0.76,3,Strong liquidity and profitability.
+NXPI,0.75,3,Strong liquidity and profitability.
+PCAR,0.74,3,Strong liquidity and profitability.
+CDNS,0.73,3,High profit margin and ROE.
+SNPS,0.72,3,High profit margin and ROE.
+IDXX,0.71,3,Strong liquidity and profitability.
+CPRT,0.70,3,Strong liquidity and profitability.
+DXCM,0.69,3,Strong liquidity and profitability.
+VRTX,0.68,3,Strong liquidity and profitability.
+AAPL,0.67,3,High profit margin and ROE.
+AVGO,0.66,3,High profit margin and ROE.
+ADP,0.65,3,High profit margin and ROE.
+PEP,0.64,3,High profit margin and ROE.
+COST,0.63,3,High asset turnover and ROE.
+ROST,0.62,3,High asset turnover and ROE.
+FAST,0.61,3,High asset turnover and ROE.
+CTAS,0.60,3,High asset turnover and ROE.
+MELI,0.59,3,High asset turnover and ROE.
+LULU,0.58,3,High asset turnover and ROE.
+ABNB,0.57,3,High asset turnover and ROE.
+SBUX,0.56,3,High asset turnover and ROE.
+EA,0.55,3,High asset turnover and ROE.
+PAYX,0.54,3,High asset turnover and ROE.
+BIIB,0.53,3,High asset turnover and ROE.
+HON,0.52,3,High asset turnover and ROE.
+LIN,0.51,3,High asset turnover and ROE.
+ADI,0.50,3,High asset turnover and ROE.
+AMGN,0.49,3,High asset turnover and ROE.
+EXC,0.48,3,High asset turnover and ROE.
+GEHC,0.47,3,High asset turnover and ROE.
+BKR,0.46,3,High asset turnover and ROE.
+FANG,0.45,3,High asset turnover and ROE.
+KHC,0.44,3,High asset turnover and ROE.
+XEL,0.43,3,High asset turnover and ROE.
+TMUS,0.42,3,High asset turnover and ROE.
+CSX,0.41,3,High asset turnover and ROE.
+CDW,0.40,3,High asset turnover and ROE.
+CSCO,0.39,3,High asset turnover and ROE.
+CTAS,0.38,3,High asset turnover and ROE.
+CTSH,0.37,3,High asset turnover and ROE.
+CPRT,0.36,3,High asset turnover and ROE.
+CSGP,0.35,3,High asset turnover and ROE.
+CDW,0.34,3,High asset turnover and ROE.
+AVGO,0.33,3,High asset turnover and ROE.
+TMUS,0.32,3,High asset turnover and ROE.
+SNPS,0.31,3,High asset turnover and ROE.
+NVDA,0.30,3,High asset turnover and ROE.
+ORLY,0.29,3,High asset turnover and ROE.
+TTWO,0.28,3,High asset turnover and ROE.
+VRTX,0.27,3,High asset turnover and ROE.

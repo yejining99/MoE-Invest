@@ -1,11 +1,21 @@
 Ticker,Score,Weight (%),Reason
-MSFT,0.95,13,Strong liquidity and profitability; low leverage.
-NVDA,0.93,13,High profitability and asset turnover; strong interest coverage.
-TXN,0.92,13,High profit margin and ROE; strong liquidity.
-AAPL,0.91,13,High ROE and profit margin; strong market position.
-AMAT,0.90,12,Strong profitability and asset turnover; good liquidity.
-KLAC,0.89,12,High ROE and profit margin; strong financial metrics.
-AVGO,0.88,12,Strong profitability and liquidity; good asset turnover.
-CDNS,0.87,12,High profit margin and ROE; strong interest coverage.
-SNPS,0.86,12,Strong profitability and interest coverage; good liquidity.
-AMD,0.85,10,Good asset turnover and profitability; strong market position.
+MSFT,0.95,10,Strong liquidity & profitability; high interest coverage.
+MNST,0.92,9,Excellent interest coverage & profit margin; low D/E.
+TXN,0.90,9,High profitability & interest coverage; strong working capital.
+NVDA,0.88,8,High ROE & profit margin; strong asset turnover.
+AAPL,0.87,8,High ROE & profit margin; strong asset turnover.
+GOOGL,0.86,8,Strong liquidity & profitability; high interest coverage.
+AMZN,0.85,8,Strong asset turnover & profitability; high interest coverage.
+PEP,0.84,8,Strong profitability & interest coverage; high ROE.
+ROST,0.83,7,Strong asset turnover & profitability; high interest coverage.
+QCOM,0.82,7,Strong profitability & interest coverage; high ROE.
+REGN,0.81,7,Strong liquidity & profitability; high interest coverage.
+AVGO,0.80,7,Strong profitability & interest coverage; high ROE.
+CDNS,0.79,6,Strong profitability & interest coverage; high ROE.
+KLAC,0.78,6,Strong profitability & interest coverage; high ROE.
+LRCX,0.77,6,Strong profitability & interest coverage; high ROE.
+ISRG,0.76,5,Strong liquidity & profitability; high interest coverage.
+IDXX,0.75,5,Strong profitability & interest coverage; high ROE.
+CPTR,0.74,5,Strong liquidity & profitability; high interest coverage.
+COST,0.73,5,Strong asset turnover & profitability; high interest coverage.
+CSCO,0.72,5,Strong profitability & interest coverage; high ROE.

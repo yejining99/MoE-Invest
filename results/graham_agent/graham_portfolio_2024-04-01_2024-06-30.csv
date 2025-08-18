@@ -1,5 +1,21 @@
 Ticker,Score,Weight (%),Reason
-MSFT,0.95,25,Strong liquidity and profitability; high interest coverage.
-NVDA,0.92,25,Excellent profit margins and asset turnover; strong ROE.
-ADBE,0.90,25,High profit margins and interest coverage; solid ROE.
-REGN,0.88,25,Strong liquidity and profit margins; low debt.
+MSFT,0.95,5,Strong liquidity & profitability; high interest coverage.
+ADBE,0.94,5,Excellent profit margins & interest coverage; solid ROE.
+NVDA,0.93,5,High profit margin & asset turnover; strong liquidity.
+META,0.92,5,Strong profit margins & liquidity; good ROE.
+TXN,0.91,5,Solid profit margins & liquidity; good ROE.
+ROST,0.90,5,Strong asset turnover & profit margins; good liquidity.
+GOOGL,0.89,5,High liquidity & profit margins; good ROE.
+REGN,0.88,5,Excellent profit margins & liquidity; solid ROE.
+MNST,0.87,5,Strong profit margins & liquidity; good ROE.
+FAST,0.86,5,High asset turnover & liquidity; good ROE.
+PEP,0.85,5,Strong profit margins & liquidity; good ROE.
+QCOM,0.84,5,Solid profit margins & liquidity; good ROE.
+LRCX,0.83,5,High profit margins & liquidity; good ROE.
+KLAC,0.82,5,Excellent profit margins & ROE; strong liquidity.
+IDXX,0.81,5,Strong profit margins & liquidity; good ROE.
+AMAT,0.80,5,High profit margins & liquidity; good ROE.
+CDNS,0.79,5,Strong profit margins & liquidity; good ROE.
+SNPS,0.78,5,High profit margins & liquidity; good ROE.
+INTU,0.77,5,Strong profit margins & liquidity; good ROE.
+ISRG,0.76,5,High profit margins & liquidity; good ROE.

@@ -1,0 +1,31 @@
+Ticker,Score,Weight (%),Reason
+FANG,1.00,3,Highest EY; strong ROIC.
+GILD,0.99,3,High EY & ROIC; mild D/E penalty.
+ON,0.98,3,High EY & ROIC; strong interest coverage.
+PCAR,0.97,3,High EY; good ROIC.
+CMCSA,0.96,3,High EY; strong ROIC; D/E penalty.
+KHC,0.95,3,High EY; good ROIC.
+CSCO,0.94,3,High EY; good ROIC.
+CTAS,0.93,3,High EY; good ROIC.
+CDW,0.92,3,High EY; good ROIC; D/E penalty.
+TMUS,0.91,3,High EY; good ROIC.
+NXPI,0.90,3,High EY; strong ROIC; D/E penalty.
+PYPL,0.89,3,High EY; strong ROIC; D/E penalty.
+QCOM,0.88,3,High EY; strong ROIC.
+MCHP,0.87,3,High EY; strong ROIC.
+TXN,0.86,3,High EY; good ROIC.
+REGN,0.85,3,High EY; good ROIC.
+LRCX,0.84,3,High EY; strong ROIC.
+HON,0.83,3,High EY; strong ROIC.
+AMGN,0.82,3,High EY; strong ROIC; D/E penalty.
+ADI,0.81,3,High EY; strong ROIC.
+AMAT,0.80,3,High EY; strong ROIC.
+ORLY,0.79,3,High EY; good ROIC.
+VRTX,0.78,3,High EY; strong ROIC.
+ROST,0.77,3,High EY; good ROIC; D/E penalty.
+MNST,0.76,3,High EY; strong ROIC.
+PAYX,0.75,3,High EY; strong ROIC; D/E penalty.
+SBUX,0.74,3,High EY; good ROIC; D/E penalty.
+PEP,0.73,3,High EY; strong ROIC; D/E penalty.
+MSFT,0.72,3,High EY; strong ROIC.
+AAPL,0.71,1,High EY; strong ROIC; D/E penalty.

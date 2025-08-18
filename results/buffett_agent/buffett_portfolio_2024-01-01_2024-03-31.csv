@@ -1,0 +1,13 @@
+Ticker,Score,Weight (%),Reason
+MSFT,0.92,10,"High ROE, strong coverage, fair multiple."
+NVDA,0.91,10,"High ROE, strong profit margin, fair multiple."
+AAPL,0.89,9,"High ROE, strong coverage, fair multiple."
+META,0.88,9,"High ROE, strong coverage, fair multiple."
+GOOGL,0.87,9,"High ROE, strong coverage, fair multiple."
+AMZN,0.86,9,"High ROE, strong coverage, fair multiple."
+ADP,0.85,8,"High ROE, strong coverage, fair multiple."
+COST,0.84,8,"High ROE, strong coverage, fair multiple."
+TXN,0.83,8,"High ROE, strong coverage, fair multiple."
+PEP,0.82,8,"High ROE, strong coverage, fair multiple."
+ROST,0.81,8,"High ROE, strong coverage, fair multiple."
+NFLX,0.80,4,"High ROE, strong coverage, fair multiple."

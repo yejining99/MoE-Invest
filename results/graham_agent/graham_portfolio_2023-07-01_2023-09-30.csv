@@ -1,5 +1,26 @@
 Ticker,Score,Weight (%),Reason
-MSFT,0.95,25,Strong liquidity and profitability; low leverage.
-ADBE,0.92,25,High profit margins and interest coverage; solid ROE.
-NVDA,0.90,25,Excellent profitability and asset turnover; strong financials.
-TXN,0.88,25,Robust margins and ROE; good liquidity.
+MSFT,0.95,4,Strong liquidity & profitability; low D/E.
+ADBE,0.94,4,High profit margin & interest coverage; low D/E.
+NVDA,0.93,4,Excellent profitability & asset turnover; low D/E.
+TXN,0.92,4,Strong margins & liquidity; low D/E.
+KLAC,0.91,4,High ROE & profit margin; low D/E.
+AMAT,0.90,4,Strong profitability & liquidity; low D/E.
+GOOGL,0.89,4,High profit margin & interest coverage; low D/E.
+AVGO,0.88,4,Strong profitability & liquidity; low D/E.
+META,0.87,4,High profit margin & interest coverage; low D/E.
+AAPL,0.86,4,Excellent profitability & asset turnover; low D/E.
+ROST,0.85,4,Strong margins & liquidity; low D/E.
+PEP,0.84,4,High ROE & profit margin; low D/E.
+COST,0.83,4,Strong asset turnover & liquidity; low D/E.
+FAST,0.82,4,High asset turnover & liquidity; low D/E.
+IDXX,0.81,4,Strong profitability & liquidity; low D/E.
+CPRT,0.80,4,High profit margin & liquidity; low D/E.
+LRCX,0.79,4,Strong profitability & liquidity; low D/E.
+CDNS,0.78,4,High profit margin & liquidity; low D/E.
+SNPS,0.77,4,Strong profitability & liquidity; low D/E.
+INTU,0.76,4,High ROE & profit margin; low D/E.
+ISRG,0.75,4,Strong profitability & liquidity; low D/E.
+REGN,0.74,4,High profit margin & liquidity; low D/E.
+EA,0.73,4,Strong profitability & liquidity; low D/E.
+HON,0.72,4,High ROE & profit margin; low D/E.
+AMD,0.71,4,Strong profitability & liquidity; low D/E.
