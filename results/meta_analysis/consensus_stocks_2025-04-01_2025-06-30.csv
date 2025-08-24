@@ -1,0 +1,21 @@
+stock,consensus_rate,agent_count,recommending_agents
+AAPL,0.4,2,"JosephPiotroski, WarrenBuffett"
+AMGN,0.4,2,"JosephPiotroski, WarrenBuffett"
+GOOGL,0.2,1,WarrenBuffett
+ADP,0.2,1,JosephPiotroski
+QCOM,0.2,1,JosephPiotroski
+ADBE,0.2,1,JosephPiotroski
+REGN,0.2,1,WarrenBuffett
+KLAC,0.2,1,WarrenBuffett
+TXN,0.2,1,JosephPiotroski
+CTAS,0.2,1,JosephPiotroski
+ROE,0.2,1,WarrenBuffett
+EV,0.2,1,JoelGreenblatt
+CEG,0.2,1,JosephPiotroski
+ROA,0.2,1,JosephPiotroski
+MSFT,0.2,1,WarrenBuffett
+MNST,0.2,1,JosephPiotroski
+META,0.2,1,WarrenBuffett
+NFLX,0.2,1,WarrenBuffett
+ROCE,0.2,1,WarrenBuffett
+ROIC,0.2,1,JoelGreenblatt

@@ -1,0 +1,21 @@
+Ticker,Score,Weight (%),Reason
+AAPL,0.4,6.9,"Consensus from 2 agents: JosephPiotroski, WarrenBuffett"
+AMGN,0.4,6.9,"Consensus from 2 agents: JosephPiotroski, WarrenBuffett"
+GOOGL,0.2,4.8,Consensus from 1 agents: WarrenBuffett
+ADP,0.2,4.8,Consensus from 1 agents: JosephPiotroski
+QCOM,0.2,4.8,Consensus from 1 agents: JosephPiotroski
+ADBE,0.2,4.8,Consensus from 1 agents: JosephPiotroski
+REGN,0.2,4.8,Consensus from 1 agents: WarrenBuffett
+KLAC,0.2,4.8,Consensus from 1 agents: WarrenBuffett
+TXN,0.2,4.8,Consensus from 1 agents: JosephPiotroski
+CTAS,0.2,4.8,Consensus from 1 agents: JosephPiotroski
+ROE,0.2,4.8,Consensus from 1 agents: WarrenBuffett
+EV,0.2,4.8,Consensus from 1 agents: JoelGreenblatt
+CEG,0.2,4.8,Consensus from 1 agents: JosephPiotroski
+ROA,0.2,4.8,Consensus from 1 agents: JosephPiotroski
+MSFT,0.2,4.8,Consensus from 1 agents: WarrenBuffett
+MNST,0.2,4.8,Consensus from 1 agents: JosephPiotroski
+META,0.2,4.8,Consensus from 1 agents: WarrenBuffett
+NFLX,0.2,4.8,Consensus from 1 agents: WarrenBuffett
+ROCE,0.2,4.8,Consensus from 1 agents: WarrenBuffett
+ROIC,0.2,4.8,Consensus from 1 agents: JoelGreenblatt

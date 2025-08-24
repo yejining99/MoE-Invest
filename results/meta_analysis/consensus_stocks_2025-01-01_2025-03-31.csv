@@ -1,0 +1,28 @@
+stock,consensus_rate,agent_count,recommending_agents
+CTAS,0.4,2,"JosephPiotroski, EdwardAltman"
+META,0.4,2,"BenjaminGraham, EdwardAltman"
+AMD,0.4,2,"JosephPiotroski, EdwardAltman"
+GOOGL,0.2,1,BenjaminGraham
+ADP,0.2,1,JosephPiotroski
+QCOM,0.2,1,EdwardAltman
+ADI,0.2,1,JosephPiotroski
+SNPS,0.2,1,EdwardAltman
+AMZN,0.2,1,BenjaminGraham
+CSCO,0.2,1,JosephPiotroski
+EA,0.2,1,JosephPiotroski
+DASH,0.2,1,JosephPiotroski
+FTNT,0.2,1,JosephPiotroski
+CDNS,0.2,1,EdwardAltman
+TXN,0.2,1,BenjaminGraham
+CDW,0.2,1,BenjaminGraham
+EBIT,0.2,1,EdwardAltman
+PLTR,0.2,1,BenjaminGraham
+ROA,0.2,1,JosephPiotroski
+AAPL,0.2,1,BenjaminGraham
+TA,0.2,1,EdwardAltman
+AMAT,0.2,1,EdwardAltman
+MSFT,0.2,1,BenjaminGraham
+AVGO,0.2,1,JosephPiotroski
+NFLX,0.2,1,BenjaminGraham
+NVDA,0.2,1,BenjaminGraham
+MU,0.2,1,EdwardAltman

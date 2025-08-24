@@ -1,0 +1,28 @@
+Ticker,Score,Weight (%),Reason
+CTAS,0.4,5.3,"Consensus from 2 agents: JosephPiotroski, EdwardAltman"
+META,0.4,5.3,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+AMD,0.4,5.3,"Consensus from 2 agents: JosephPiotroski, EdwardAltman"
+GOOGL,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+ADP,0.2,3.5,Consensus from 1 agents: JosephPiotroski
+QCOM,0.2,3.5,Consensus from 1 agents: EdwardAltman
+ADI,0.2,3.5,Consensus from 1 agents: JosephPiotroski
+SNPS,0.2,3.5,Consensus from 1 agents: EdwardAltman
+AMZN,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+CSCO,0.2,3.5,Consensus from 1 agents: JosephPiotroski
+EA,0.2,3.5,Consensus from 1 agents: JosephPiotroski
+DASH,0.2,3.5,Consensus from 1 agents: JosephPiotroski
+FTNT,0.2,3.5,Consensus from 1 agents: JosephPiotroski
+CDNS,0.2,3.5,Consensus from 1 agents: EdwardAltman
+TXN,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+CDW,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+EBIT,0.2,3.5,Consensus from 1 agents: EdwardAltman
+PLTR,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+ROA,0.2,3.5,Consensus from 1 agents: JosephPiotroski
+AAPL,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+TA,0.2,3.5,Consensus from 1 agents: EdwardAltman
+AMAT,0.2,3.5,Consensus from 1 agents: EdwardAltman
+MSFT,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+AVGO,0.2,3.5,Consensus from 1 agents: JosephPiotroski
+NFLX,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+NVDA,0.2,3.5,Consensus from 1 agents: BenjaminGraham
+MU,0.2,3.5,Consensus from 1 agents: EdwardAltman
