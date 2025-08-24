@@ -44,31 +44,59 @@ class IntegratedMoESystem:
             'WarrenBuffett': {
                 'class_name': 'WarrenBuffettInvestmentAnalyzer',
                 'module_path': 'agents.WarrenBuffett_agent',
-                'description': 'Warren Buffett 가치투자 전략'
+                'description': 'Warren Buffett 가치투자 전략',
+                'file_prefix': 'buffett'
             },
             'BenjaminGraham': {
                 'class_name': 'GrahamInvestmentAnalyzer',
                 'module_path': 'agents.BenjaminGraham_agent', 
-                'description': 'Benjamin Graham 순자산 가치투자'
+                'description': 'Benjamin Graham 순자산 가치투자',
+                'file_prefix': 'graham'
             },
             'JosephPiotroski': {
                 'class_name': 'PiotroskiInvestmentAnalyzer',
                 'module_path': 'agents.JosephPiotroski_agent',
-                'description': 'Joseph Piotroski F-Score 재무건전성 분석'
+                'description': 'Joseph Piotroski F-Score 재무건전성 분석',
+                'file_prefix': 'piotroski'
             },
             'JoelGreenblatt': {
                 'class_name': 'GreenblattInvestmentAnalyzer', 
                 'module_path': 'agents.JoelGreenblatt_agent',
-                'description': 'Joel Greenblatt Magic Formula'
+                'description': 'Joel Greenblatt Magic Formula',
+                'file_prefix': 'greenblatt'
             },
             'EdwardAltman': {
                 'class_name': 'AltmanInvestmentAnalyzer',
                 'module_path': 'agents.EdwardAltman_agent', 
-                'description': 'Edward Altman Z-Score 신용위험 분석'
+                'description': 'Edward Altman Z-Score 신용위험 분석',
+                'file_prefix': 'altman'
             }
         }
     
 
+    
+    def _check_agent_results_exist(self, agent_name: str, start_date: str, end_date: str) -> bool:
+        """특정 에이전트의 결과 파일이 이미 존재하는지 확인"""
+        try:
+            agent_info = self.available_agents.get(agent_name)
+            if not agent_info:
+                return False
+            
+            file_prefix = agent_info['file_prefix']
+            
+            # 결과 파일 경로 생성
+            analysis_file = f"results/{file_prefix}_agent/{file_prefix}_analysis_{start_date}_{end_date}.json"
+            portfolio_file = f"results/{file_prefix}_agent/{file_prefix}_portfolio_{start_date}_{end_date}.csv"
+            
+            # 두 파일 모두 존재하는지 확인
+            analysis_exists = os.path.exists(analysis_file)
+            portfolio_exists = os.path.exists(portfolio_file)
+            
+            return analysis_exists and portfolio_exists
+            
+        except Exception as e:
+            print(f"❌ {agent_name} 파일 존재 확인 실패: {str(e)}")
+            return False
     
     def _import_and_create_agent(self, agent_name: str):
         """동적으로 에이전트를 import하고 생성"""
@@ -89,14 +117,33 @@ class IntegratedMoESystem:
             return None
     
     def run_selected_agents(self, selected_agents: List[str], start_date: str, end_date: str) -> Dict[str, Any]:
-        """선택된 에이전트들만 실행"""
+        """선택된 에이전트들만 실행 (중복 실행 방지)"""
         print(f"\n🚀 선택된 {len(selected_agents)}개 에이전트 실행 시작...")
         
         agent_results = {}
         successful_agents = []
+        skipped_agents = []
         
         for agent_name in selected_agents:
             try:
+                # 기존 결과 파일 존재 여부 확인
+                if self._check_agent_results_exist(agent_name, start_date, end_date):
+                    print(f"\n⏭️  {agent_name} 에이전트: 기존 결과 파일 발견, 실행 건너뛰기")
+                    
+                    # 기존 결과를 successful로 간주
+                    agent_results[agent_name] = {
+                        'analysis_result': f"기존 결과 파일 사용: {start_date}_{end_date}",
+                        'description': self.available_agents[agent_name]['description'],
+                        'status': 'success',
+                        'timestamp': datetime.now().isoformat(),
+                        'skipped': True
+                    }
+                    
+                    successful_agents.append(agent_name)
+                    skipped_agents.append(agent_name)
+                    print(f"✅ {agent_name} 기존 결과 사용")
+                    continue
+                
                 print(f"\n⚡ {agent_name} 에이전트 실행 중...")
                 
                 # 에이전트 동적 로딩 및 생성
@@ -111,11 +158,12 @@ class IntegratedMoESystem:
                     'analysis_result': result,
                     'description': self.available_agents[agent_name]['description'],
                     'status': 'success',
-                    'timestamp': datetime.now().isoformat()
+                    'timestamp': datetime.now().isoformat(),
+                    'skipped': False
                 }
                 
                 successful_agents.append(agent_name)
-                print(f"✅ {agent_name} 완료")
+                print(f"✅ {agent_name} 새로 실행 완료")
                 
             except Exception as e:
                 print(f"❌ {agent_name} 실행 실패: {str(e)}")
@@ -123,17 +171,25 @@ class IntegratedMoESystem:
                     'analysis_result': f"실행 오류: {str(e)}",
                     'description': self.available_agents[agent_name]['description'],
                     'status': 'error', 
-                    'timestamp': datetime.now().isoformat()
+                    'timestamp': datetime.now().isoformat(),
+                    'skipped': False
                 }
         
-        print(f"\n📊 에이전트 실행 완료: 성공 {len(successful_agents)}개, 실패 {len(selected_agents) - len(successful_agents)}개")
+        executed_count = len(successful_agents) - len(skipped_agents)
+        print(f"\n📊 에이전트 실행 완료:")
+        print(f"   - 새로 실행: {executed_count}개")
+        print(f"   - 기존 결과 사용: {len(skipped_agents)}개")
+        print(f"   - 실행 실패: {len(selected_agents) - len(successful_agents)}개")
         
         return {
             'agent_results': agent_results,
             'successful_agents': successful_agents,
+            'skipped_agents': skipped_agents,
             'execution_summary': {
                 'total_selected': len(selected_agents),
                 'successful': len(successful_agents),
+                'newly_executed': executed_count,
+                'skipped_existing': len(skipped_agents),
                 'failed': len(selected_agents) - len(successful_agents)
             }
         }
@@ -343,7 +399,9 @@ class IntegratedMoESystem:
         print(f"  통합 분석 완료! (실행시간: {execution_time:.2f}초)")
         print("="*64)
         print(f"📈 Router 선택: {len(selected_agents)}개 에이전트")
-        print(f"✅ 실행 성공: {execution_result['execution_summary']['successful']}개")
+        print(f"✅ 총 성공: {execution_result['execution_summary']['successful']}개")
+        print(f"🔄 새로 실행: {execution_result['execution_summary']['newly_executed']}개")
+        print(f"⏭️  기존 결과 사용: {execution_result['execution_summary']['skipped_existing']}개")
         print(f"🧠 포트폴리오 구성: {'완료' if final_result['summary']['final_recommendation'] == 'Generated' else '실패'}")
         
         return final_result
@@ -387,12 +445,23 @@ class IntegratedMoESystem:
                 
                 # Step 2: Agent Execution
                 f.write("\n## 2️⃣ 선택된 에이전트 실행 결과\n\n")
+                execution_summary = results['step2_execution']['execution_summary']
+                f.write(f"**실행 요약**:\n")
+                f.write(f"- 총 선택 에이전트: {execution_summary['total_selected']}개\n")
+                f.write(f"- 성공 (총): {execution_summary['successful']}개\n")
+                f.write(f"- 새로 실행: {execution_summary['newly_executed']}개\n")
+                f.write(f"- 기존 결과 사용: {execution_summary['skipped_existing']}개\n")
+                f.write(f"- 실행 실패: {execution_summary['failed']}개\n\n")
+                
                 for agent_name, result in results['step2_execution']['agent_results'].items():
                     f.write(f"### {agent_name}\n")
                     f.write(f"- **상태**: {result['status']}\n")
                     f.write(f"- **설명**: {result['description']}\n")
                     if result['status'] == 'success':
-                        f.write(f"- **결과**: 성공적으로 실행됨\n")
+                        if result.get('skipped', False):
+                            f.write(f"- **결과**: 기존 결과 파일 사용\n")
+                        else:
+                            f.write(f"- **결과**: 새로 실행 완료\n")
                     else:
                         f.write(f"- **오류**: {result['analysis_result']}\n")
                     f.write("\n")
@@ -627,15 +696,16 @@ if __name__ == "__main__":
         return start_date, end_date
 
     # 루프 실행 + 결과 패널 저장
-    def run_three_years_with_dates(agent, y=(2025)):
-        for q in (1, 2):
-            s, e = quarter_date_range(y, q)
-            print(f"▶ {y}Q{q}: {s} ~ {e}")
-            try:
-                out = agent.run_complete_analysis(s, e)
-            except:
-                print(f"Error: {y}Q{q}")
-                continue
+    def run_three_years_with_dates(agent, years=(2025, 2025)):
+        for y in years:
+            for q in (1, 2):
+                s, e = quarter_date_range(y, q)
+                print(f"▶ {y}Q{q}: {s} ~ {e}")
+                try:
+                    out = agent.run_complete_analysis(s, e)
+                except:
+                    print(f"Error: {y}Q{q}")
+                    continue
 
     run_three_years_with_dates(system)
 
