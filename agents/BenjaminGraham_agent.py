@@ -69,7 +69,7 @@ import re
 class GrahamInvestmentAnalyzer:
     """LLMChain 기반 Graham 투자 분석기"""
     
-    def __init__(self, llm=None, save_results=True, results_dir="C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/results/graham_agent"):
+    def __init__(self, llm=None, save_results=True, results_dir="results/graham_agent"):
         self.llm = llm or ChatOpenAI(temperature=0, model="gpt-4o")
         self.name = "Graham Value Analyzer"
         self.save_results = save_results
@@ -79,8 +79,8 @@ class GrahamInvestmentAnalyzer:
         if self.save_results:
             os.makedirs(self.results_dir, exist_ok=True)
         
-        self.df = pd.read_csv("C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/data/nasdaq100_bs_cf_is.csv")
-        self.df_ohlcv = pd.read_csv("C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/data/nasdaq100_ohlcv.csv")
+        self.df = pd.read_csv("data/nasdaq100_bs_cf_is.csv")
+        self.df_ohlcv = pd.read_csv("data/nasdaq100_ohlcv.csv")
         self.df_ohlcv['EVAL_D'] = pd.to_datetime(self.df_ohlcv['EVAL_D'])
         
         # Agent용 프롬프트 템플릿 정의

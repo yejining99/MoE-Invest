@@ -84,7 +84,7 @@ class WarrenBuffettInvestmentAnalyzer:
         self,
         llm=None,
         save_results=True,
-        results_dir="C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/results/buffett_agent",
+        results_dir="results/buffett_agent",
     ):
         self.llm = llm or ChatOpenAI(temperature=0, model="gpt-4o")
         self.name = "Buffett Quality-Value Analyzer"
@@ -96,8 +96,8 @@ class WarrenBuffettInvestmentAnalyzer:
             os.makedirs(self.results_dir, exist_ok=True)
 
         # 데이터 로드
-        self.df = pd.read_csv("C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/data/nasdaq100_bs_cf_is.csv")
-        self.df_ohlcv = pd.read_csv("C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/data/nasdaq100_ohlcv.csv")
+        self.df = pd.read_csv("data/nasdaq100_bs_cf_is.csv")
+        self.df_ohlcv = pd.read_csv("data/nasdaq100_ohlcv.csv")
         self.df_ohlcv["EVAL_D"] = pd.to_datetime(self.df_ohlcv["EVAL_D"])
 
         # Prompt & Agent

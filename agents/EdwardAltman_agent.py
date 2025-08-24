@@ -92,9 +92,9 @@ class AltmanInvestmentAnalyzer:
         self,
         llm=None,
         save_results: bool = True,
-        results_dir: str = "C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/results/altman_agent",
-        fundamentals_csv: str = "C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/data/nasdaq100_bs_cf_is.csv",
-        ohlcv_csv: str = "C:/Users/unist/Desktop/MOE-Invest/MoE-Invest/data/nasdaq100_ohlcv.csv",
+        results_dir: str = "results/altman_agent",
+        fundamentals_csv: str = "data/nasdaq100_bs_cf_is.csv",
+        ohlcv_csv: str = "data/nasdaq100_ohlcv.csv",
     ):
         self.llm = llm or ChatOpenAI(temperature=0, model="gpt-4o")
         self.name = "Altman Z-Score Analyzer"
