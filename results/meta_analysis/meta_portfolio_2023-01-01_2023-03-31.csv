@@ -1,0 +1,37 @@
+Ticker,Score,Weight (%),Reason
+AAPL,0.6,4.9,"Consensus from 3 agents: BenjaminGraham, JosephPiotroski, WarrenBuffett"
+ADP,0.6,4.9,"Consensus from 3 agents: BenjaminGraham, JosephPiotroski, WarrenBuffett"
+AVGO,0.6,4.9,"Consensus from 3 agents: BenjaminGraham, JosephPiotroski, WarrenBuffett"
+TXN,0.6,4.9,"Consensus from 3 agents: BenjaminGraham, EdwardAltman, WarrenBuffett"
+MSFT,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+EBIT,0.4,3.6,"Consensus from 2 agents: JoelGreenblatt, EdwardAltman"
+GOOGL,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+NVDA,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+ROE,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+LRCX,0.4,3.6,"Consensus from 2 agents: JoelGreenblatt, EdwardAltman"
+EV,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+AMAT,0.2,2.3,Consensus from 1 agents: EdwardAltman
+CPTR,0.2,2.3,Consensus from 1 agents: EdwardAltman
+VRTX,0.2,2.3,Consensus from 1 agents: EdwardAltman
+LULU,0.2,2.3,Consensus from 1 agents: EdwardAltman
+GILD,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+ADBE,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+MNST,0.2,2.3,Consensus from 1 agents: EdwardAltman
+PCAR,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+PAYX,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+PLTR,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+ROA,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+CDNS,0.2,2.3,Consensus from 1 agents: BenjaminGraham
+EY,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+TA,0.2,2.3,Consensus from 1 agents: EdwardAltman
+MCHP,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+FTNT,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+AMZN,0.2,2.3,Consensus from 1 agents: BenjaminGraham
+META,0.2,2.3,Consensus from 1 agents: WarrenBuffett
+COST,0.2,2.3,Consensus from 1 agents: WarrenBuffett
+ISRG,0.2,2.3,Consensus from 1 agents: EdwardAltman
+CSX,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+ADI,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+CTSH,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+FANG,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+ROIC,0.2,2.3,Consensus from 1 agents: JoelGreenblatt

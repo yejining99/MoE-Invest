@@ -1,0 +1,44 @@
+Ticker,Score,Weight (%),Reason
+NVDA,0.6,4.8,"Consensus from 3 agents: BenjaminGraham, EdwardAltman, WarrenBuffett"
+KLAC,0.4,3.4,"Consensus from 2 agents: JosephPiotroski, WarrenBuffett"
+CPRT,0.4,3.4,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+CTAS,0.4,3.4,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+ROE,0.4,3.4,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+CMCSA,0.4,3.4,"Consensus from 2 agents: JosephPiotroski, JoelGreenblatt"
+AMD,0.2,2.1,Consensus from 1 agents: JosephPiotroski
+EV,0.2,2.1,Consensus from 1 agents: JoelGreenblatt
+ABNB,0.2,2.1,Consensus from 1 agents: JosephPiotroski
+AMAT,0.2,2.1,Consensus from 1 agents: EdwardAltman
+VRTX,0.2,2.1,Consensus from 1 agents: BenjaminGraham
+MSFT,0.2,2.1,Consensus from 1 agents: WarrenBuffett
+GILD,0.2,2.1,Consensus from 1 agents: JoelGreenblatt
+ADBE,0.2,2.1,Consensus from 1 agents: JosephPiotroski
+BKR,0.2,2.1,Consensus from 1 agents: JosephPiotroski
+MNST,0.2,2.1,Consensus from 1 agents: EdwardAltman
+AAPL,0.2,2.1,Consensus from 1 agents: WarrenBuffett
+EBIT,0.2,2.1,Consensus from 1 agents: EdwardAltman
+PCAR,0.2,2.1,Consensus from 1 agents: JoelGreenblatt
+PLTR,0.2,2.1,Consensus from 1 agents: BenjaminGraham
+ROA,0.2,2.1,Consensus from 1 agents: JosephPiotroski
+NXPI,0.2,2.1,Consensus from 1 agents: JoelGreenblatt
+CDNS,0.2,2.1,Consensus from 1 agents: EdwardAltman
+EY,0.2,2.1,Consensus from 1 agents: JoelGreenblatt
+TA,0.2,2.1,Consensus from 1 agents: EdwardAltman
+GOOGL,0.2,2.1,Consensus from 1 agents: WarrenBuffett
+APP,0.2,2.1,Consensus from 1 agents: JosephPiotroski
+ADP,0.2,2.1,Consensus from 1 agents: WarrenBuffett
+AVGO,0.2,2.1,Consensus from 1 agents: BenjaminGraham
+AMZN,0.2,2.1,Consensus from 1 agents: WarrenBuffett
+META,0.2,2.1,Consensus from 1 agents: WarrenBuffett
+TMUS,0.2,2.1,Consensus from 1 agents: BenjaminGraham
+TXN,0.2,2.1,Consensus from 1 agents: WarrenBuffett
+QCOM,0.2,2.1,Consensus from 1 agents: JosephPiotroski
+BIIB,0.2,2.1,Consensus from 1 agents: JoelGreenblatt
+FAST,0.2,2.1,Consensus from 1 agents: EdwardAltman
+SNPS,0.2,2.1,Consensus from 1 agents: BenjaminGraham
+IDXX,0.2,2.1,Consensus from 1 agents: JosephPiotroski
+LRCX,0.2,2.1,Consensus from 1 agents: EdwardAltman
+KHC,0.2,2.1,Consensus from 1 agents: JoelGreenblatt
+PYPL,0.2,2.1,Consensus from 1 agents: JoelGreenblatt
+CDW,0.2,2.1,Consensus from 1 agents: BenjaminGraham
+ROIC,0.2,2.1,Consensus from 1 agents: JoelGreenblatt

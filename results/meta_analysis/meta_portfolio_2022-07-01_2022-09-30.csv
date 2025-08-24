@@ -1,0 +1,36 @@
+Ticker,Score,Weight (%),Reason
+TXN,0.8,6.3,"Consensus from 4 agents: BenjaminGraham, JosephPiotroski, EdwardAltman, WarrenBuffett"
+REGN,0.6,4.9,"Consensus from 3 agents: BenjaminGraham, JoelGreenblatt, WarrenBuffett"
+AMAT,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+GILD,0.4,3.6,"Consensus from 2 agents: JoelGreenblatt, WarrenBuffett"
+MNST,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+AAPL,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, JosephPiotroski"
+NXPI,0.4,3.6,"Consensus from 2 agents: JosephPiotroski, JoelGreenblatt"
+AVGO,0.4,3.6,"Consensus from 2 agents: JosephPiotroski, WarrenBuffett"
+ROE,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+LRCX,0.4,3.6,"Consensus from 2 agents: JoelGreenblatt, EdwardAltman"
+FANG,0.4,3.6,"Consensus from 2 agents: JoelGreenblatt, WarrenBuffett"
+CSCO,0.4,3.6,"Consensus from 2 agents: JoelGreenblatt, WarrenBuffett"
+EV,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+CPTR,0.2,2.3,Consensus from 1 agents: EdwardAltman
+AMGN,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+MSFT,0.2,2.3,Consensus from 1 agents: BenjaminGraham
+ADBE,0.2,2.3,Consensus from 1 agents: BenjaminGraham
+FCF,0.2,2.3,Consensus from 1 agents: WarrenBuffett
+KHC,0.2,2.3,Consensus from 1 agents: WarrenBuffett
+EBIT,0.2,2.3,Consensus from 1 agents: EdwardAltman
+CSGP,0.2,2.3,Consensus from 1 agents: EdwardAltman
+ROA,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+EY,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+GOOGL,0.2,2.3,Consensus from 1 agents: BenjaminGraham
+TA,0.2,2.3,Consensus from 1 agents: EdwardAltman
+MCHP,0.2,2.3,Consensus from 1 agents: WarrenBuffett
+NVDA,0.2,2.3,Consensus from 1 agents: BenjaminGraham
+CTAS,0.2,2.3,Consensus from 1 agents: EdwardAltman
+MAR,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+ADSK,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+QCOM,0.2,2.3,Consensus from 1 agents: JoelGreenblatt
+ADI,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+SNPS,0.2,2.3,Consensus from 1 agents: EdwardAltman
+CTSH,0.2,2.3,Consensus from 1 agents: JosephPiotroski
+ROIC,0.2,2.3,Consensus from 1 agents: JoelGreenblatt

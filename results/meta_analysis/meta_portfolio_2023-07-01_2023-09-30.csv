@@ -1,0 +1,30 @@
+Ticker,Score,Weight (%),Reason
+AVGO,0.6,5.8,"Consensus from 3 agents: BenjaminGraham, JosephPiotroski, WarrenBuffett"
+TXN,0.6,5.8,"Consensus from 3 agents: BenjaminGraham, EdwardAltman, WarrenBuffett"
+AMAT,0.4,4.3,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+MSFT,0.4,4.3,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+ADBE,0.4,4.3,"Consensus from 2 agents: BenjaminGraham, JosephPiotroski"
+MNST,0.4,4.3,"Consensus from 2 agents: JosephPiotroski, EdwardAltman"
+GOOGL,0.4,4.3,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+NVDA,0.4,4.3,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+META,0.4,4.3,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+ROE,0.4,4.3,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+FAST,0.4,4.3,"Consensus from 2 agents: JosephPiotroski, EdwardAltman"
+AMD,0.2,2.8,Consensus from 1 agents: JosephPiotroski
+EV,0.2,2.8,Consensus from 1 agents: JoelGreenblatt
+VRTX,0.2,2.8,Consensus from 1 agents: EdwardAltman
+AAPL,0.2,2.8,Consensus from 1 agents: WarrenBuffett
+EBIT,0.2,2.8,Consensus from 1 agents: EdwardAltman
+ROA,0.2,2.8,Consensus from 1 agents: JosephPiotroski
+KLAC,0.2,2.8,Consensus from 1 agents: BenjaminGraham
+CDNS,0.2,2.8,Consensus from 1 agents: JosephPiotroski
+TA,0.2,2.8,Consensus from 1 agents: EdwardAltman
+CPRT,0.2,2.8,Consensus from 1 agents: EdwardAltman
+ADP,0.2,2.8,Consensus from 1 agents: WarrenBuffett
+AMZN,0.2,2.8,Consensus from 1 agents: WarrenBuffett
+ADSK,0.2,2.8,Consensus from 1 agents: JosephPiotroski
+ISRG,0.2,2.8,Consensus from 1 agents: EdwardAltman
+LRCX,0.2,2.8,Consensus from 1 agents: EdwardAltman
+CDW,0.2,2.8,Consensus from 1 agents: JosephPiotroski
+CSCO,0.2,2.8,Consensus from 1 agents: JosephPiotroski
+ROIC,0.2,2.8,Consensus from 1 agents: JoelGreenblatt

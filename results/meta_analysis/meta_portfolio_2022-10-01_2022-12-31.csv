@@ -1,0 +1,40 @@
+Ticker,Score,Weight (%),Reason
+VRTX,0.4,3.5,"Consensus from 2 agents: EdwardAltman, WarrenBuffett"
+MSFT,0.4,3.5,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+MU,0.4,3.5,"Consensus from 2 agents: BenjaminGraham, JoelGreenblatt"
+NVDA,0.4,3.5,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+AVGO,0.4,3.5,"Consensus from 2 agents: JosephPiotroski, WarrenBuffett"
+META,0.4,3.5,"Consensus from 2 agents: JoelGreenblatt, WarrenBuffett"
+REGN,0.4,3.5,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+TXN,0.4,3.5,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+ROE,0.4,3.5,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+QCOM,0.4,3.5,"Consensus from 2 agents: BenjaminGraham, JoelGreenblatt"
+LRCX,0.4,3.5,"Consensus from 2 agents: JoelGreenblatt, EdwardAltman"
+AMD,0.2,2.2,Consensus from 1 agents: BenjaminGraham
+EV,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+AMAT,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+GILD,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+ADBE,0.2,2.2,Consensus from 1 agents: BenjaminGraham
+MNST,0.2,2.2,Consensus from 1 agents: EdwardAltman
+AAPL,0.2,2.2,Consensus from 1 agents: WarrenBuffett
+EBIT,0.2,2.2,Consensus from 1 agents: EdwardAltman
+PCAR,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+EA,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+CSGP,0.2,2.2,Consensus from 1 agents: EdwardAltman
+KLAC,0.2,2.2,Consensus from 1 agents: BenjaminGraham
+NXPI,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+EY,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+TA,0.2,2.2,Consensus from 1 agents: EdwardAltman
+ORLY,0.2,2.2,Consensus from 1 agents: WarrenBuffett
+GOOGL,0.2,2.2,Consensus from 1 agents: WarrenBuffett
+CPRT,0.2,2.2,Consensus from 1 agents: EdwardAltman
+MCHP,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+COST,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+ADSK,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+ADI,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+FAST,0.2,2.2,Consensus from 1 agents: EdwardAltman
+SNPS,0.2,2.2,Consensus from 1 agents: WarrenBuffett
+CTSH,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+ROST,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+CDW,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+ROIC,0.2,2.2,Consensus from 1 agents: JoelGreenblatt

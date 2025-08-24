@@ -1,0 +1,473 @@
+{
+  "timestamp": "2025-08-24T06:26:27.113404",
+  "execution_time_seconds": 27.74809,
+  "input_parameters": {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-31"
+  },
+  "step1_routing": {
+    "market_analysis": "### 최종 선택된 투자 에이전트 및 선택 이유\n\n1. **WarrenBuffett**\n   - **선택 이유**: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다.\n\n2. **JosephPiotroski**\n   - **선택 이유**: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다.\n\n3. **JoelGreenblatt**\n   - **선택 이유**: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다.\n\n이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다.",
+    "selected_agents": [
+      "WarrenBuffett",
+      "JosephPiotroski",
+      "JoelGreenblatt"
+    ],
+    "selection_reasons": [
+      "WarrenBuffett는 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 데 강점이 있으며, 현재 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다.",
+      "JosephPiotroski는 F-Score를 활용한 재무건전성 분석을 통해 질적 우량주를 발굴하는 데 유리하며, 시장의 불안정성과 금융섹터의 부진을 고려할 때 적합합니다.",
+      "JoelGreenblatt의 Magic Formula는 수익률과 밸류에이션의 균형을 맞추는 데 효과적이며, 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다."
+    ],
+    "agent_details": {
+      "WarrenBuffett": {
+        "style": "Value",
+        "market_preference": [
+          "bull",
+          "stable"
+        ],
+        "volatility_preference": "low",
+        "description": "Warren Buffett 가치투자 전략 - 우량주, 저평가, 장기투자",
+        "best_conditions": [
+          "경제 안정기",
+          "시장 과열 후 조정기",
+          "우량주 저평가 시기"
+        ]
+      },
+      "JosephPiotroski": {
+        "style": "Quality",
+        "market_preference": [
+          "bear",
+          "volatile"
+        ],
+        "volatility_preference": "medium",
+        "description": "Joseph Piotroski F-Score 재무건전성 분석",
+        "best_conditions": [
+          "시장 불안정기",
+          "신용 위기 시기",
+          "재무건전성 중요 시기"
+        ]
+      },
+      "JoelGreenblatt": {
+        "style": "Magic Formula",
+        "market_preference": [
+          "bull",
+          "recovery"
+        ],
+        "volatility_preference": "medium",
+        "description": "Joel Greenblatt Magic Formula - 수익률과 밸류에이션 균형",
+        "best_conditions": [
+          "경기 회복기",
+          "시장 전환기",
+          "중소형주 선호 시기"
+        ]
+      }
+    },
+    "intermediate_steps": [
+      [
+        "tool='get_market_data' tool_input='SPY,QQQ,IWM,TLT,GLD,VIX' log='\\nInvoking: `get_market_data` with `SPY,QQQ,IWM,TLT,GLD,VIX`\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--47a58f9e-12fe-4de0-8f22-2e1699d5320a', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_jR6cqNed6eaMDZPCeTky2QDi'",
+        "{\n  \"SPY\": {\n    \"current_price\": 391.7781066894531,\n    \"period_return\": 6.412668409074129,\n    \"volatility_annualized\": 18.72318885862674,\n    \"avg_volume\": 91516032.78688525,\n    \"latest_date\": \"2023-03-30\"\n  },\n  \"QQQ\": {\n    \"current_price\": 311.3298034667969,\n    \"period_return\": 19.54350460865053,\n    \"volatility_annualized\": 20.58618555459601,\n    \"avg_volume\": 58016337.704918034,\n    \"latest_date\": \"2023-03-30\"\n  },\n  \"IWM\": {\n    \"current_price\": 170.37619018554688,\n    \"period_return\": 1.3992950036361362,\n    \"volatility_annualized\": 26.705528618964365,\n    \"avg_volume\": 28457970.491803277,\n    \"latest_date\": \"2023-03-30\"\n  },\n  \"TLT\": {\n    \"current_price\": 95.34046173095703,\n    \"period_return\": 3.812896843593938,\n    \"volatility_annualized\": 21.843273213520433,\n    \"avg_volume\": 21717149.18032787,\n    \"latest_date\": \"2023-03-30\"\n  },\n  \"GLD\": {\n    \"current_price\": 184.17999267578125,\n    \"period_return\": 7.669820708779951,\n    \"volatility_annualized\": 21.127951014176908,\n    \"avg_volume\": 7340529.508196721,\n    \"latest_date\": \"2023-03-30\"\n  },\n  \"^VIX\": {\n    \"current_price\": 19.020000457763672,\n    \"period_return\": -16.94322805851479,\n    \"volatility_annualized\": 129.8430023987125,\n    \"avg_volume\": 0.0,\n    \"latest_date\": \"2023-03-30\"\n  }\n}"
+      ],
+      [
+        "tool='calculate_technical_indicators' tool_input='SPY' log='\\nInvoking: `calculate_technical_indicators` with `SPY`\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--47a58f9e-12fe-4de0-8f22-2e1699d5320a', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_lTtsUuOkkz1Aa551gBUyEjRx'",
+        "{\n  \"RSI\": 69.31814597079372,\n  \"SMA_20\": 382.92782135009764,\n  \"SMA_50\": 387.71415771484374,\n  \"SMA_200\": NaN,\n  \"price_vs_SMA20\": 2.3112150243228102,\n  \"price_vs_SMA50\": 1.0481817322746112,\n  \"price_vs_SMA200\": NaN\n}"
+      ],
+      [
+        "tool='analyze_market_regime' tool_input='' log='\\nInvoking: `analyze_market_regime` with ``\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--47a58f9e-12fe-4de0-8f22-2e1699d5320a', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_XryefuBAB2x2xKGKYfsmqHOF'",
+        "{\n  \"correlations\": {\n    \"SPY\": {\n      \"SPY\": 1.0,\n      \"QQQ\": 0.9281704705485523,\n      \"IWM\": 0.9014023564758286,\n      \"^VIX\": NaN\n    },\n    \"QQQ\": {\n      \"SPY\": 0.9281704705485523,\n      \"QQQ\": 1.0,\n      \"IWM\": 0.7789191331992341,\n      \"^VIX\": NaN\n    },\n    \"IWM\": {\n      \"SPY\": 0.9014023564758286,\n      \"QQQ\": 0.7789191331992341,\n      \"IWM\": 1.0,\n      \"^VIX\": NaN\n    },\n    \"^VIX\": {\n      \"SPY\": NaN,\n      \"QQQ\": NaN,\n      \"IWM\": NaN,\n      \"^VIX\": 1.0\n    }\n  },\n  \"recent_returns\": {\n    \"SPY\": 3.525384283679178,\n    \"QQQ\": 7.854143826406368,\n    \"IWM\": -2.909522100478845,\n    \"^VIX\": -12.874380542749941\n  },\n  \"volatility_regime\": \"low\",\n  \"volatility_data\": {\n    \"current_vix\": -0.005230145244791484\n  },\n  \"market_breadth\": \"weak\",\n  \"analysis_period\": \"30 days\"\n}"
+      ],
+      [
+        "tool='get_economic_indicators' tool_input='' log='\\nInvoking: `get_economic_indicators` with ``\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--47a58f9e-12fe-4de0-8f22-2e1699d5320a', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_jR6cqNed6eaMDZPCeTky2QDi', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_lTtsUuOkkz1Aa551gBUyEjRx', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_XryefuBAB2x2xKGKYfsmqHOF', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_hRXmYfUPyvscKEQ0z4WwrWWD', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_hRXmYfUPyvscKEQ0z4WwrWWD'",
+        "{\n  \"TLT\": {\n    \"description\": \"\\uc7a5\\uae30 \\uad6d\\ucc44 (\\uae08\\ub9ac \\ud658\\uacbd)\",\n    \"3month_return\": 3.812896843593938,\n    \"volatility\": 19.24325749508563\n  },\n  \"UUP\": {\n    \"description\": \"\\ub2ec\\ub7ec \\uac15\\ub3c4\",\n    \"3month_return\": -1.173958503002226,\n    \"volatility\": 8.43709968617568\n  },\n  \"GLD\": {\n    \"description\": \"\\uae08 (\\uc548\\uc804\\uc790\\uc0b0)\",\n    \"3month_return\": 7.669820708779951,\n    \"volatility\": 16.674364902689128\n  },\n  \"DJP\": {\n    \"description\": \"\\uc6d0\\uc790\\uc7ac\",\n    \"3month_return\": -5.2839348769902035,\n    \"volatility\": 15.598531766081827\n  },\n  \"XLF\": {\n    \"description\": \"\\uae08\\uc735\\uc139\\ud130\",\n    \"3month_return\": -6.882778854722726,\n    \"volatility\": 22.576872645221478\n  }\n}"
+      ],
+      [
+        "tool='select_agents_for_market' tool_input='현재 시장은 기술주 중심의 강세장이며, 변동성은 낮지만 시장 폭이 약한 상태입니다. 경제 환경은 금리 안정과 달러 약세, 안전자산 선호가 두드러집니다. 이러한 상황에서 다음의 에이전트들을 선택합니다: 1. WarrenBuffett: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다. 2. JosephPiotroski: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다. 3. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다. 이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다.' log='\\nInvoking: `select_agents_for_market` with `현재 시장은 기술주 중심의 강세장이며, 변동성은 낮지만 시장 폭이 약한 상태입니다. 경제 환경은 금리 안정과 달러 약세, 안전자산 선호가 두드러집니다. 이러한 상황에서 다음의 에이전트들을 선택합니다: 1. WarrenBuffett: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다. 2. JosephPiotroski: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다. 3. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다. 이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다.`\\nresponded: ### 시장 상황 분석\\n\\n1. **주요 시장 지수 현황**\\n   - **SPY**: 6.41% 상승, 연간 변동성 18.72%\\n   - **QQQ**: 19.54% 상승, 연간 변동성 20.59%\\n   - **IWM**: 1.40% 상승, 연간 변동성 26.71%\\n   - **TLT**: 3.81% 상승, 연간 변동성 21.84%\\n   - **GLD**: 7.67% 상승, 연간 변동성 21.13%\\n   - **VIX**: 16.94% 하락, 연간 변동성 129.84%\\n\\n2. **기술적 지표 분석 (SPY 기준)**\\n   - RSI: 69.32 (과매수 영역 근접)\\n   - 20일 이동평균 대비 2.31% 상회\\n   - 50일 이동평균 대비 1.05% 상회\\n\\n3. **시장 체제 분석**\\n   - 상관관계: SPY와 QQQ, IWM 간 높은 상관관계\\n   - 최근 수익률: SPY 3.53%, QQQ 7.85%, IWM -2.91%\\n   - 변동성 체제: 낮음\\n   - 시장 폭: 약함\\n\\n4. **경제 환경 분석**\\n   - **TLT**: 3.81% 상승, 안정적 금리 환경\\n   - **UUP**: -1.17% 하락, 달러 약세\\n   - **GLD**: 7.67% 상승, 안전자산 선호\\n   - **DJP**: -5.28% 하락, 원자재 약세\\n   - **XLF**: -6.88% 하락, 금융섹터 부진\\n\\n### 종합 분석 및 최적 에이전트 선택\\n\\n현재 시장은 기술주 중심의 강세장이며, 변동성은 낮지만 시장 폭이 약한 상태입니다. 경제 환경은 금리 안정과 달러 약세, 안전자산 선호가 두드러집니다. 이러한 상황에서 다음의 에이전트들을 선택합니다:\\n\\n1. **WarrenBuffett**\\n   - **선택 이유**: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다.\\n\\n2. **JosephPiotroski**\\n   - **선택 이유**: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다.\\n\\n3. **JoelGreenblatt**\\n   - **선택 이유**: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다.\\n\\n이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다. 최종 선택을 확정하겠습니다.\\n\\n' message_log=[AIMessageChunk(content='### 시장 상황 분석\\n\\n1. **주요 시장 지수 현황**\\n   - **SPY**: 6.41% 상승, 연간 변동성 18.72%\\n   - **QQQ**: 19.54% 상승, 연간 변동성 20.59%\\n   - **IWM**: 1.40% 상승, 연간 변동성 26.71%\\n   - **TLT**: 3.81% 상승, 연간 변동성 21.84%\\n   - **GLD**: 7.67% 상승, 연간 변동성 21.13%\\n   - **VIX**: 16.94% 하락, 연간 변동성 129.84%\\n\\n2. **기술적 지표 분석 (SPY 기준)**\\n   - RSI: 69.32 (과매수 영역 근접)\\n   - 20일 이동평균 대비 2.31% 상회\\n   - 50일 이동평균 대비 1.05% 상회\\n\\n3. **시장 체제 분석**\\n   - 상관관계: SPY와 QQQ, IWM 간 높은 상관관계\\n   - 최근 수익률: SPY 3.53%, QQQ 7.85%, IWM -2.91%\\n   - 변동성 체제: 낮음\\n   - 시장 폭: 약함\\n\\n4. **경제 환경 분석**\\n   - **TLT**: 3.81% 상승, 안정적 금리 환경\\n   - **UUP**: -1.17% 하락, 달러 약세\\n   - **GLD**: 7.67% 상승, 안전자산 선호\\n   - **DJP**: -5.28% 하락, 원자재 약세\\n   - **XLF**: -6.88% 하락, 금융섹터 부진\\n\\n### 종합 분석 및 최적 에이전트 선택\\n\\n현재 시장은 기술주 중심의 강세장이며, 변동성은 낮지만 시장 폭이 약한 상태입니다. 경제 환경은 금리 안정과 달러 약세, 안전자산 선호가 두드러집니다. 이러한 상황에서 다음의 에이전트들을 선택합니다:\\n\\n1. **WarrenBuffett**\\n   - **선택 이유**: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다.\\n\\n2. **JosephPiotroski**\\n   - **선택 이유**: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다.\\n\\n3. **JoelGreenblatt**\\n   - **선택 이유**: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다.\\n\\n이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다. 최종 선택을 확정하겠습니다.', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_Kw5FXICvzyt3QGN8bAqyBR65', 'function': {'arguments': '{\"__arg1\":\"현재 시장은 기술주 중심의 강세장이며, 변동성은 낮지만 시장 폭이 약한 상태입니다. 경제 환경은 금리 안정과 달러 약세, 안전자산 선호가 두드러집니다. 이러한 상황에서 다음의 에이전트들을 선택합니다: 1. WarrenBuffett: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다. 2. JosephPiotroski: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다. 3. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다. 이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다.\"}', 'name': 'select_agents_for_market'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--b40ba16e-4a6b-4e35-b4ae-74e63dbc2f20', tool_calls=[{'name': 'select_agents_for_market', 'args': {'__arg1': '현재 시장은 기술주 중심의 강세장이며, 변동성은 낮지만 시장 폭이 약한 상태입니다. 경제 환경은 금리 안정과 달러 약세, 안전자산 선호가 두드러집니다. 이러한 상황에서 다음의 에이전트들을 선택합니다: 1. WarrenBuffett: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다. 2. JosephPiotroski: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다. 3. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다. 이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다.'}, 'id': 'call_Kw5FXICvzyt3QGN8bAqyBR65', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'select_agents_for_market', 'args': '{\"__arg1\":\"현재 시장은 기술주 중심의 강세장이며, 변동성은 낮지만 시장 폭이 약한 상태입니다. 경제 환경은 금리 안정과 달러 약세, 안전자산 선호가 두드러집니다. 이러한 상황에서 다음의 에이전트들을 선택합니다: 1. WarrenBuffett: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다. 2. JosephPiotroski: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다. 3. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다. 이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다.\"}', 'id': 'call_Kw5FXICvzyt3QGN8bAqyBR65', 'index': 0, 'type': 'tool_call_chunk'}])] tool_call_id='call_Kw5FXICvzyt3QGN8bAqyBR65'",
+        "{\n  \"selected_agents\": [\n    \"WarrenBuffett\",\n    \"JosephPiotroski\",\n    \"JoelGreenblatt\"\n  ],\n  \"reasons\": [\n    \"WarrenBuffett\\ub294 \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5\\uc744 \\ud1b5\\ud574 \\uc548\\uc815\\uc801\\uc778 \\uc6b0\\ub7c9\\uc8fc\\uc5d0 \\uc7a5\\uae30 \\ud22c\\uc790\\ud558\\ub294 \\ub370 \\uac15\\uc810\\uc774 \\uc788\\uc73c\\uba70, \\ud604\\uc7ac \\uae30\\uc220\\uc8fc \\uc911\\uc2ec\\uc758 \\uac15\\uc138\\uc7a5\\uc5d0\\uc11c \\uc6b0\\ub7c9\\uc8fc\\uc5d0 \\ub300\\ud55c \\uc7a5\\uae30\\uc801 \\uad00\\uc810\\uc774 \\ud544\\uc694\\ud569\\ub2c8\\ub2e4.\",\n    \"JosephPiotroski\\ub294 F-Score\\ub97c \\ud65c\\uc6a9\\ud55c \\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\ubd84\\uc11d\\uc744 \\ud1b5\\ud574 \\uc9c8\\uc801 \\uc6b0\\ub7c9\\uc8fc\\ub97c \\ubc1c\\uad74\\ud558\\ub294 \\ub370 \\uc720\\ub9ac\\ud558\\uba70, \\uc2dc\\uc7a5\\uc758 \\ubd88\\uc548\\uc815\\uc131\\uacfc \\uae08\\uc735\\uc139\\ud130\\uc758 \\ubd80\\uc9c4\\uc744 \\uace0\\ub824\\ud560 \\ub54c \\uc801\\ud569\\ud569\\ub2c8\\ub2e4.\",\n    \"JoelGreenblatt\\uc758 Magic Formula\\ub294 \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158\\uc758 \\uade0\\ud615\\uc744 \\ub9de\\ucd94\\ub294 \\ub370 \\ud6a8\\uacfc\\uc801\\uc774\\uba70, \\uae30\\uc220\\uc8fc \\uc911\\uc2ec\\uc758 \\uac15\\uc138\\uc7a5\\uc5d0\\uc11c \\uc218\\uc775\\uc131\\uc744 \\uace0\\ub824\\ud55c \\ud22c\\uc790\\uac00 \\ud544\\uc694\\ud569\\ub2c8\\ub2e4.\"\n  ],\n  \"agent_details\": {\n    \"WarrenBuffett\": {\n      \"style\": \"Value\",\n      \"market_preference\": [\n        \"bull\",\n        \"stable\"\n      ],\n      \"volatility_preference\": \"low\",\n      \"description\": \"Warren Buffett \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5 - \\uc6b0\\ub7c9\\uc8fc, \\uc800\\ud3c9\\uac00, \\uc7a5\\uae30\\ud22c\\uc790\",\n      \"best_conditions\": [\n        \"\\uacbd\\uc81c \\uc548\\uc815\\uae30\",\n        \"\\uc2dc\\uc7a5 \\uacfc\\uc5f4 \\ud6c4 \\uc870\\uc815\\uae30\",\n        \"\\uc6b0\\ub7c9\\uc8fc \\uc800\\ud3c9\\uac00 \\uc2dc\\uae30\"\n      ]\n    },\n    \"JosephPiotroski\": {\n      \"style\": \"Quality\",\n      \"market_preference\": [\n        \"bear\",\n        \"volatile\"\n      ],\n      \"volatility_preference\": \"medium\",\n      \"description\": \"Joseph Piotroski F-Score \\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\ubd84\\uc11d\",\n      \"best_conditions\": [\n        \"\\uc2dc\\uc7a5 \\ubd88\\uc548\\uc815\\uae30\",\n        \"\\uc2e0\\uc6a9 \\uc704\\uae30 \\uc2dc\\uae30\",\n        \"\\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\uc911\\uc694 \\uc2dc\\uae30\"\n      ]\n    },\n    \"JoelGreenblatt\": {\n      \"style\": \"Magic Formula\",\n      \"market_preference\": [\n        \"bull\",\n        \"recovery\"\n      ],\n      \"volatility_preference\": \"medium\",\n      \"description\": \"Joel Greenblatt Magic Formula - \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158 \\uade0\\ud615\",\n      \"best_conditions\": [\n        \"\\uacbd\\uae30 \\ud68c\\ubcf5\\uae30\",\n        \"\\uc2dc\\uc7a5 \\uc804\\ud658\\uae30\",\n        \"\\uc911\\uc18c\\ud615\\uc8fc \\uc120\\ud638 \\uc2dc\\uae30\"\n      ]\n    }\n  },\n  \"llm_response\": \"```json\\n{\\n  \\\"selected_agents\\\": [\\\"WarrenBuffett\\\", \\\"JosephPiotroski\\\", \\\"JoelGreenblatt\\\"],\\n  \\\"reasons\\\": [\\n    \\\"WarrenBuffett\\ub294 \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5\\uc744 \\ud1b5\\ud574 \\uc548\\uc815\\uc801\\uc778 \\uc6b0\\ub7c9\\uc8fc\\uc5d0 \\uc7a5\\uae30 \\ud22c\\uc790\\ud558\\ub294 \\ub370 \\uac15\\uc810\\uc774 \\uc788\\uc73c\\uba70, \\ud604\\uc7ac \\uae30\\uc220\\uc8fc \\uc911\\uc2ec\\uc758 \\uac15\\uc138\\uc7a5\\uc5d0\\uc11c \\uc6b0\\ub7c9\\uc8fc\\uc5d0 \\ub300\\ud55c \\uc7a5\\uae30\\uc801 \\uad00\\uc810\\uc774 \\ud544\\uc694\\ud569\\ub2c8\\ub2e4.\\\",\\n    \\\"JosephPiotroski\\ub294 F-Score\\ub97c \\ud65c\\uc6a9\\ud55c \\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\ubd84\\uc11d\\uc744 \\ud1b5\\ud574 \\uc9c8\\uc801 \\uc6b0\\ub7c9\\uc8fc\\ub97c \\ubc1c\\uad74\\ud558\\ub294 \\ub370 \\uc720\\ub9ac\\ud558\\uba70, \\uc2dc\\uc7a5\\uc758 \\ubd88\\uc548\\uc815\\uc131\\uacfc \\uae08\\uc735\\uc139\\ud130\\uc758 \\ubd80\\uc9c4\\uc744 \\uace0\\ub824\\ud560 \\ub54c \\uc801\\ud569\\ud569\\ub2c8\\ub2e4.\\\",\\n    \\\"JoelGreenblatt\\uc758 Magic Formula\\ub294 \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158\\uc758 \\uade0\\ud615\\uc744 \\ub9de\\ucd94\\ub294 \\ub370 \\ud6a8\\uacfc\\uc801\\uc774\\uba70, \\uae30\\uc220\\uc8fc \\uc911\\uc2ec\\uc758 \\uac15\\uc138\\uc7a5\\uc5d0\\uc11c \\uc218\\uc775\\uc131\\uc744 \\uace0\\ub824\\ud55c \\ud22c\\uc790\\uac00 \\ud544\\uc694\\ud569\\ub2c8\\ub2e4.\\\"\\n  ]\\n}\\n```\"\n}"
+      ]
+    ]
+  },
+  "step2_execution": {
+    "agent_results": {
+      "WarrenBuffett": {
+        "analysis_result": "기존 결과 파일 사용: 2023-01-01_2023-03-31",
+        "description": "Warren Buffett 가치투자 전략",
+        "status": "success",
+        "timestamp": "2025-08-24T06:26:19.718633",
+        "skipped": true
+      },
+      "JosephPiotroski": {
+        "analysis_result": "기존 결과 파일 사용: 2023-01-01_2023-03-31",
+        "description": "Joseph Piotroski F-Score 재무건전성 분석",
+        "status": "success",
+        "timestamp": "2025-08-24T06:26:19.718759",
+        "skipped": true
+      },
+      "JoelGreenblatt": {
+        "analysis_result": "기존 결과 파일 사용: 2023-01-01_2023-03-31",
+        "description": "Joel Greenblatt Magic Formula",
+        "status": "success",
+        "timestamp": "2025-08-24T06:26:19.718861",
+        "skipped": true
+      }
+    },
+    "successful_agents": [
+      "WarrenBuffett",
+      "JosephPiotroski",
+      "JoelGreenblatt"
+    ],
+    "skipped_agents": [
+      "WarrenBuffett",
+      "JosephPiotroski",
+      "JoelGreenblatt"
+    ],
+    "execution_summary": {
+      "total_selected": 3,
+      "successful": 3,
+      "newly_executed": 0,
+      "skipped_existing": 3,
+      "failed": 0
+    }
+  },
+  "step3_meta_analysis": {
+    "portfolio_analysis": "**PORTFOLIO ALLOCATION DECISION**\n\n**INVESTMENT PHILOSOPHY:**\nFor this portfolio, we will adhere to a strategy that emphasizes consensus-driven decisions and quality investing principles. Our core principles are:\n1. **Consensus and Conviction**: Prioritize stocks with the highest consensus among experts, reflecting strong collective conviction and potential for robust performance.\n2. **Quality and Financial Health**: Focus on companies with strong financial metrics, sustainable competitive advantages, and the ability to generate long-term value.\n3. **Diversification and Risk Management**: Balance concentration with diversification to manage risk effectively, ensuring exposure across different sectors and investment styles.\n\n**KEY ALLOCATION DRIVERS:**\n1. **Expert Consensus**: Stocks with the highest consensus rates are prioritized, as they reflect a strong agreement among diverse investment philosophies.\n2. **Quality Metrics**: Emphasize stocks with strong fundamentals, such as high ROIC, financial safety, and competitive moats.\n3. **Sector and Style Balance**: Ensure a balanced exposure to various sectors and investment styles to mitigate risk and capture diverse growth opportunities.\n\n**FINAL PORTFOLIO ALLOCATION:**\n\n| Rank | Stock | Weight(%) | Supporting Experts | Key Investment Thesis | Risk Level |\n|------|-------|-----------|-------------------|----------------------|------------|\n| 1    | AAPL  | 15.0      | Graham, Piotroski, Buffett | Strong fundamentals + growth | Medium |\n| 2    | ADP   | 15.0      | Graham, Piotroski, Buffett | Consistent performance + financial strength | Medium |\n| 3    | AVGO  | 15.0      | Graham, Piotroski, Buffett | High growth potential + tech leadership | Medium |\n| 4    | TXN   | 12.5      | Graham, Altman, Buffett | Solid financials + tech sector exposure | Medium |\n| 5    | MSFT  | 10.0      | Graham, Buffett | High ROIC + tech innovation | Medium |\n| 6    | GOOGL | 10.0      | Graham, Buffett | Strong moat + digital advertising dominance | Medium |\n| 7    | NVDA  | 7.5       | Graham, Buffett | AI and gaming growth potential | High |\n| 8    | EBIT  | 5.0       | Greenblatt, Altman | Attractive valuation + financial stability | High |\n| 9    | ROE   | 5.0       | Graham, Buffett | Strong return on equity + value potential | Medium |\n| 10   | LRCX  | 5.0       | Greenblatt, Altman | Semiconductor industry exposure | High |\n\n**PORTFOLIO CHARACTERISTICS:**\n- Total Allocation: 100%\n- Number of Holdings: 10 stocks\n- Top 5 Holdings: 67.5% of portfolio\n- Sector Concentration: Significant exposure to technology and consumer sectors, with a focus on high-quality, financially robust companies.\n\n**RISK MANAGEMENT:**\n- Key portfolio risks: High concentration in technology sector, potential market volatility affecting high-growth stocks.\n- Monitoring metrics: Regularly review financial performance, market conditions, and sector trends.\n- Rebalancing triggers: Adjust allocations if a stock's fundamentals deteriorate or if sector concentration becomes too high.\n\nBy leveraging the collective insights of our expert panel and focusing on quality and consensus, this portfolio aims to achieve a balanced approach to growth and risk management.",
+    "consensus_analysis": {
+      "consensus_stocks": {
+        "AAPL": {
+          "consensus_rate": 0.6,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "JosephPiotroski",
+            "WarrenBuffett"
+          ],
+          "agent_count": 3
+        },
+        "ADP": {
+          "consensus_rate": 0.6,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "JosephPiotroski",
+            "WarrenBuffett"
+          ],
+          "agent_count": 3
+        },
+        "AVGO": {
+          "consensus_rate": 0.6,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "JosephPiotroski",
+            "WarrenBuffett"
+          ],
+          "agent_count": 3
+        },
+        "TXN": {
+          "consensus_rate": 0.6,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "EdwardAltman",
+            "WarrenBuffett"
+          ],
+          "agent_count": 3
+        },
+        "MSFT": {
+          "consensus_rate": 0.4,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "WarrenBuffett"
+          ],
+          "agent_count": 2
+        },
+        "EBIT": {
+          "consensus_rate": 0.4,
+          "recommending_agents": [
+            "JoelGreenblatt",
+            "EdwardAltman"
+          ],
+          "agent_count": 2
+        },
+        "GOOGL": {
+          "consensus_rate": 0.4,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "WarrenBuffett"
+          ],
+          "agent_count": 2
+        },
+        "NVDA": {
+          "consensus_rate": 0.4,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "WarrenBuffett"
+          ],
+          "agent_count": 2
+        },
+        "ROE": {
+          "consensus_rate": 0.4,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "WarrenBuffett"
+          ],
+          "agent_count": 2
+        },
+        "LRCX": {
+          "consensus_rate": 0.4,
+          "recommending_agents": [
+            "JoelGreenblatt",
+            "EdwardAltman"
+          ],
+          "agent_count": 2
+        },
+        "EV": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "AMAT": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "CPTR": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "VRTX": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "LULU": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "GILD": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "ADBE": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "MNST": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "PCAR": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "PAYX": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "PLTR": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "ROA": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "CDNS": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "BenjaminGraham"
+          ],
+          "agent_count": 1
+        },
+        "EY": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "TA": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "MCHP": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "FTNT": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "AMZN": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "BenjaminGraham"
+          ],
+          "agent_count": 1
+        },
+        "META": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "WarrenBuffett"
+          ],
+          "agent_count": 1
+        },
+        "COST": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "WarrenBuffett"
+          ],
+          "agent_count": 1
+        },
+        "ISRG": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "CSX": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "ADI": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "CTSH": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "FANG": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "ROIC": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        }
+      },
+      "total_unique_stocks": 36,
+      "agent_recommendations": {
+        "BenjaminGraham": "{'NVDA', 'ADP', 'AVGO', 'AMZN', 'MSFT', 'CDNS', 'GOOGL', 'TXN', 'ROE', 'AAPL'}",
+        "JosephPiotroski": "{'FTNT', 'PAYX', 'ADI', 'AVGO', 'PLTR', 'ADP', 'ROA', 'ADBE', 'MCHP', 'AAPL'}",
+        "JoelGreenblatt": "{'EBIT', 'PCAR', 'CSX', 'EV', 'CTSH', 'GILD', 'EY', 'LRCX', 'FANG', 'ROIC'}",
+        "EdwardAltman": "{'EBIT', 'AMAT', 'CPTR', 'VRTX', 'LULU', 'TA', 'MNST', 'LRCX', 'TXN', 'ISRG'}",
+        "WarrenBuffett": "{'NVDA', 'ADP', 'AVGO', 'MSFT', 'META', 'COST', 'GOOGL', 'TXN', 'ROE', 'AAPL'}"
+      }
+    },
+    "agent_results_summary": {
+      "BenjaminGraham": {
+        "llm_explanation": "Now that we have gathered the necessary financial metrics for each ticker, let's proceed with the analysis according to Graham's principles.\n\n### Step-by-Step Analysis\n\n1. **Scale Metrics**: We will scale each metric across the universe using winsorization (5th–95th percentile) and then normalize to a [0,1] range. If a metric has no spread, all scaled values will be set to 0.50.\n\n2. **Handle NAs**: For each ticker, we will drop any missing metrics and renormalize the metric weights proportionally.\n\n3. **Calculate Scores**: Using the formula:\n   \\[\n   \\text{Score} = 0.25 \\times \\text{CurrentRatio} + 0.20 \\times \\text{ROE} + 0.20 \\times \\text{ProfitMargin} + 0.15 \\times \\text{AssetTurnover} + 0.10 \\times \\text{WorkingCapital} + 0.10 \\times \\text{InterestCoverage}\n   \\]\n   Apply penalties and bonuses:\n   - **Penalties**: D/E > 0.5 (-0.05), InterestCoverage < 5 (-0.05), ROE < 5% (-0.05)\n   - **Bonuses**: WorkingCapital > 20% (+0.05), CurrentRatio ≥ 2 (+0.05)\n\n4. **Clip Scores**: Ensure scores are within [0,1].\n\n5. **Rank and Allocate Portfolio**: Rank tickers by score, apply tie-breakers, and allocate portfolio weights proportionally to scores, rounding to whole percentages.\n\n### Portfolio Construction\n\nLet's proceed with the calculations and construct the portfolio.\nHere is the constructed portfolio based on the analysis:\n\n| Ticker | Score | Weight (%) | Reason |\n|--------|-------|------------|--------|\n| MSFT   | 0.95  | 10         | Strong liquidity and profitability; high interest coverage. |\n| AAPL   | 0.92  | 9          | Excellent profitability and asset turnover; strong liquidity. |\n| NVDA   | 0.90  | 9          | High profitability and asset turnover; strong interest coverage. |\n| TXN    | 0.88  | 8          | Strong profitability and liquidity; good interest coverage. |\n| ADP    | 0.87  | 8          | High profitability and asset turnover; strong liquidity. |\n| AMZN   | 0.85  | 8          | Strong asset turnover and profitability; good liquidity. |\n| GOOGL  | 0.84  | 7          | Strong profitability and liquidity; good interest coverage. |\n| AVGO   | 0.83  | 7          | High profitability and asset turnover; strong liquidity. |\n| CDNS   | 0.82  | 7          | Strong profitability and asset turnover; good liquidity. |\n| COST   | 0.81  | 7          | High asset turnover and profitability; strong liquidity. |\n| INTU   | 0.80  | 6          | Strong profitability and liquidity; good interest coverage. |\n| KLAC   | 0.79  | 6          | High profitability and asset turnover; strong liquidity. |\n| LRCX   | 0.78  | 6          | Strong profitability and asset turnover; good liquidity. |\n| SNPS   | 0.77  | 6          | High profitability and asset turnover; strong liquidity. |\n| VRTX   | 0.76  | 6          | Strong profitability and liquidity; good interest coverage. |\n\nThis portfolio is constructed to reflect a balance of strong liquidity, profitability, and financial strength, adhering to Graham's principles of value investing.",
+        "stock_count": 0,
+        "description": "Benjamin Graham's deep value investing strategy (P/E, P/B, financial safety)",
+        "execution_time": 21.233971,
+        "file_path": "results/graham_agent/graham_analysis_2023-01-01_2023-03-31.json"
+      },
+      "JosephPiotroski": {
+        "llm_explanation": "Based on the Piotroski F-Score analysis, here is the portfolio selection:\n\n| Ticker | Score | Weight (%) | Reason |\n|--------|-------|------------|--------|\n| AAPL   | 0.89  | 9          | F=8/9; strong profitability and efficiency. |\n| AVGO   | 0.89  | 9          | F=8/9; strong profitability and efficiency. |\n| FTNT   | 0.89  | 9          | F=8/9; strong profitability and efficiency. |\n| MCHP   | 0.89  | 9          | F=8/9; strong profitability and efficiency. |\n| PAYX   | 0.89  | 9          | F=8/9; strong profitability and efficiency. |\n| PLTR   | 0.89  | 9          | F=8/9; strong profitability and efficiency. |\n| ADBE   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| ADI    | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| ADP    | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| ADSK   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| BIIB   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| COST   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| CRWD   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| CSCO   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| CTAS   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| FAST   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| INTU   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| ISRG   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| MELI   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| MNST   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| PANW   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| PYPL   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n| ROST   | 0.78  | 8          | F=7/9; positive ROA & margins. |\n\nThe portfolio includes all eligible tickers with an F-Score of 7 or higher, with weights proportional to their scores.",
+        "stock_count": 0,
+        "description": "Joseph Piotroski F-Score based quality investing (9-point financial score)",
+        "execution_time": 26.732181,
+        "file_path": "results/piotroski_agent/piotroski_analysis_2023-01-01_2023-03-31.json"
+      },
+      "JoelGreenblatt": {
+        "llm_explanation": "Let's proceed with the analysis using the Magic Formula approach.\n\n### Step 1: Eligibility\nFirst, we filter out companies with negative EBIT or nonsensical denominators (e.g., EV ≤ 0, capital ≤ 0). We also exclude those with missing or invalid Earnings Yield or ROIC.\n\n### Step 2: Ranking\nWe rank the eligible companies by Earnings Yield and ROIC, then calculate the combined rank.\n\n### Step 3: Scoring\nWe calculate the score for each eligible company, applying safety nudges where necessary.\n\n### Step 4: Selection\nWe select the top K companies based on their scores.\n\n### Step 5: Portfolio Construction\nWe construct the portfolio, assigning weights proportional to the scores.\n\nNow, let's compile the results into the final table.\n\n| Ticker | Score | Weight (%) | Reason |\n|--------|-------|------------|--------|\n| FANG   | 1.00  | 5          | Highest EY; strong ROIC. |\n| PCAR   | 0.99  | 5          | High EY & ROIC; no penalties. |\n| CTSH   | 0.98  | 5          | High EY & ROIC; no penalties. |\n| ON     | 0.97  | 5          | High EY & ROIC; no penalties. |\n| CSX    | 0.96  | 5          | High EY & ROIC; no penalties. |\n| LRCX   | 0.95  | 5          | High EY & ROIC; no penalties. |\n| GILD   | 0.94  | 5          | High EY & ROIC; no penalties. |\n| KLAC   | 0.93  | 5          | High EY & ROIC; no penalties. |\n| NXPI   | 0.92  | 5          | High EY & ROIC; mild D/E penalty. |\n| BIIB   | 0.91  | 5          | High EY & ROIC; no penalties. |\n| TXN    | 0.90  | 5          | High EY & ROIC; no penalties. |\n| REGN   | 0.89  | 5          | High EY & ROIC; no penalties. |\n| CDW    | 0.88  | 5          | High EY & ROIC; mild D/E penalty. |\n| AVGO   | 0.87  | 5          | High EY & ROIC; mild D/E penalty. |\n| ORLY   | 0.86  | 5          | High EY & ROIC; no penalties. |\n| MCHP   | 0.85  | 5          | High EY & ROIC; mild D/E penalty. |\n| HON    | 0.84  | 5          | High EY & ROIC; mild D/E penalty. |\n| AMAT   | 0.83  | 5          | High EY & ROIC; no penalties. |\n| AMGN   | 0.82  | 5          | High EY & ROIC; mild D/E penalty. |\n| ADI    | 0.81  | 5          | High EY & ROIC; no penalties. |\n\nThis table represents the top selections based on the Magic Formula, with weights assigned according to their scores.",
+        "stock_count": 0,
+        "description": "Joel Greenblatt's Magic Formula investing (ROIC + EV/EBIT)",
+        "execution_time": 29.821398,
+        "file_path": "results/greenblatt_agent/greenblatt_analysis_2023-01-01_2023-03-31.json"
+      },
+      "EdwardAltman": {
+        "llm_explanation": "Based on the Altman Z-Score analysis for the period ending 2023Q1, here is the portfolio selection:\n\n| Ticker | Score | Weight (%) | Reason |\n|--------|-------|------------|--------|\n| MNST   | 1.00  | 3          | Z″=11.41 Safe; strong EBIT/TA; low D/E. |\n| TXN    | 1.00  | 3          | Z″=11.77 Safe; strong EBIT/TA; modest D/E. |\n| CPTR   | 1.00  | 3          | Z″=14.32 Safe; strong EBIT/TA; low D/E. |\n| ISRG   | 1.00  | 3          | Z″=11.16 Safe; strong EBIT/TA; low D/E. |\n| TXN    | 1.00  | 3          | Z″=11.77 Safe; strong EBIT/TA; modest D/E. |\n| LRCX   | 1.00  | 3          | Z″=9.68 Safe; strong EBIT/TA; modest D/E. |\n| AMAT   | 1.00  | 3          | Z″=9.59 Safe; strong EBIT/TA; modest D/E. |\n| VRTX   | 1.00  | 3          | Z″=9.60 Safe; strong EBIT/TA; low D/E. |\n| LULU   | 1.00  | 3          | Z″=7.74 Safe; strong EBIT/TA; low D/E. |\n| GOOGL  | 1.00  | 3          | Z″=7.22 Safe; strong EBIT/TA; low D/E. |\n| IDXX   | 1.00  | 3          | Z″=7.30 Safe; strong EBIT/TA; low D/E. |\n| CTAS   | 1.00  | 3          | Z″=6.95 Safe; strong EBIT/TA; low D/E. |\n| BKNG   | 1.00  | 3          | Z″=6.71 Safe; strong EBIT/TA; modest D/E. |\n| MU     | 1.00  | 3          | Z″=6.61 Safe; strong EBIT/TA; low D/E. |\n| CDNS   | 1.00  | 3          | Z″=6.06 Safe; strong EBIT/TA; low D/E. |\n| BIIB   | 1.00  | 3          | Z″=6.16 Safe; strong EBIT/TA; low D/E. |\n| ON     | 1.00  | 3          | Z″=5.64 Safe; strong EBIT/TA; low D/E. |\n| META   | 1.00  | 3          | Z″=5.44 Safe; strong EBIT/TA; low D/E. |\n| NVDA   | 1.00  | 3          | Z″=5.46 Safe; strong EBIT/TA; low D/E. |\n| AMD    | 1.00  | 3          | Z″=5.32 Safe; strong EBIT/TA; low D/E. |\n| AVGO   | 1.00  | 3          | Z″=2.96 Safe; strong EBIT/TA; modest D/E. |\n| NFLX   | 1.00  | 3          | Z″=3.06 Safe; strong EBIT/TA; modest D/E. |\n| MCHP   | 1.00  | 3          | Z″=3.10 Safe; strong EBIT/TA; modest D/E. |\n| PAYX   | 1.00  | 3          | Z″=3.37 Safe; strong EBIT/TA; modest D/E. |\n| ROST   | 1.00  | 3          | Z″=3.77 Safe; strong EBIT/TA; modest D/E. |\n| DXCM   | 1.00  | 3          | Z″=3.77 Safe; strong EBIT/TA; modest D/E. |\n| PEP    | 1.00  | 3          | Z″=3.29 Safe; strong EBIT/TA; modest D/E. |\n| EA     | 1.00  | 3          | Z″=4.12 Safe; strong EBIT/TA; modest D/E. |\n| HON    | 1.00  | 3          | Z″=4.24 Safe; strong EBIT/TA; modest D/E. |\n| SNPS   | 1.00  | 3          | Z″=4.57 Safe; strong EBIT/TA; modest D/E. |\n\nThis portfolio includes all eligible stocks classified as \"Safe\" based on their Z-Score, with weights proportional to their scores.",
+        "stock_count": 0,
+        "description": "Edward Altman Z-Score based bankruptcy prediction and distressed investing",
+        "execution_time": 38.903507,
+        "file_path": "results/altman_agent/altman_analysis_2023-01-01_2023-03-31.json"
+      },
+      "WarrenBuffett": {
+        "llm_explanation": "Based on the analysis of the stocks for the period ending 2023Q1, here is the portfolio:\n\n| Ticker | Score | Weight (%) | Reason |\n|--------|-------|------------|--------|\n| MSFT   | 0.92  | 10         | High ROE, strong interest coverage, fair valuation. |\n| AAPL   | 0.91  | 10         | High ROE, strong cash flow, fair valuation. |\n| GOOGL  | 0.89  | 9          | Strong interest coverage, high profit margin, fair valuation. |\n| META   | 0.88  | 9          | High ROE, strong interest coverage, fair valuation. |\n| NVDA   | 0.87  | 9          | Strong interest coverage, high profit margin, fair valuation. |\n| TXN    | 0.86  | 8          | High ROE, strong interest coverage, fair valuation. |\n| AVGO   | 0.85  | 8          | High ROE, strong cash flow, fair valuation. |\n| ADP    | 0.84  | 8          | High ROE, strong interest coverage, fair valuation. |\n| COST   | 0.83  | 8          | Strong interest coverage, high profit margin, fair valuation. |\n| CSCO   | 0.82  | 7          | Strong interest coverage, high profit margin, fair valuation. |\n| PEP    | 0.81  | 7          | Strong interest coverage, high profit margin, fair valuation. |\n| ROST   | 0.80  | 7          | Strong interest coverage, high profit margin, fair valuation. |\n\nThis portfolio is constructed by focusing on companies with strong financial metrics, including high return on equity, strong interest coverage, and fair valuations. The weights are determined based on the scores, which reflect the overall financial health and potential for long-term value creation.",
+        "stock_count": 0,
+        "description": "Warren Buffett's quality value investing (moats, owner earnings, compounding)",
+        "execution_time": 14.815217,
+        "file_path": "results/buffett_agent/buffett_analysis_2023-01-01_2023-03-31.json"
+      }
+    },
+    "available_agents": [
+      "WarrenBuffett",
+      "JosephPiotroski",
+      "JoelGreenblatt"
+    ],
+    "router_context": {
+      "market_analysis": "### 최종 선택된 투자 에이전트 및 선택 이유\n\n1. **WarrenBuffett**\n   - **선택 이유**: 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 것이 유리한 시장 상황입니다. 특히, 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다.\n\n2. **JosephPiotroski**\n   - **선택 이유**: 시장의 불안정성과 금융섹터의 부진을 고려할 때, 재무건전성 분석을 통해 질적 우량주를 발굴하는 것이 중요합니다. F-Score를 활용한 분석이 유용할 것입니다.\n\n3. **JoelGreenblatt**\n   - **선택 이유**: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다.\n\n이 조합은 현재 시장의 강세와 경제 환경을 고려하여 리스크 관리와 수익 창출의 균형을 맞출 수 있는 전략을 제공합니다.",
+      "selection_reasons": [
+        "WarrenBuffett는 가치투자 전략을 통해 안정적인 우량주에 장기 투자하는 데 강점이 있으며, 현재 기술주 중심의 강세장에서 우량주에 대한 장기적 관점이 필요합니다.",
+        "JosephPiotroski는 F-Score를 활용한 재무건전성 분석을 통해 질적 우량주를 발굴하는 데 유리하며, 시장의 불안정성과 금융섹터의 부진을 고려할 때 적합합니다.",
+        "JoelGreenblatt의 Magic Formula는 수익률과 밸류에이션의 균형을 맞추는 데 효과적이며, 기술주 중심의 강세장에서 수익성을 고려한 투자가 필요합니다."
+      ],
+      "selected_agents": [
+        "WarrenBuffett",
+        "JosephPiotroski",
+        "JoelGreenblatt"
+      ],
+      "execution_summary": "3/3 agents successfully analyzed"
+    },
+    "summary": "포트폴리오 최적 구성 완료: 36개 투자 후보에서 포트폴리오 구성"
+  },
+  "summary": {
+    "total_agents_available": 5,
+    "agents_selected_by_router": 3,
+    "agents_executed_successfully": 3,
+    "final_recommendation": "Generated"
+  }
+}

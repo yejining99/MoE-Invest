@@ -1,0 +1,38 @@
+Ticker,Score,Weight (%),Reason
+FAST,0.6,4.9,"Consensus from 3 agents: BenjaminGraham, JosephPiotroski, EdwardAltman"
+LULU,0.4,3.6,"Consensus from 2 agents: JosephPiotroski, EdwardAltman"
+MSFT,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+MNST,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+AAPL,0.4,3.6,"Consensus from 2 agents: JosephPiotroski, WarrenBuffett"
+EBIT,0.4,3.6,"Consensus from 2 agents: JoelGreenblatt, EdwardAltman"
+GOOGL,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+NVDA,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+ADP,0.4,3.6,"Consensus from 2 agents: JosephPiotroski, WarrenBuffett"
+CTAS,0.4,3.6,"Consensus from 2 agents: JosephPiotroski, JoelGreenblatt"
+ROE,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, WarrenBuffett"
+ISRG,0.4,3.6,"Consensus from 2 agents: BenjaminGraham, EdwardAltman"
+EV,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+AMAT,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+VRTX,0.2,2.2,Consensus from 1 agents: EdwardAltman
+GILD,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+ADBE,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+ROIC,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+PCAR,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+EA,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+PLTR,0.2,2.2,Consensus from 1 agents: BenjaminGraham
+NXPI,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+EY,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+TA,0.2,2.2,Consensus from 1 agents: EdwardAltman
+CPRT,0.2,2.2,Consensus from 1 agents: EdwardAltman
+AMZN,0.2,2.2,Consensus from 1 agents: WarrenBuffett
+META,0.2,2.2,Consensus from 1 agents: WarrenBuffett
+COST,0.2,2.2,Consensus from 1 agents: WarrenBuffett
+REGN,0.2,2.2,Consensus from 1 agents: BenjaminGraham
+TXN,0.2,2.2,Consensus from 1 agents: BenjaminGraham
+CRWD,0.2,2.2,Consensus from 1 agents: JosephPiotroski
+TSLA,0.2,2.2,Consensus from 1 agents: WarrenBuffett
+IDXX,0.2,2.2,Consensus from 1 agents: EdwardAltman
+LRCX,0.2,2.2,Consensus from 1 agents: EdwardAltman
+FANG,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+CSCO,0.2,2.2,Consensus from 1 agents: JoelGreenblatt
+MDLZ,0.2,2.2,Consensus from 1 agents: JosephPiotroski

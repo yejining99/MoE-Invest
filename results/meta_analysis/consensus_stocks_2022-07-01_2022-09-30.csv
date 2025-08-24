@@ -1,0 +1,36 @@
+stock,consensus_rate,agent_count,recommending_agents
+TXN,0.8,4,"BenjaminGraham, JosephPiotroski, EdwardAltman, WarrenBuffett"
+REGN,0.6,3,"BenjaminGraham, JoelGreenblatt, WarrenBuffett"
+AMAT,0.4,2,"BenjaminGraham, EdwardAltman"
+GILD,0.4,2,"JoelGreenblatt, WarrenBuffett"
+MNST,0.4,2,"BenjaminGraham, EdwardAltman"
+AAPL,0.4,2,"BenjaminGraham, JosephPiotroski"
+NXPI,0.4,2,"JosephPiotroski, JoelGreenblatt"
+AVGO,0.4,2,"JosephPiotroski, WarrenBuffett"
+ROE,0.4,2,"BenjaminGraham, WarrenBuffett"
+LRCX,0.4,2,"JoelGreenblatt, EdwardAltman"
+FANG,0.4,2,"JoelGreenblatt, WarrenBuffett"
+CSCO,0.4,2,"JoelGreenblatt, WarrenBuffett"
+EV,0.2,1,JoelGreenblatt
+CPTR,0.2,1,EdwardAltman
+AMGN,0.2,1,JosephPiotroski
+MSFT,0.2,1,BenjaminGraham
+ADBE,0.2,1,BenjaminGraham
+FCF,0.2,1,WarrenBuffett
+KHC,0.2,1,WarrenBuffett
+EBIT,0.2,1,EdwardAltman
+CSGP,0.2,1,EdwardAltman
+ROA,0.2,1,JosephPiotroski
+EY,0.2,1,JoelGreenblatt
+GOOGL,0.2,1,BenjaminGraham
+TA,0.2,1,EdwardAltman
+MCHP,0.2,1,WarrenBuffett
+NVDA,0.2,1,BenjaminGraham
+CTAS,0.2,1,EdwardAltman
+MAR,0.2,1,JosephPiotroski
+ADSK,0.2,1,JosephPiotroski
+QCOM,0.2,1,JoelGreenblatt
+ADI,0.2,1,JosephPiotroski
+SNPS,0.2,1,EdwardAltman
+CTSH,0.2,1,JosephPiotroski
+ROIC,0.2,1,JoelGreenblatt
