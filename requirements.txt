@@ -54,3 +54,6 @@ langchain_openai>=0.0.1
 # LangGraph for workflow orchestration
 langgraph>=0.0.40
 langchain-core>=0.1.0
+
+yfinance
+openpyxl
