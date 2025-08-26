@@ -138,6 +138,27 @@ class MasterInvestmentAgent:
         }
         self.agents = list(self.agent_result_paths.keys())
         
+        # 유효한 주식 티커 목록 (NASDAQ 100 기준)
+        self.valid_tickers = {
+            'AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AEP', 'AMAT', 'AMD', 'AMGN',
+            'AMZN', 'APP', 'ARM', 'ASML', 'AVGO', 'AXON', 'AZN', 'BIIB', 'BKNG', 'BKR',
+            'CCEP', 'CDNS', 'CDW', 'CEG', 'CHTR', 'CMCSA', 'COST', 'CPRT', 'CRWD', 'CSCO',
+            'CSGP', 'CSX', 'CTAS', 'CTSH', 'DASH', 'DDOG', 'DXCM', 'EA', 'EXC', 'FANG',
+            'FAST', 'FTNT', 'GEHC', 'GFS', 'GILD', 'GOOGL', 'HON', 'IDXX', 'INTC', 'INTU',
+            'ISRG', 'KDP', 'KHC', 'KLAC', 'LIN', 'LRCX', 'LULU', 'MAR', 'MCHP', 'MDLZ',
+            'MELI', 'META', 'MNST', 'MRVL', 'MSFT', 'MSTR', 'MU', 'NFLX', 'NVDA', 'NXPI',
+            'ODFL', 'ON', 'ORLY', 'PANW', 'PAYX', 'PCAR', 'PDD', 'PEP', 'PLTR', 'PYPL',
+            'QCOM', 'REGN', 'ROP', 'ROST', 'SBUX', 'SHOP', 'SNPS', 'TEAM', 'TMUS', 'TRI',
+            'TSLA', 'TTD', 'TTWO', 'TXN', 'VRSK', 'VRTX', 'WBD', 'WDAY', 'XEL', 'ZS'
+        }
+        
+        # 재무지표 약칭들 (가짜 티커로 오인될 수 있는 것들)
+        self.financial_metrics = {
+            'EV', 'EBIT', 'ROA', 'ROE', 'TA', 'EY', 'ROIC', 'FCF', 'CHRT', 'CPTR',
+            'PE', 'PB', 'PS', 'PEG', 'EPS', 'BPS', 'DPS', 'CAPEX', 'CF', 'OCF',
+            'WACC', 'IRR', 'NPV', 'BETA', 'EBITDA', 'FCF', 'NOPAT', 'DEBT', 'EQUITY'
+        }
+        
         # CoT 분석용 LLMChain 구성
         self.cot_chain = self._build_cot_chain()
         
@@ -357,7 +378,7 @@ Remember: You are always investing 100% of the portfolio. Focus on optimal weigh
         
         agent_results = state["agent_results"]
         
-        # 일반적인 주식 티커 패턴 (3-5글자 대문자)
+        # 주식 티커 추출 (유효한 티커만)
         import re
         ticker_pattern = r'\b[A-Z]{1,5}\b'
         
@@ -371,9 +392,26 @@ Remember: You are always investing 100% of the portfolio. Focus on optimal weigh
                 analysis_text = result['llm_explanation']
                 found_tickers = re.findall(ticker_pattern, analysis_text)
                 
-                # 일반적인 단어들 제외 (NOT, AND, THE 등)
-                excluded_words = {'THE', 'AND', 'OR', 'NOT', 'BUT', 'FOR', 'IN', 'ON', 'AT', 'TO', 'BY', 'UP', 'OF', 'IS', 'ARE', 'WAS', 'WERE', 'BE', 'BEEN', 'HAVE', 'HAS', 'HAD', 'DO', 'DOES', 'DID', 'WILL', 'WOULD', 'COULD', 'SHOULD', 'MAY', 'MIGHT', 'CAN', 'MUST', 'SHALL'}
-                valid_tickers = [ticker for ticker in found_tickers if ticker not in excluded_words and len(ticker) >= 2]
+                # 유효한 티커만 필터링
+                # 1. 유효한 티커 목록에 포함된 것만
+                # 2. 재무지표 약칭들은 제외  
+                # 3. 일반적인 영단어들 제외
+                excluded_words = {
+                    'THE', 'AND', 'OR', 'NOT', 'BUT', 'FOR', 'IN', 'ON', 'AT', 'TO', 'BY', 'UP', 
+                    'OF', 'IS', 'ARE', 'WAS', 'WERE', 'BE', 'BEEN', 'HAVE', 'HAS', 'HAD', 
+                    'DO', 'DOES', 'DID', 'WILL', 'WOULD', 'COULD', 'SHOULD', 'MAY', 'MIGHT', 
+                    'CAN', 'MUST', 'SHALL', 'ALL', 'ANY', 'MORE', 'MOST', 'LESS', 'BEST', 
+                    'HIGH', 'LOW', 'NEW', 'OLD', 'GOOD', 'BAD', 'BIG', 'SMALL', 'LONG', 'SHORT'
+                }
+                
+                # 유효한 티커만 선택
+                valid_tickers = [
+                    ticker for ticker in found_tickers 
+                    if ticker in self.valid_tickers  # 유효한 티커 목록에 있는 것만
+                    and ticker not in self.financial_metrics  # 재무지표 약칭 제외
+                    and ticker not in excluded_words  # 일반 영단어 제외
+                    and len(ticker) >= 2
+                ]
                 
                 # 빈도 기반 상위 종목 선택 (상위 10개)
                 from collections import Counter
@@ -383,7 +421,13 @@ Remember: You are always investing 100% of the portfolio. Focus on optimal weigh
                 agent_recommendations[agent_name] = set(top_tickers)
                 all_stocks.update(top_tickers)
                 
-                print(f"  📊 {agent_name}: {len(top_tickers)}개 종목 추출 ({', '.join(list(top_tickers)[:5])}{'...' if len(top_tickers) > 5 else ''})")
+                print(f"  📊 {agent_name}: {len(top_tickers)}개 유효 종목 추출 ({', '.join(list(top_tickers)[:5])}{'...' if len(top_tickers) > 5 else ''})")
+                
+                # 가짜 티커가 발견된 경우 경고 출력
+                fake_tickers_found = [ticker for ticker in found_tickers if ticker in self.financial_metrics]
+                if fake_tickers_found:
+                    print(f"    ⚠️ 재무지표 약칭 {len(fake_tickers_found)}개 제외됨: {', '.join(fake_tickers_found[:5])}")
+                    
             else:
                 agent_recommendations[agent_name] = set()
         
@@ -533,6 +577,9 @@ Remember: You are always investing 100% of the portfolio. Focus on optimal weigh
             ])
             consensus_df.to_csv(f'{result_dir}/consensus_stocks_{state["start_date"]}_{state["end_date"]}.csv', index=False, encoding='utf-8')
             
+            # 3. 메타 포트폴리오 CSV 파일 생성 (백테스팅용)
+            self._generate_meta_portfolio_csv(state, result_dir)
+            
             # 요약 생성
             summary = f"포트폴리오 최적 구성 완료: {state['consensus_analysis']['total_unique_stocks']}개 투자 후보에서 포트폴리오 구성"
             state["summary"] = summary
@@ -546,6 +593,61 @@ Remember: You are always investing 100% of the portfolio. Focus on optimal weigh
             state["summary"] = f"분석 완료, 저장 중 오류 발생: {str(e)}"
         
         return state
+    
+    def _generate_meta_portfolio_csv(self, state: MasterAgentState, result_dir: str):
+        """
+        백테스팅용 메타 포트폴리오 CSV 파일 생성 (가짜 티커 제외)
+        """
+        print("  📄 백테스팅용 메타 포트폴리오 CSV 생성 중...")
+        
+        consensus_stocks = state['consensus_analysis']['consensus_stocks']
+        
+        if not consensus_stocks:
+            print("    ⚠️ 합의 종목이 없어 포트폴리오를 생성할 수 없습니다.")
+            return
+            
+        # 합의 점수 기반 가중치 계산
+        portfolio_data = []
+        
+        for stock, data in consensus_stocks.items():
+            # 합의 점수를 가중치로 사용 (합의율 * 추천 에이전트 수)
+            score = data['consensus_rate'] * data['agent_count']
+            weight = score
+            
+            portfolio_data.append({
+                'Ticker': stock,
+                'Score': data['consensus_rate'],
+                'Weight (%)': weight,
+                'Reason': f"Consensus from {data['agent_count']} agents: {', '.join(data['recommending_agents'])}"
+            })
+        
+        # 가중치 정규화 (총 100%가 되도록)
+        if portfolio_data:
+            total_weight = sum([item['Weight (%)'] for item in portfolio_data])
+            for item in portfolio_data:
+                item['Weight (%)'] = (item['Weight (%)'] / total_weight) * 100
+                
+            # DataFrame 생성 및 저장
+            portfolio_df = pd.DataFrame(portfolio_data)
+            portfolio_df = portfolio_df.sort_values('Score', ascending=False)  # 합의율 높은 순으로 정렬
+            
+            # 상위 25개만 포함 (다양성 확보)
+            portfolio_df = portfolio_df.head(25)
+            
+            # CSV 파일로 저장
+            csv_filename = f'{result_dir}/meta_portfolio_{state["start_date"]}_{state["end_date"]}.csv'
+            portfolio_df.to_csv(csv_filename, index=False, encoding='utf-8')
+            
+            print(f"    ✅ 메타 포트폴리오 저장됨: {csv_filename}")
+            print(f"    📊 포함된 종목: {len(portfolio_df)}개")
+            print(f"    🎯 상위 5개: {', '.join(portfolio_df['Ticker'].head().tolist())}")
+            
+            # 가짜 티커가 없는지 검증
+            fake_tickers_in_portfolio = [ticker for ticker in portfolio_df['Ticker'] if ticker in self.financial_metrics]
+            if fake_tickers_in_portfolio:
+                print(f"    ❌ 경고: 포트폴리오에 가짜 티커 발견: {fake_tickers_in_portfolio}")
+            else:
+                print(f"    ✅ 모든 티커가 유효한 주식 티커입니다.")
     
     def run_comprehensive_analysis(self, start_date: str, end_date: str, 
                                  top_n: int = 10) -> Dict[str, Any]:
