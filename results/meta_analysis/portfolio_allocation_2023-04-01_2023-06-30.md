@@ -1,49 +1,46 @@
 # 📊 최적 포트폴리오 구성 보고서
 **분석 기간**: 2023-04-01 ~ 2023-06-30
-**구성 일시**: 2025-08-24 06:26:56
+**구성 일시**: 2025-08-26 13:01:04
 
 ## 💼 포트폴리오 매니저 최적 할당 결정
 
 **PORTFOLIO ALLOCATION DECISION**
 
 **INVESTMENT PHILOSOPHY:**
-For this portfolio, we will adhere to a strategy that emphasizes consensus-driven decisions and quality investing principles. Our core principles are:
-1. **Consensus and Conviction**: Prioritize stocks with the highest consensus among experts, reflecting strong collective conviction and potential for robust performance.
-2. **Quality and Financial Health**: Focus on companies with strong financial metrics, sustainable competitive advantages, and proven track records of value creation.
-3. **Diversification and Risk Management**: Balance concentration in high-conviction stocks with diversification across sectors and investment styles to manage risk.
+In constructing this portfolio, I am guided by three core principles: leveraging expert consensus to identify high-conviction opportunities, balancing concentration with diversification to manage risk, and aligning sector/style exposures with long-term growth potential. The goal is to create a robust portfolio that maximizes expected returns while maintaining a prudent risk profile.
 
 **KEY ALLOCATION DRIVERS:**
-1. **Expert Consensus**: Stocks with higher consensus rates among experts will receive higher allocations, as this indicates a strong collective belief in their potential.
-2. **Quality Metrics**: Emphasis on financial health, competitive moats, and growth potential will guide allocation decisions, ensuring a focus on long-term value creation.
-3. **Sector and Style Diversification**: Ensure the portfolio is not overly concentrated in any single sector or investment style, reducing exposure to specific market risks.
+1. **Expert Consensus:** The primary driver is the consensus among experts, which indicates a strong conviction in the potential of certain stocks. Stocks with higher consensus rates are prioritized for larger allocations.
+2. **Diversification:** Ensuring a balanced portfolio by spreading investments across different sectors and styles to mitigate risk.
+3. **Risk Management:** Evaluating the risk level associated with each stock and adjusting allocations to maintain a prudent risk profile.
 
 **FINAL PORTFOLIO ALLOCATION:**
 
 | Rank | Stock | Weight(%) | Supporting Experts | Key Investment Thesis | Risk Level |
 |------|-------|-----------|-------------------|----------------------|------------|
-| 1    | AAPL  | 15.0      | Graham, Piotroski, Buffett | Strong fundamentals, growth potential, and brand moat | Medium |
-| 2    | TXN   | 12.5      | Graham, Altman, Buffett | Solid financials, tech sector exposure, and dividend growth | Medium |
-| 3    | MSFT  | 12.0      | Graham, Buffett | High ROIC, strong market position, and innovation | Medium |
-| 4    | GOOGL | 10.0      | Graham, Buffett | Dominant market position, advertising revenue growth | Medium |
-| 5    | NVDA  | 10.0      | Graham, Buffett | Leadership in AI and graphics, strong growth prospects | Medium |
-| 6    | KHC   | 8.0       | Piotroski, Greenblatt | Value play with potential for operational improvements | High |
-| 7    | MNST  | 8.0       | Graham, Altman | Strong brand, growth in energy drinks market | Medium |
-| 8    | CTAS  | 8.0       | Piotroski, Greenblatt | Consistent growth, strong customer base | Medium |
-| 9    | ROE   | 8.0       | Graham, Buffett | Consistent earnings, strong return on equity | Medium |
-| 10   | FAST  | 8.0       | Piotroski, Altman | Solid financials, industrial sector exposure | Medium |
+| 1    | TXN   | 15.0      | Graham, Altman, Buffett | Strong consensus, financial safety, and quality | Medium |
+| 2    | AAPL  | 15.0      | Graham, Piotroski, Buffett | Strong fundamentals + growth | Medium |
+| 3    | LRCX  | 12.5      | Greenblatt, Altman, Buffett | High ROIC, attractive valuation | Medium |
+| 4    | AMGN  | 10.0      | Greenblatt, Buffett | Quality compounder, healthcare exposure | Medium |
+| 5    | GOOGL | 10.0      | Graham, Buffett | Strong moat, long-term growth | Medium |
+| 6    | NVDA  | 10.0      | Graham, Buffett | Growth potential in AI and gaming | High |
+| 7    | KHC   | 7.5       | Piotroski, Greenblatt | Value opportunity, stable cash flows | Medium |
+| 8    | CSCO  | 7.5       | Piotroski, Greenblatt | Strong fundamentals, tech exposure | Medium |
+| 9    | MNST  | 7.5       | Graham, Altman | Financial strength, consumer staples | Low |
+| 10   | MCHP  | 5.0       | Piotroski, Greenblatt | Quality metrics, tech exposure | Medium |
 
 **PORTFOLIO CHARACTERISTICS:**
 - Total Allocation: 100%
-- Number of Holdings: 10 stocks
-- Top 5 Holdings: 59.5% of portfolio
-- Sector Concentration: Balanced exposure across technology, consumer goods, industrials, and financials
+- Number of Holdings: 10 stocks  
+- Top 5 Holdings: 62.5% of portfolio
+- Sector Concentration: Balanced exposure across technology, consumer staples, healthcare, and industrials
 
 **RISK MANAGEMENT:**
-- Key portfolio risks: Overexposure to technology sector, potential volatility in high-growth stocks
-- Monitoring metrics: Regular review of financial performance, market conditions, and expert consensus changes
-- Rebalancing triggers: Significant changes in expert consensus, financial health deterioration, or sector overconcentration
+- Key portfolio risks: Overexposure to technology sector, potential market volatility
+- Monitoring metrics: Regular review of financial performance, market conditions, and expert consensus updates
+- Rebalancing triggers: Significant changes in expert consensus, sector performance, or individual stock performance
 
-By focusing on consensus-driven decisions and quality investing principles, this portfolio aims to achieve a balance between maximizing returns and managing risk through diversification. The allocation reflects a commitment to investing in companies with strong fundamentals and growth potential, while also considering sector and style diversification to mitigate risks.
+In this portfolio, I have prioritized stocks with the highest consensus among experts, ensuring a strong foundation of high-conviction investments. The allocation is designed to balance growth potential with risk management, providing exposure to various sectors while maintaining a focus on quality and financial strength. This approach aims to deliver robust returns while safeguarding against market uncertainties.
 
 ---
 
@@ -73,21 +70,21 @@ By focusing on consensus-driven decisions and quality investing principles, this
 
 ### 전문가 간 합의 분석
 
-- **총 고유 추천 종목**: 37개
+- **총 고유 추천 종목**: 33개
 - **상위 합의 종목들**:
 
-1. **AAPL**: 60.0% 합의율 (BenjaminGraham, JosephPiotroski, WarrenBuffett)
-2. **TXN**: 60.0% 합의율 (BenjaminGraham, EdwardAltman, WarrenBuffett)
-3. **MSFT**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
-4. **KHC**: 40.0% 합의율 (JosephPiotroski, JoelGreenblatt)
-5. **MNST**: 40.0% 합의율 (BenjaminGraham, EdwardAltman)
-6. **GOOGL**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
-7. **NVDA**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
-8. **CTAS**: 40.0% 합의율 (JosephPiotroski, JoelGreenblatt)
-9. **ROE**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
-10. **FAST**: 40.0% 합의율 (JosephPiotroski, EdwardAltman)
-11. **CSCO**: 40.0% 합의율 (JosephPiotroski, JoelGreenblatt)
-12. **EV**: 20.0% 합의율 (JoelGreenblatt)
-13. **AMAT**: 20.0% 합의율 (EdwardAltman)
-14. **AMGN**: 20.0% 합의율 (WarrenBuffett)
-15. **EBIT**: 20.0% 합의율 (EdwardAltman)
+1. **TXN**: 60.0% 합의율 (BenjaminGraham, EdwardAltman, WarrenBuffett)
+2. **AAPL**: 60.0% 합의율 (BenjaminGraham, JosephPiotroski, WarrenBuffett)
+3. **LRCX**: 60.0% 합의율 (JoelGreenblatt, EdwardAltman, WarrenBuffett)
+4. **AMGN**: 40.0% 합의율 (JoelGreenblatt, WarrenBuffett)
+5. **GOOGL**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
+6. **NVDA**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
+7. **KHC**: 40.0% 합의율 (JosephPiotroski, JoelGreenblatt)
+8. **CSCO**: 40.0% 합의율 (JosephPiotroski, JoelGreenblatt)
+9. **MNST**: 40.0% 합의율 (BenjaminGraham, EdwardAltman)
+10. **MCHP**: 40.0% 합의율 (JosephPiotroski, JoelGreenblatt)
+11. **FAST**: 40.0% 합의율 (JosephPiotroski, EdwardAltman)
+12. **AVGO**: 40.0% 합의율 (JosephPiotroski, WarrenBuffett)
+13. **CTAS**: 40.0% 합의율 (JosephPiotroski, JoelGreenblatt)
+14. **MSFT**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
+15. **PCAR**: 20.0% 합의율 (JoelGreenblatt)

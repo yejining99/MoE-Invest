@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-08-24T06:29:11.527696",
-  "execution_time_seconds": 34.56458,
+  "timestamp": "2025-08-26T13:05:29.785922",
+  "execution_time_seconds": 44.420233,
   "input_parameters": {
     "start_date": "2024-07-01",
     "end_date": "2024-09-30"
   },
   "step1_routing": {
-    "market_analysis": "### 최종 선택된 투자 에이전트 및 선택 이유\n\n1. **WarrenBuffett**\n   - **선택 이유**: 안정적 시장에서 가치투자 전략을 통해 우량주에 장기 투자하는 데 강점을 보입니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경을 제공합니다.\n\n2. **JoelGreenblatt**\n   - **선택 이유**: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다.\n\n3. **JosephPiotroski**\n   - **선택 이유**: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다.\n\n이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다. WarrenBuffett의 가치투자, JoelGreenblatt의 수익률과 밸류에이션 균형, JosephPiotroski의 재무건전성 분석을 통해 다양한 시장 상황에 대응할 수 있습니다.",
+    "market_analysis": "최종적으로 선택된 투자 에이전트는 다음과 같습니다:\n\n1. **WarrenBuffett**:\n   - **선택 이유**: 현재 시장의 강한 상승세와 낮은 변동성에서 가치투자 전략을 통해 우량주에 대한 장기투자가 유리할 수 있습니다. 안정적인 경제 환경에서 그의 전략은 효과적입니다.\n\n2. **JoelGreenblatt**:\n   - **선택 이유**: Magic Formula는 수익률과 밸류에이션의 균형을 맞추는 데 강점이 있으며, 현재 시장의 강한 상승세와 맞물려 중소형주에서 효과적일 수 있습니다.\n\n3. **JosephPiotroski**:\n   - **선택 이유**: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 이는 불안정한 시장에서도 리스크를 관리할 수 있는 전략을 제공합니다.\n\n이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.",
     "selected_agents": [
       "WarrenBuffett",
       "JoelGreenblatt",
       "JosephPiotroski"
     ],
     "selection_reasons": [
-      "WarrenBuffett는 안정적 시장에서 가치투자 전략을 통해 우량주에 장기 투자하는 데 강점을 보입니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경을 제공합니다.",
-      "JoelGreenblatt의 Magic Formula는 수익률과 밸류에이션의 균형을 맞추는 전략으로, 경기 회복기와 금융섹터의 강세에 적합합니다. 현재 시장의 상승세는 이 전략에 유리합니다.",
-      "JosephPiotroski는 F-Score를 통한 재무건전성 분석을 통해 시장의 과매수 상태와 잠재적 변동성에 대비할 수 있는 리스크 관리 전략을 제공합니다. 이는 현재 시장에서 질적 분석을 통한 리스크 관리에 유용합니다."
+      "WarrenBuffett는 현재 시장의 강한 상승세와 낮은 변동성에서 가치투자 전략을 통해 우량주에 대한 장기투자가 유리할 수 있습니다. 안정적인 경제 환경에서 그의 전략은 효과적입니다.",
+      "JoelGreenblatt의 Magic Formula는 수익률과 밸류에이션의 균형을 맞추는 데 강점이 있으며, 현재 시장의 강한 상승세와 맞물려 중소형주에서 효과적일 수 있습니다.",
+      "JosephPiotroski는 시장이 과매수 상태에 있을 때 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 데 유리합니다. 이는 불안정한 시장에서도 리스크를 관리할 수 있는 전략을 제공합니다."
     ],
     "agent_details": {
       "WarrenBuffett": {
@@ -63,24 +63,24 @@
     },
     "intermediate_steps": [
       [
-        "tool='get_market_data' tool_input='SPY,QQQ,IWM,TLT,GLD,VIX' log='\\nInvoking: `get_market_data` with `SPY,QQQ,IWM,TLT,GLD,VIX`\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--6e2604bb-42c4-4257-8314-4b5a10f629e7', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_VjfHUnJyURnMz015zwTOdWyB'",
-        "{\n  \"SPY\": {\n    \"current_price\": 566.1710815429688,\n    \"period_return\": 5.112921511603208,\n    \"volatility_annualized\": 13.923481284849782,\n    \"avg_volume\": 51817387.3015873,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"QQQ\": {\n    \"current_price\": 484.6983947753906,\n    \"period_return\": 1.1441751500102404,\n    \"volatility_annualized\": 21.111016084861493,\n    \"avg_volume\": 37690815.87301587,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"IWM\": {\n    \"current_price\": 218.58152770996094,\n    \"period_return\": 9.887089445892094,\n    \"volatility_annualized\": 19.953513023422715,\n    \"avg_volume\": 33057412.698412698,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"TLT\": {\n    \"current_price\": 94.78461456298828,\n    \"period_return\": 10.355262927645658,\n    \"volatility_annualized\": 11.852837283921046,\n    \"avg_volume\": 37286704.76190476,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"GLD\": {\n    \"current_price\": 245.02000427246094,\n    \"period_return\": 13.6614537958192,\n    \"volatility_annualized\": 13.094340782996374,\n    \"avg_volume\": 6501350.793650794,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"^VIX\": {\n    \"current_price\": 16.959999084472656,\n    \"period_return\": 38.788860178939586,\n    \"volatility_annualized\": 169.8403916295084,\n    \"avg_volume\": 0.0,\n    \"latest_date\": \"2024-09-27\"\n  }\n}"
+        "tool='get_market_data' tool_input='SPY,QQQ,IWM,TLT,GLD,VIX' log='\\nInvoking: `get_market_data` with `SPY,QQQ,IWM,TLT,GLD,VIX`\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_80956533cb', 'service_tier': 'default'}, id='run--80f84458-b00d-4d31-a6d2-c0a293992dcb', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_KjSEC4RqhsfFdOqLWbGQZm5O'",
+        "{\n  \"SPY\": {\n    \"current_price\": 566.171142578125,\n    \"period_return\": 5.1129328431314125,\n    \"volatility_annualized\": 13.923450610946517,\n    \"avg_volume\": 51817387.3015873,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"QQQ\": {\n    \"current_price\": 484.6983947753906,\n    \"period_return\": 1.1441751500102404,\n    \"volatility_annualized\": 21.111009477680174,\n    \"avg_volume\": 37690815.87301587,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"IWM\": {\n    \"current_price\": 218.58151245117188,\n    \"period_return\": 9.887090204333049,\n    \"volatility_annualized\": 19.95352122161044,\n    \"avg_volume\": 33057412.698412698,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"TLT\": {\n    \"current_price\": 94.78462219238281,\n    \"period_return\": 10.355271810351386,\n    \"volatility_annualized\": 11.852763803972998,\n    \"avg_volume\": 37286704.76190476,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"GLD\": {\n    \"current_price\": 245.02000427246094,\n    \"period_return\": 13.6614537958192,\n    \"volatility_annualized\": 13.094340782996374,\n    \"avg_volume\": 6501350.793650794,\n    \"latest_date\": \"2024-09-27\"\n  },\n  \"^VIX\": {\n    \"current_price\": 16.959999084472656,\n    \"period_return\": 38.788860178939586,\n    \"volatility_annualized\": 169.8403916295084,\n    \"avg_volume\": 0.0,\n    \"latest_date\": \"2024-09-27\"\n  }\n}"
       ],
       [
-        "tool='calculate_technical_indicators' tool_input='SPY' log='\\nInvoking: `calculate_technical_indicators` with `SPY`\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--6e2604bb-42c4-4257-8314-4b5a10f629e7', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_tZcFnxSGuC66xsZOUsClQ46b'",
-        "{\n  \"RSI\": 86.91226237407294,\n  \"SMA_20\": 554.0600677490235,\n  \"SMA_50\": 545.1846313476562,\n  \"SMA_200\": NaN,\n  \"price_vs_SMA20\": 2.1858665691517176,\n  \"price_vs_SMA50\": 3.8494207262291136,\n  \"price_vs_SMA200\": NaN\n}"
+        "tool='calculate_technical_indicators' tool_input='SPY' log='\\nInvoking: `calculate_technical_indicators` with `SPY`\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_80956533cb', 'service_tier': 'default'}, id='run--80f84458-b00d-4d31-a6d2-c0a293992dcb', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_LtdvnwdMGJhTsRTdU5yX9suU'",
+        "{\n  \"RSI\": 86.9129349551582,\n  \"SMA_20\": 554.0600830078125,\n  \"SMA_50\": 545.1846472167969,\n  \"SMA_200\": NaN,\n  \"price_vs_SMA20\": 2.185874770939189,\n  \"price_vs_SMA50\": 3.849428898716356,\n  \"price_vs_SMA200\": NaN\n}"
       ],
       [
-        "tool='analyze_market_regime' tool_input='' log='\\nInvoking: `analyze_market_regime` with ``\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--6e2604bb-42c4-4257-8314-4b5a10f629e7', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_sseyMpfhslRQwEOCvlAJHmlO'",
-        "{\n  \"correlations\": {\n    \"SPY\": {\n      \"SPY\": 1.0,\n      \"QQQ\": 0.9656616968878888,\n      \"IWM\": 0.7317367224807984,\n      \"^VIX\": NaN\n    },\n    \"QQQ\": {\n      \"SPY\": 0.9656616968878888,\n      \"QQQ\": 1.0,\n      \"IWM\": 0.6141035734915291,\n      \"^VIX\": NaN\n    },\n    \"IWM\": {\n      \"SPY\": 0.7317367224807984,\n      \"QQQ\": 0.6141035734915291,\n      \"IWM\": 1.0,\n      \"^VIX\": NaN\n    },\n    \"^VIX\": {\n      \"SPY\": NaN,\n      \"QQQ\": NaN,\n      \"IWM\": NaN,\n      \"^VIX\": 1.0\n    }\n  },\n  \"recent_returns\": {\n    \"SPY\": 5.938132085097248,\n    \"QQQ\": 8.363204878167585,\n    \"IWM\": 6.229343520124986,\n    \"^VIX\": -25.07269176123563\n  },\n  \"volatility_regime\": \"low\",\n  \"volatility_data\": {\n    \"current_vix\": 0.10344822451218505\n  },\n  \"market_breadth\": \"strong\",\n  \"analysis_period\": \"30 days\"\n}"
+        "tool='analyze_market_regime' tool_input='' log='\\nInvoking: `analyze_market_regime` with ``\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_80956533cb', 'service_tier': 'default'}, id='run--80f84458-b00d-4d31-a6d2-c0a293992dcb', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_srxN5IyukSV4c9GWTRJzpTTL'",
+        "{\n  \"correlations\": {\n    \"SPY\": {\n      \"SPY\": 1.0,\n      \"QQQ\": 0.9656616114693816,\n      \"IWM\": 0.7317375781817168,\n      \"^VIX\": NaN\n    },\n    \"QQQ\": {\n      \"SPY\": 0.9656616114693816,\n      \"QQQ\": 1.0,\n      \"IWM\": 0.614104033954032,\n      \"^VIX\": NaN\n    },\n    \"IWM\": {\n      \"SPY\": 0.7317375781817168,\n      \"QQQ\": 0.614104033954032,\n      \"IWM\": 1.0,\n      \"^VIX\": NaN\n    },\n    \"^VIX\": {\n      \"SPY\": NaN,\n      \"QQQ\": NaN,\n      \"IWM\": NaN,\n      \"^VIX\": 1.0\n    }\n  },\n  \"recent_returns\": {\n    \"SPY\": 5.938142234220178,\n    \"QQQ\": 8.36320477580993,\n    \"IWM\": 6.229344129716918,\n    \"^VIX\": -25.07269176123563\n  },\n  \"volatility_regime\": \"low\",\n  \"volatility_data\": {\n    \"current_vix\": 0.10344822451218505\n  },\n  \"market_breadth\": \"strong\",\n  \"analysis_period\": \"30 days\"\n}"
       ],
       [
-        "tool='get_economic_indicators' tool_input='' log='\\nInvoking: `get_economic_indicators` with ``\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--6e2604bb-42c4-4257-8314-4b5a10f629e7', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_VjfHUnJyURnMz015zwTOdWyB', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_tZcFnxSGuC66xsZOUsClQ46b', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_sseyMpfhslRQwEOCvlAJHmlO', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_yqjFgONn9KLMrXJqu5zCSNtN', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_yqjFgONn9KLMrXJqu5zCSNtN'",
-        "{\n  \"TLT\": {\n    \"description\": \"\\uc7a5\\uae30 \\uad6d\\ucc44 (\\uae08\\ub9ac \\ud658\\uacbd)\",\n    \"3month_return\": 10.355262927645658,\n    \"volatility\": 13.43119977711615\n  },\n  \"UUP\": {\n    \"description\": \"\\ub2ec\\ub7ec \\uac15\\ub3c4\",\n    \"3month_return\": -3.6719253925266204,\n    \"volatility\": 5.762453084932302\n  },\n  \"GLD\": {\n    \"description\": \"\\uae08 (\\uc548\\uc804\\uc790\\uc0b0)\",\n    \"3month_return\": 13.6614537958192,\n    \"volatility\": 14.79563920099899\n  },\n  \"DJP\": {\n    \"description\": \"\\uc6d0\\uc790\\uc7ac\",\n    \"3month_return\": 0.09288729010159535,\n    \"volatility\": 14.383947270198187\n  },\n  \"XLF\": {\n    \"description\": \"\\uae08\\uc735\\uc139\\ud130\",\n    \"3month_return\": 9.984831340292999,\n    \"volatility\": 15.18534097426907\n  }\n}"
+        "tool='get_economic_indicators' tool_input='' log='\\nInvoking: `get_economic_indicators` with ``\\n\\n\\n' message_log=[AIMessageChunk(content='', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'function': {'arguments': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'name': 'get_market_data'}, 'type': 'function'}, {'index': 1, 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'function': {'arguments': '{\"__arg1\": \"SPY\"}', 'name': 'calculate_technical_indicators'}, 'type': 'function'}, {'index': 2, 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'analyze_market_regime'}, 'type': 'function'}, {'index': 3, 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'function': {'arguments': '{\"__arg1\": \"\"}', 'name': 'get_economic_indicators'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_80956533cb', 'service_tier': 'default'}, id='run--80f84458-b00d-4d31-a6d2-c0a293992dcb', tool_calls=[{'name': 'get_market_data', 'args': {'__arg1': 'SPY,QQQ,IWM,TLT,GLD,VIX'}, 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'type': 'tool_call'}, {'name': 'calculate_technical_indicators', 'args': {'__arg1': 'SPY'}, 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'type': 'tool_call'}, {'name': 'analyze_market_regime', 'args': {'__arg1': ''}, 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'type': 'tool_call'}, {'name': 'get_economic_indicators', 'args': {'__arg1': ''}, 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'get_market_data', 'args': '{\"__arg1\": \"SPY,QQQ,IWM,TLT,GLD,VIX\"}', 'id': 'call_KjSEC4RqhsfFdOqLWbGQZm5O', 'index': 0, 'type': 'tool_call_chunk'}, {'name': 'calculate_technical_indicators', 'args': '{\"__arg1\": \"SPY\"}', 'id': 'call_LtdvnwdMGJhTsRTdU5yX9suU', 'index': 1, 'type': 'tool_call_chunk'}, {'name': 'analyze_market_regime', 'args': '{\"__arg1\": \"\"}', 'id': 'call_srxN5IyukSV4c9GWTRJzpTTL', 'index': 2, 'type': 'tool_call_chunk'}, {'name': 'get_economic_indicators', 'args': '{\"__arg1\": \"\"}', 'id': 'call_PkVWdWHci0J2KP940azgIRfP', 'index': 3, 'type': 'tool_call_chunk'}])] tool_call_id='call_PkVWdWHci0J2KP940azgIRfP'",
+        "{\n  \"TLT\": {\n    \"description\": \"\\uc7a5\\uae30 \\uad6d\\ucc44 (\\uae08\\ub9ac \\ud658\\uacbd)\",\n    \"3month_return\": 10.355271810351386,\n    \"volatility\": 13.431187908277838\n  },\n  \"UUP\": {\n    \"description\": \"\\ub2ec\\ub7ec \\uac15\\ub3c4\",\n    \"3month_return\": -3.6719253925266204,\n    \"volatility\": 5.762453084932302\n  },\n  \"GLD\": {\n    \"description\": \"\\uae08 (\\uc548\\uc804\\uc790\\uc0b0)\",\n    \"3month_return\": 13.6614537958192,\n    \"volatility\": 14.79563920099899\n  },\n  \"DJP\": {\n    \"description\": \"\\uc6d0\\uc790\\uc7ac\",\n    \"3month_return\": 0.09288729010159535,\n    \"volatility\": 14.383947270198187\n  },\n  \"XLF\": {\n    \"description\": \"\\uae08\\uc735\\uc139\\ud130\",\n    \"3month_return\": 9.98483227868534,\n    \"volatility\": 15.185361734515665\n  }\n}"
       ],
       [
-        "tool='select_agents_for_market' tool_input='현재 시장은 강한 상승 추세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경은 안정적이며, 금리와 달러 약세가 지속되고 있습니다. 이러한 상황에서 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 안정적 시장에서 가치투자 전략이 효과적이며, 우량주 장기투자에 적합합니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경입니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다. 3. JosephPiotroski: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다. 이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.' log='\\nInvoking: `select_agents_for_market` with `현재 시장은 강한 상승 추세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경은 안정적이며, 금리와 달러 약세가 지속되고 있습니다. 이러한 상황에서 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 안정적 시장에서 가치투자 전략이 효과적이며, 우량주 장기투자에 적합합니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경입니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다. 3. JosephPiotroski: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다. 이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.`\\nresponded: ### 시장 상황 분석\\n\\n1. **주요 시장 지수 현황**\\n   - **SPY**: 5.11% 상승, 연간 변동성 13.92%\\n   - **QQQ**: 1.14% 상승, 연간 변동성 21.11%\\n   - **IWM**: 9.89% 상승, 연간 변동성 19.95%\\n   - **TLT**: 10.36% 상승, 연간 변동성 11.85%\\n   - **GLD**: 13.66% 상승, 연간 변동성 13.09%\\n   - **VIX**: 38.79% 상승, 연간 변동성 169.84%\\n\\n2. **기술적 지표 분석 (SPY 기준)**\\n   - **RSI**: 86.91 (과매수 상태)\\n   - **SMA 20**: 554.06, **SMA 50**: 545.18\\n   - 현재 가격이 SMA 20과 50을 상회, 강한 상승 추세\\n\\n3. **시장 체제 분석**\\n   - **상관관계**: SPY와 QQQ의 높은 상관관계 (0.97), IWM과는 중간 수준 (0.73)\\n   - **변동성**: 낮은 변동성 체제, 시장 폭 강함\\n   - **최근 수익률**: SPY 5.94%, QQQ 8.36%, IWM 6.23%, VIX -25.07%\\n\\n4. **경제 환경 분석**\\n   - **TLT**: 10.36% 상승, 안정적 금리 환경\\n   - **UUP**: -3.67% 하락, 달러 약세\\n   - **GLD**: 13.66% 상승, 안전자산 선호\\n   - **XLF**: 9.98% 상승, 금융섹터 강세\\n\\n### 종합 분석 및 최적 에이전트 선택\\n\\n현재 시장은 강한 상승 추세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경은 안정적이며, 금리와 달러 약세가 지속되고 있습니다. 이러한 상황에서 다음의 투자 에이전트를 선택합니다:\\n\\n1. **WarrenBuffett**\\n   - **선택 이유**: 안정적 시장에서 가치투자 전략이 효과적이며, 우량주 장기투자에 적합합니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경입니다.\\n\\n2. **JoelGreenblatt**\\n   - **선택 이유**: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다.\\n\\n3. **JosephPiotroski**\\n   - **선택 이유**: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다.\\n\\n이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다. 최종 선택을 확정하겠습니다.\\n\\n' message_log=[AIMessageChunk(content='### 시장 상황 분석\\n\\n1. **주요 시장 지수 현황**\\n   - **SPY**: 5.11% 상승, 연간 변동성 13.92%\\n   - **QQQ**: 1.14% 상승, 연간 변동성 21.11%\\n   - **IWM**: 9.89% 상승, 연간 변동성 19.95%\\n   - **TLT**: 10.36% 상승, 연간 변동성 11.85%\\n   - **GLD**: 13.66% 상승, 연간 변동성 13.09%\\n   - **VIX**: 38.79% 상승, 연간 변동성 169.84%\\n\\n2. **기술적 지표 분석 (SPY 기준)**\\n   - **RSI**: 86.91 (과매수 상태)\\n   - **SMA 20**: 554.06, **SMA 50**: 545.18\\n   - 현재 가격이 SMA 20과 50을 상회, 강한 상승 추세\\n\\n3. **시장 체제 분석**\\n   - **상관관계**: SPY와 QQQ의 높은 상관관계 (0.97), IWM과는 중간 수준 (0.73)\\n   - **변동성**: 낮은 변동성 체제, 시장 폭 강함\\n   - **최근 수익률**: SPY 5.94%, QQQ 8.36%, IWM 6.23%, VIX -25.07%\\n\\n4. **경제 환경 분석**\\n   - **TLT**: 10.36% 상승, 안정적 금리 환경\\n   - **UUP**: -3.67% 하락, 달러 약세\\n   - **GLD**: 13.66% 상승, 안전자산 선호\\n   - **XLF**: 9.98% 상승, 금융섹터 강세\\n\\n### 종합 분석 및 최적 에이전트 선택\\n\\n현재 시장은 강한 상승 추세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경은 안정적이며, 금리와 달러 약세가 지속되고 있습니다. 이러한 상황에서 다음의 투자 에이전트를 선택합니다:\\n\\n1. **WarrenBuffett**\\n   - **선택 이유**: 안정적 시장에서 가치투자 전략이 효과적이며, 우량주 장기투자에 적합합니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경입니다.\\n\\n2. **JoelGreenblatt**\\n   - **선택 이유**: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다.\\n\\n3. **JosephPiotroski**\\n   - **선택 이유**: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다.\\n\\n이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다. 최종 선택을 확정하겠습니다.', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_fak5i1xVfSJSEmlSjebzdFq2', 'function': {'arguments': '{\"__arg1\":\"현재 시장은 강한 상승 추세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경은 안정적이며, 금리와 달러 약세가 지속되고 있습니다. 이러한 상황에서 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 안정적 시장에서 가치투자 전략이 효과적이며, 우량주 장기투자에 적합합니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경입니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다. 3. JosephPiotroski: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다. 이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.\"}', 'name': 'select_agents_for_market'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_46bff0e0c8', 'service_tier': 'default'}, id='run--307f1a44-cf14-4414-b624-44402ff01bb2', tool_calls=[{'name': 'select_agents_for_market', 'args': {'__arg1': '현재 시장은 강한 상승 추세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경은 안정적이며, 금리와 달러 약세가 지속되고 있습니다. 이러한 상황에서 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 안정적 시장에서 가치투자 전략이 효과적이며, 우량주 장기투자에 적합합니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경입니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다. 3. JosephPiotroski: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다. 이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.'}, 'id': 'call_fak5i1xVfSJSEmlSjebzdFq2', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'select_agents_for_market', 'args': '{\"__arg1\":\"현재 시장은 강한 상승 추세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경은 안정적이며, 금리와 달러 약세가 지속되고 있습니다. 이러한 상황에서 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 안정적 시장에서 가치투자 전략이 효과적이며, 우량주 장기투자에 적합합니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경입니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다. 3. JosephPiotroski: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다. 이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.\"}', 'id': 'call_fak5i1xVfSJSEmlSjebzdFq2', 'index': 0, 'type': 'tool_call_chunk'}])] tool_call_id='call_fak5i1xVfSJSEmlSjebzdFq2'",
-        "{\n  \"selected_agents\": [\n    \"WarrenBuffett\",\n    \"JoelGreenblatt\",\n    \"JosephPiotroski\"\n  ],\n  \"reasons\": [\n    \"WarrenBuffett\\ub294 \\uc548\\uc815\\uc801 \\uc2dc\\uc7a5\\uc5d0\\uc11c \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5\\uc744 \\ud1b5\\ud574 \\uc6b0\\ub7c9\\uc8fc\\uc5d0 \\uc7a5\\uae30 \\ud22c\\uc790\\ud558\\ub294 \\ub370 \\uac15\\uc810\\uc744 \\ubcf4\\uc785\\ub2c8\\ub2e4. \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc758 \\uac15\\ud55c \\uc0c1\\uc2b9 \\ucd94\\uc138\\uc640 \\ub0ae\\uc740 \\ubcc0\\ub3d9\\uc131\\uc740 \\uac00\\uce58\\ud22c\\uc790\\uc5d0 \\uc720\\ub9ac\\ud55c \\ud658\\uacbd\\uc744 \\uc81c\\uacf5\\ud569\\ub2c8\\ub2e4.\",\n    \"JoelGreenblatt\\uc758 Magic Formula\\ub294 \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158\\uc758 \\uade0\\ud615\\uc744 \\ub9de\\ucd94\\ub294 \\uc804\\ub7b5\\uc73c\\ub85c, \\uacbd\\uae30 \\ud68c\\ubcf5\\uae30\\uc640 \\uae08\\uc735\\uc139\\ud130\\uc758 \\uac15\\uc138\\uc5d0 \\uc801\\ud569\\ud569\\ub2c8\\ub2e4. \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc758 \\uc0c1\\uc2b9\\uc138\\ub294 \\uc774 \\uc804\\ub7b5\\uc5d0 \\uc720\\ub9ac\\ud569\\ub2c8\\ub2e4.\",\n    \"JosephPiotroski\\ub294 F-Score\\ub97c \\ud1b5\\ud55c \\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\ubd84\\uc11d\\uc744 \\ud1b5\\ud574 \\uc2dc\\uc7a5\\uc758 \\uacfc\\ub9e4\\uc218 \\uc0c1\\ud0dc\\uc640 \\uc7a0\\uc7ac\\uc801 \\ubcc0\\ub3d9\\uc131\\uc5d0 \\ub300\\ube44\\ud560 \\uc218 \\uc788\\ub294 \\ub9ac\\uc2a4\\ud06c \\uad00\\ub9ac \\uc804\\ub7b5\\uc744 \\uc81c\\uacf5\\ud569\\ub2c8\\ub2e4. \\uc774\\ub294 \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc5d0\\uc11c \\uc9c8\\uc801 \\ubd84\\uc11d\\uc744 \\ud1b5\\ud55c \\ub9ac\\uc2a4\\ud06c \\uad00\\ub9ac\\uc5d0 \\uc720\\uc6a9\\ud569\\ub2c8\\ub2e4.\"\n  ],\n  \"agent_details\": {\n    \"WarrenBuffett\": {\n      \"style\": \"Value\",\n      \"market_preference\": [\n        \"bull\",\n        \"stable\"\n      ],\n      \"volatility_preference\": \"low\",\n      \"description\": \"Warren Buffett \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5 - \\uc6b0\\ub7c9\\uc8fc, \\uc800\\ud3c9\\uac00, \\uc7a5\\uae30\\ud22c\\uc790\",\n      \"best_conditions\": [\n        \"\\uacbd\\uc81c \\uc548\\uc815\\uae30\",\n        \"\\uc2dc\\uc7a5 \\uacfc\\uc5f4 \\ud6c4 \\uc870\\uc815\\uae30\",\n        \"\\uc6b0\\ub7c9\\uc8fc \\uc800\\ud3c9\\uac00 \\uc2dc\\uae30\"\n      ]\n    },\n    \"JoelGreenblatt\": {\n      \"style\": \"Magic Formula\",\n      \"market_preference\": [\n        \"bull\",\n        \"recovery\"\n      ],\n      \"volatility_preference\": \"medium\",\n      \"description\": \"Joel Greenblatt Magic Formula - \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158 \\uade0\\ud615\",\n      \"best_conditions\": [\n        \"\\uacbd\\uae30 \\ud68c\\ubcf5\\uae30\",\n        \"\\uc2dc\\uc7a5 \\uc804\\ud658\\uae30\",\n        \"\\uc911\\uc18c\\ud615\\uc8fc \\uc120\\ud638 \\uc2dc\\uae30\"\n      ]\n    },\n    \"JosephPiotroski\": {\n      \"style\": \"Quality\",\n      \"market_preference\": [\n        \"bear\",\n        \"volatile\"\n      ],\n      \"volatility_preference\": \"medium\",\n      \"description\": \"Joseph Piotroski F-Score \\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\ubd84\\uc11d\",\n      \"best_conditions\": [\n        \"\\uc2dc\\uc7a5 \\ubd88\\uc548\\uc815\\uae30\",\n        \"\\uc2e0\\uc6a9 \\uc704\\uae30 \\uc2dc\\uae30\",\n        \"\\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\uc911\\uc694 \\uc2dc\\uae30\"\n      ]\n    }\n  },\n  \"llm_response\": \"```json\\n{\\n  \\\"selected_agents\\\": [\\\"WarrenBuffett\\\", \\\"JoelGreenblatt\\\", \\\"JosephPiotroski\\\"],\\n  \\\"reasons\\\": [\\n    \\\"WarrenBuffett\\ub294 \\uc548\\uc815\\uc801 \\uc2dc\\uc7a5\\uc5d0\\uc11c \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5\\uc744 \\ud1b5\\ud574 \\uc6b0\\ub7c9\\uc8fc\\uc5d0 \\uc7a5\\uae30 \\ud22c\\uc790\\ud558\\ub294 \\ub370 \\uac15\\uc810\\uc744 \\ubcf4\\uc785\\ub2c8\\ub2e4. \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc758 \\uac15\\ud55c \\uc0c1\\uc2b9 \\ucd94\\uc138\\uc640 \\ub0ae\\uc740 \\ubcc0\\ub3d9\\uc131\\uc740 \\uac00\\uce58\\ud22c\\uc790\\uc5d0 \\uc720\\ub9ac\\ud55c \\ud658\\uacbd\\uc744 \\uc81c\\uacf5\\ud569\\ub2c8\\ub2e4.\\\",\\n    \\\"JoelGreenblatt\\uc758 Magic Formula\\ub294 \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158\\uc758 \\uade0\\ud615\\uc744 \\ub9de\\ucd94\\ub294 \\uc804\\ub7b5\\uc73c\\ub85c, \\uacbd\\uae30 \\ud68c\\ubcf5\\uae30\\uc640 \\uae08\\uc735\\uc139\\ud130\\uc758 \\uac15\\uc138\\uc5d0 \\uc801\\ud569\\ud569\\ub2c8\\ub2e4. \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc758 \\uc0c1\\uc2b9\\uc138\\ub294 \\uc774 \\uc804\\ub7b5\\uc5d0 \\uc720\\ub9ac\\ud569\\ub2c8\\ub2e4.\\\",\\n    \\\"JosephPiotroski\\ub294 F-Score\\ub97c \\ud1b5\\ud55c \\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\ubd84\\uc11d\\uc744 \\ud1b5\\ud574 \\uc2dc\\uc7a5\\uc758 \\uacfc\\ub9e4\\uc218 \\uc0c1\\ud0dc\\uc640 \\uc7a0\\uc7ac\\uc801 \\ubcc0\\ub3d9\\uc131\\uc5d0 \\ub300\\ube44\\ud560 \\uc218 \\uc788\\ub294 \\ub9ac\\uc2a4\\ud06c \\uad00\\ub9ac \\uc804\\ub7b5\\uc744 \\uc81c\\uacf5\\ud569\\ub2c8\\ub2e4. \\uc774\\ub294 \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc5d0\\uc11c \\uc9c8\\uc801 \\ubd84\\uc11d\\uc744 \\ud1b5\\ud55c \\ub9ac\\uc2a4\\ud06c \\uad00\\ub9ac\\uc5d0 \\uc720\\uc6a9\\ud569\\ub2c8\\ub2e4.\\\"\\n  ]\\n}\\n```\"\n}"
+        "tool='select_agents_for_market' tool_input='현재 시장은 강한 상승세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경에서는 장기 국채와 금이 강세를 보이고 있으며, 달러는 약세입니다. 이러한 상황을 고려하여 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 시장이 안정적이고 상승세를 보이는 상황에서 가치투자 전략이 효과적입니다. 우량주에 대한 장기투자가 유리할 수 있습니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 맞물려 효과적일 수 있습니다. 3. JosephPiotroski: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 불안정한 시장에서도 유리한 포지션을 취할 수 있습니다. 이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.' log='\\nInvoking: `select_agents_for_market` with `현재 시장은 강한 상승세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경에서는 장기 국채와 금이 강세를 보이고 있으며, 달러는 약세입니다. 이러한 상황을 고려하여 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 시장이 안정적이고 상승세를 보이는 상황에서 가치투자 전략이 효과적입니다. 우량주에 대한 장기투자가 유리할 수 있습니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 맞물려 효과적일 수 있습니다. 3. JosephPiotroski: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 불안정한 시장에서도 유리한 포지션을 취할 수 있습니다. 이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.`\\nresponded: 현재 시장 상황을 종합적으로 분석한 결과는 다음과 같습니다:\\n\\n1. **주요 시장 지수 현황**:\\n   - **SPY**: 5.11% 상승, 연간 변동성 13.92%\\n   - **QQQ**: 1.14% 상승, 연간 변동성 21.11%\\n   - **IWM**: 9.89% 상승, 연간 변동성 19.95%\\n   - **TLT**: 10.36% 상승, 연간 변동성 11.85%\\n   - **GLD**: 13.66% 상승, 연간 변동성 13.09%\\n   - **VIX**: 38.79% 상승, 연간 변동성 169.84%\\n\\n2. **기술적 지표 분석 (SPY 기준)**:\\n   - RSI: 86.91 (과매수 상태)\\n   - 20일 이동평균 대비 2.19% 상승\\n   - 50일 이동평균 대비 3.85% 상승\\n\\n3. **시장 체제 분석**:\\n   - 상관관계: SPY와 QQQ의 상관관계가 높음 (0.97)\\n   - 최근 수익률: SPY 5.94%, QQQ 8.36%, IWM 6.23%\\n   - 변동성 체제: 낮음\\n   - 시장 폭: 강함\\n\\n4. **경제 환경 분석**:\\n   - 장기 국채(TLT)와 금(GLD) 모두 강한 상승세\\n   - 달러(UUP)는 약세\\n   - 금융섹터(XLF)도 긍정적 수익률\\n\\n### 종합 분석 및 최적 에이전트 선택\\n\\n현재 시장은 강한 상승세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경에서는 장기 국채와 금이 강세를 보이고 있으며, 달러는 약세입니다. 이러한 상황을 고려하여 다음의 투자 에이전트를 선택합니다:\\n\\n1. **WarrenBuffett**:\\n   - 이유: 시장이 안정적이고 상승세를 보이는 상황에서 가치투자 전략이 효과적입니다. 우량주에 대한 장기투자가 유리할 수 있습니다.\\n\\n2. **JoelGreenblatt**:\\n   - 이유: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 맞물려 효과적일 수 있습니다.\\n\\n3. **JosephPiotroski**:\\n   - 이유: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 불안정한 시장에서도 유리한 포지션을 취할 수 있습니다.\\n\\n이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다. 최종적으로 선택된 에이전트 목록을 확정하겠습니다.\\n\\n' message_log=[AIMessageChunk(content='현재 시장 상황을 종합적으로 분석한 결과는 다음과 같습니다:\\n\\n1. **주요 시장 지수 현황**:\\n   - **SPY**: 5.11% 상승, 연간 변동성 13.92%\\n   - **QQQ**: 1.14% 상승, 연간 변동성 21.11%\\n   - **IWM**: 9.89% 상승, 연간 변동성 19.95%\\n   - **TLT**: 10.36% 상승, 연간 변동성 11.85%\\n   - **GLD**: 13.66% 상승, 연간 변동성 13.09%\\n   - **VIX**: 38.79% 상승, 연간 변동성 169.84%\\n\\n2. **기술적 지표 분석 (SPY 기준)**:\\n   - RSI: 86.91 (과매수 상태)\\n   - 20일 이동평균 대비 2.19% 상승\\n   - 50일 이동평균 대비 3.85% 상승\\n\\n3. **시장 체제 분석**:\\n   - 상관관계: SPY와 QQQ의 상관관계가 높음 (0.97)\\n   - 최근 수익률: SPY 5.94%, QQQ 8.36%, IWM 6.23%\\n   - 변동성 체제: 낮음\\n   - 시장 폭: 강함\\n\\n4. **경제 환경 분석**:\\n   - 장기 국채(TLT)와 금(GLD) 모두 강한 상승세\\n   - 달러(UUP)는 약세\\n   - 금융섹터(XLF)도 긍정적 수익률\\n\\n### 종합 분석 및 최적 에이전트 선택\\n\\n현재 시장은 강한 상승세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경에서는 장기 국채와 금이 강세를 보이고 있으며, 달러는 약세입니다. 이러한 상황을 고려하여 다음의 투자 에이전트를 선택합니다:\\n\\n1. **WarrenBuffett**:\\n   - 이유: 시장이 안정적이고 상승세를 보이는 상황에서 가치투자 전략이 효과적입니다. 우량주에 대한 장기투자가 유리할 수 있습니다.\\n\\n2. **JoelGreenblatt**:\\n   - 이유: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 맞물려 효과적일 수 있습니다.\\n\\n3. **JosephPiotroski**:\\n   - 이유: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 불안정한 시장에서도 유리한 포지션을 취할 수 있습니다.\\n\\n이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다. 최종적으로 선택된 에이전트 목록을 확정하겠습니다.', additional_kwargs={'tool_calls': [{'index': 0, 'id': 'call_J5KCKe1lZOsE2XlFHw3lBSvb', 'function': {'arguments': '{\"__arg1\":\"현재 시장은 강한 상승세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경에서는 장기 국채와 금이 강세를 보이고 있으며, 달러는 약세입니다. 이러한 상황을 고려하여 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 시장이 안정적이고 상승세를 보이는 상황에서 가치투자 전략이 효과적입니다. 우량주에 대한 장기투자가 유리할 수 있습니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 맞물려 효과적일 수 있습니다. 3. JosephPiotroski: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 불안정한 시장에서도 유리한 포지션을 취할 수 있습니다. 이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.\"}', 'name': 'select_agents_for_market'}, 'type': 'function'}]}, response_metadata={'finish_reason': 'tool_calls', 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_80956533cb', 'service_tier': 'default'}, id='run--49feb9a2-de55-4014-823b-151002af1e84', tool_calls=[{'name': 'select_agents_for_market', 'args': {'__arg1': '현재 시장은 강한 상승세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경에서는 장기 국채와 금이 강세를 보이고 있으며, 달러는 약세입니다. 이러한 상황을 고려하여 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 시장이 안정적이고 상승세를 보이는 상황에서 가치투자 전략이 효과적입니다. 우량주에 대한 장기투자가 유리할 수 있습니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 맞물려 효과적일 수 있습니다. 3. JosephPiotroski: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 불안정한 시장에서도 유리한 포지션을 취할 수 있습니다. 이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.'}, 'id': 'call_J5KCKe1lZOsE2XlFHw3lBSvb', 'type': 'tool_call'}], tool_call_chunks=[{'name': 'select_agents_for_market', 'args': '{\"__arg1\":\"현재 시장은 강한 상승세와 낮은 변동성을 보이며, 기술적 지표는 과매수 상태를 나타내고 있습니다. 경제 환경에서는 장기 국채와 금이 강세를 보이고 있으며, 달러는 약세입니다. 이러한 상황을 고려하여 다음의 투자 에이전트를 선택합니다: 1. WarrenBuffett: 시장이 안정적이고 상승세를 보이는 상황에서 가치투자 전략이 효과적입니다. 우량주에 대한 장기투자가 유리할 수 있습니다. 2. JoelGreenblatt: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 맞물려 효과적일 수 있습니다. 3. JosephPiotroski: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 불안정한 시장에서도 유리한 포지션을 취할 수 있습니다. 이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.\"}', 'id': 'call_J5KCKe1lZOsE2XlFHw3lBSvb', 'index': 0, 'type': 'tool_call_chunk'}])] tool_call_id='call_J5KCKe1lZOsE2XlFHw3lBSvb'",
+        "{\n  \"selected_agents\": [\n    \"WarrenBuffett\",\n    \"JoelGreenblatt\",\n    \"JosephPiotroski\"\n  ],\n  \"reasons\": [\n    \"WarrenBuffett\\ub294 \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc758 \\uac15\\ud55c \\uc0c1\\uc2b9\\uc138\\uc640 \\ub0ae\\uc740 \\ubcc0\\ub3d9\\uc131\\uc5d0\\uc11c \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5\\uc744 \\ud1b5\\ud574 \\uc6b0\\ub7c9\\uc8fc\\uc5d0 \\ub300\\ud55c \\uc7a5\\uae30\\ud22c\\uc790\\uac00 \\uc720\\ub9ac\\ud560 \\uc218 \\uc788\\uc2b5\\ub2c8\\ub2e4. \\uc548\\uc815\\uc801\\uc778 \\uacbd\\uc81c \\ud658\\uacbd\\uc5d0\\uc11c \\uadf8\\uc758 \\uc804\\ub7b5\\uc740 \\ud6a8\\uacfc\\uc801\\uc785\\ub2c8\\ub2e4.\",\n    \"JoelGreenblatt\\uc758 Magic Formula\\ub294 \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158\\uc758 \\uade0\\ud615\\uc744 \\ub9de\\ucd94\\ub294 \\ub370 \\uac15\\uc810\\uc774 \\uc788\\uc73c\\uba70, \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc758 \\uac15\\ud55c \\uc0c1\\uc2b9\\uc138\\uc640 \\ub9de\\ubb3c\\ub824 \\uc911\\uc18c\\ud615\\uc8fc\\uc5d0\\uc11c \\ud6a8\\uacfc\\uc801\\uc77c \\uc218 \\uc788\\uc2b5\\ub2c8\\ub2e4.\",\n    \"JosephPiotroski\\ub294 \\uc2dc\\uc7a5\\uc774 \\uacfc\\ub9e4\\uc218 \\uc0c1\\ud0dc\\uc5d0 \\uc788\\uc744 \\ub54c \\uc7ac\\ubb34\\uac74\\uc804\\uc131\\uc744 \\ubd84\\uc11d\\ud558\\uc5ec \\uc9c8\\uc801 \\uc6b0\\uc218\\ud55c \\uc885\\ubaa9\\uc744 \\ubc1c\\uad74\\ud558\\ub294 \\ub370 \\uc720\\ub9ac\\ud569\\ub2c8\\ub2e4. \\uc774\\ub294 \\ubd88\\uc548\\uc815\\ud55c \\uc2dc\\uc7a5\\uc5d0\\uc11c\\ub3c4 \\ub9ac\\uc2a4\\ud06c\\ub97c \\uad00\\ub9ac\\ud560 \\uc218 \\uc788\\ub294 \\uc804\\ub7b5\\uc744 \\uc81c\\uacf5\\ud569\\ub2c8\\ub2e4.\"\n  ],\n  \"agent_details\": {\n    \"WarrenBuffett\": {\n      \"style\": \"Value\",\n      \"market_preference\": [\n        \"bull\",\n        \"stable\"\n      ],\n      \"volatility_preference\": \"low\",\n      \"description\": \"Warren Buffett \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5 - \\uc6b0\\ub7c9\\uc8fc, \\uc800\\ud3c9\\uac00, \\uc7a5\\uae30\\ud22c\\uc790\",\n      \"best_conditions\": [\n        \"\\uacbd\\uc81c \\uc548\\uc815\\uae30\",\n        \"\\uc2dc\\uc7a5 \\uacfc\\uc5f4 \\ud6c4 \\uc870\\uc815\\uae30\",\n        \"\\uc6b0\\ub7c9\\uc8fc \\uc800\\ud3c9\\uac00 \\uc2dc\\uae30\"\n      ]\n    },\n    \"JoelGreenblatt\": {\n      \"style\": \"Magic Formula\",\n      \"market_preference\": [\n        \"bull\",\n        \"recovery\"\n      ],\n      \"volatility_preference\": \"medium\",\n      \"description\": \"Joel Greenblatt Magic Formula - \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158 \\uade0\\ud615\",\n      \"best_conditions\": [\n        \"\\uacbd\\uae30 \\ud68c\\ubcf5\\uae30\",\n        \"\\uc2dc\\uc7a5 \\uc804\\ud658\\uae30\",\n        \"\\uc911\\uc18c\\ud615\\uc8fc \\uc120\\ud638 \\uc2dc\\uae30\"\n      ]\n    },\n    \"JosephPiotroski\": {\n      \"style\": \"Quality\",\n      \"market_preference\": [\n        \"bear\",\n        \"volatile\"\n      ],\n      \"volatility_preference\": \"medium\",\n      \"description\": \"Joseph Piotroski F-Score \\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\ubd84\\uc11d\",\n      \"best_conditions\": [\n        \"\\uc2dc\\uc7a5 \\ubd88\\uc548\\uc815\\uae30\",\n        \"\\uc2e0\\uc6a9 \\uc704\\uae30 \\uc2dc\\uae30\",\n        \"\\uc7ac\\ubb34\\uac74\\uc804\\uc131 \\uc911\\uc694 \\uc2dc\\uae30\"\n      ]\n    }\n  },\n  \"llm_response\": \"```json\\n{\\n  \\\"selected_agents\\\": [\\\"WarrenBuffett\\\", \\\"JoelGreenblatt\\\", \\\"JosephPiotroski\\\"],\\n  \\\"reasons\\\": [\\n    \\\"WarrenBuffett\\ub294 \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc758 \\uac15\\ud55c \\uc0c1\\uc2b9\\uc138\\uc640 \\ub0ae\\uc740 \\ubcc0\\ub3d9\\uc131\\uc5d0\\uc11c \\uac00\\uce58\\ud22c\\uc790 \\uc804\\ub7b5\\uc744 \\ud1b5\\ud574 \\uc6b0\\ub7c9\\uc8fc\\uc5d0 \\ub300\\ud55c \\uc7a5\\uae30\\ud22c\\uc790\\uac00 \\uc720\\ub9ac\\ud560 \\uc218 \\uc788\\uc2b5\\ub2c8\\ub2e4. \\uc548\\uc815\\uc801\\uc778 \\uacbd\\uc81c \\ud658\\uacbd\\uc5d0\\uc11c \\uadf8\\uc758 \\uc804\\ub7b5\\uc740 \\ud6a8\\uacfc\\uc801\\uc785\\ub2c8\\ub2e4.\\\",\\n    \\\"JoelGreenblatt\\uc758 Magic Formula\\ub294 \\uc218\\uc775\\ub960\\uacfc \\ubc38\\ub958\\uc5d0\\uc774\\uc158\\uc758 \\uade0\\ud615\\uc744 \\ub9de\\ucd94\\ub294 \\ub370 \\uac15\\uc810\\uc774 \\uc788\\uc73c\\uba70, \\ud604\\uc7ac \\uc2dc\\uc7a5\\uc758 \\uac15\\ud55c \\uc0c1\\uc2b9\\uc138\\uc640 \\ub9de\\ubb3c\\ub824 \\uc911\\uc18c\\ud615\\uc8fc\\uc5d0\\uc11c \\ud6a8\\uacfc\\uc801\\uc77c \\uc218 \\uc788\\uc2b5\\ub2c8\\ub2e4.\\\",\\n    \\\"JosephPiotroski\\ub294 \\uc2dc\\uc7a5\\uc774 \\uacfc\\ub9e4\\uc218 \\uc0c1\\ud0dc\\uc5d0 \\uc788\\uc744 \\ub54c \\uc7ac\\ubb34\\uac74\\uc804\\uc131\\uc744 \\ubd84\\uc11d\\ud558\\uc5ec \\uc9c8\\uc801 \\uc6b0\\uc218\\ud55c \\uc885\\ubaa9\\uc744 \\ubc1c\\uad74\\ud558\\ub294 \\ub370 \\uc720\\ub9ac\\ud569\\ub2c8\\ub2e4. \\uc774\\ub294 \\ubd88\\uc548\\uc815\\ud55c \\uc2dc\\uc7a5\\uc5d0\\uc11c\\ub3c4 \\ub9ac\\uc2a4\\ud06c\\ub97c \\uad00\\ub9ac\\ud560 \\uc218 \\uc788\\ub294 \\uc804\\ub7b5\\uc744 \\uc81c\\uacf5\\ud569\\ub2c8\\ub2e4.\\\"\\n  ]\\n}\\n```\"\n}"
       ]
     ]
   },
@@ -90,21 +90,21 @@
         "analysis_result": "기존 결과 파일 사용: 2024-07-01_2024-09-30",
         "description": "Warren Buffett 가치투자 전략",
         "status": "success",
-        "timestamp": "2025-08-24T06:28:59.299699",
+        "timestamp": "2025-08-26T13:05:12.713658",
         "skipped": true
       },
       "JoelGreenblatt": {
         "analysis_result": "기존 결과 파일 사용: 2024-07-01_2024-09-30",
         "description": "Joel Greenblatt Magic Formula",
         "status": "success",
-        "timestamp": "2025-08-24T06:28:59.299824",
+        "timestamp": "2025-08-26T13:05:12.713791",
         "skipped": true
       },
       "JosephPiotroski": {
         "analysis_result": "기존 결과 파일 사용: 2024-07-01_2024-09-30",
         "description": "Joseph Piotroski F-Score 재무건전성 분석",
         "status": "success",
-        "timestamp": "2025-08-24T06:28:59.299925",
+        "timestamp": "2025-08-26T13:05:12.713893",
         "skipped": true
       }
     },
@@ -127,7 +127,7 @@
     }
   },
   "step3_meta_analysis": {
-    "portfolio_analysis": "**PORTFOLIO ALLOCATION DECISION**\n\n**INVESTMENT PHILOSOPHY:**\nFor this portfolio, we will adhere to a strategy that emphasizes consensus-driven decisions and quality investing principles. Our core principles are:\n1. **Consensus and Conviction**: Prioritize stocks with the highest consensus among experts, reflecting strong collective conviction and potential for robust performance.\n2. **Quality and Financial Health**: Focus on companies with strong financial metrics, sustainable competitive advantages, and robust growth prospects.\n3. **Diversification and Risk Management**: Balance concentration in high-conviction stocks with diversification to manage risk and ensure a well-rounded portfolio.\n\n**KEY ALLOCATION DRIVERS:**\n1. **Expert Consensus**: Allocate more weight to stocks with higher consensus among experts, as this indicates strong collective confidence in their potential.\n2. **Quality and Growth Potential**: Consider the financial health and growth prospects of each company, ensuring they align with the investment philosophies of the experts.\n3. **Sector and Style Diversification**: Ensure the portfolio is not overly concentrated in any one sector or investment style, maintaining a balanced exposure to different market segments.\n\n**FINAL PORTFOLIO ALLOCATION:**\n\n| Rank | Stock | Weight(%) | Supporting Experts | Key Investment Thesis | Risk Level |\n|------|-------|-----------|-------------------|----------------------|------------|\n| 1    | NVDA  | 20.0      | BenjaminGraham, JosephPiotroski, EdwardAltman, WarrenBuffett | High consensus, strong growth in AI and semiconductors | Medium |\n| 2    | CTAS  | 15.0      | BenjaminGraham, JoelGreenblatt, EdwardAltman | Consistent performer, strong financials | Medium |\n| 3    | ADP   | 12.5      | JosephPiotroski, WarrenBuffett | Stable business model, quality compounder | Low |\n| 4    | TXN   | 12.5      | EdwardAltman, WarrenBuffett | Strong financials, semiconductor industry leader | Medium |\n| 5    | CPRT  | 10.0      | BenjaminGraham, EdwardAltman | Niche market leader, financial stability | Medium |\n| 6    | ROE   | 10.0      | BenjaminGraham, WarrenBuffett | Strong return on equity, quality metrics | Medium |\n| 7    | MSFT  | 10.0      | WarrenBuffett | High ROIC, strong moat, tech leader | Low |\n| 8    | AMD   | 5.0       | JosephPiotroski | Growth potential in semiconductors | High |\n| 9    | EV    | 2.5       | JoelGreenblatt | Attractive valuation, potential turnaround | High |\n| 10   | VRTX  | 2.5       | BenjaminGraham | Strong pipeline, biotech potential | High |\n\n**PORTFOLIO CHARACTERISTICS:**\n- Total Allocation: 100%\n- Number of Holdings: 10 stocks  \n- Top 5 Holdings: 70% of portfolio\n- Sector Concentration: Balanced exposure to technology, industrials, and healthcare sectors\n\n**RISK MANAGEMENT:**\n- Key portfolio risks: Overexposure to technology sector, potential volatility in high-growth stocks\n- Monitoring metrics: Regularly review consensus changes, financial health indicators, and sector performance\n- Rebalancing triggers: Significant changes in expert consensus, major shifts in market conditions, or deterioration in financial metrics\n\nThis portfolio construction leverages the collective wisdom of our investment experts, focusing on high-consensus, quality stocks while maintaining diversification to manage risk effectively.",
+    "portfolio_analysis": "**PORTFOLIO ALLOCATION DECISION**\n\n**INVESTMENT PHILOSOPHY:**\nIn constructing this portfolio, I am guided by three core principles: leveraging expert consensus to identify high-conviction opportunities, balancing concentration with diversification to manage risk, and aligning sector/style exposures with long-term growth potential. The goal is to create a robust portfolio that maximizes expected returns while maintaining a prudent risk profile.\n\n**KEY ALLOCATION DRIVERS:**\n1. **Expert Consensus:** The primary driver for allocation is the level of consensus among the experts. Stocks with higher consensus rates are given more weight, as they reflect a stronger collective conviction.\n2. **Diversification:** While consensus is important, ensuring a diversified portfolio across sectors and investment styles is crucial to mitigate risk and capture different growth opportunities.\n3. **Risk Management:** Consideration of the risk level associated with each stock, including financial stability and market volatility, to ensure a balanced risk-return profile.\n\n**FINAL PORTFOLIO ALLOCATION:**\n\n| Rank | Stock  | Weight(%) | Supporting Experts                  | Key Investment Thesis                                      | Risk Level |\n|------|--------|-----------|-------------------------------------|------------------------------------------------------------|------------|\n| 1    | NVDA   | 20.0      | BenjaminGraham, JosephPiotroski, EdwardAltman, WarrenBuffett | High consensus, strong growth potential in AI and semiconductors | Medium    |\n| 2    | CTAS   | 15.0      | BenjaminGraham, JoelGreenblatt, EdwardAltman | Consistent performer, strong financials, and market position | Medium    |\n| 3    | PEP    | 12.5      | JoelGreenblatt, WarrenBuffett       | Stable consumer staple with strong brand and global reach   | Low       |\n| 4    | CDW    | 10.0      | BenjaminGraham, JoelGreenblatt      | Solid financials, growth in IT services                     | Medium    |\n| 5    | TXN    | 10.0      | EdwardAltman, WarrenBuffett         | Strong financial health, leader in analog semiconductors    | Medium    |\n| 6    | CMCSA  | 10.0      | JosephPiotroski, JoelGreenblatt     | Diversified media and telecom, stable cash flows            | Medium    |\n| 7    | ADP    | 10.0      | JosephPiotroski, WarrenBuffett      | Strong market position in HR services, consistent growth    | Low       |\n| 8    | CPRT   | 7.5       | BenjaminGraham, EdwardAltman        | Niche market leader, strong financials                      | Medium    |\n| 9    | GOOGL  | 2.5       | WarrenBuffett                       | Dominant in digital advertising, strong moat                | Medium    |\n| 10   | PCAR   | 2.5       | JoelGreenblatt                      | Strong ROIC, leader in commercial vehicles                  | Medium    |\n\n**PORTFOLIO CHARACTERISTICS:**\n- Total Allocation: 100%\n- Number of Holdings: 10 stocks\n- Top 5 Holdings: 67.5% of portfolio\n- Sector Concentration: Balanced exposure to technology, consumer staples, industrials, and media\n\n**RISK MANAGEMENT:**\n- Key portfolio risks: Overexposure to technology and potential market volatility\n- Monitoring metrics: Regular review of financial health, market trends, and sector performance\n- Rebalancing triggers: Significant changes in consensus, financial performance, or market conditions\n\nThis portfolio leverages the collective insights of our investment experts, focusing on high-consensus stocks while ensuring diversification across sectors and risk levels. By maintaining a balanced approach, we aim to achieve strong returns while managing potential risks effectively.",
     "consensus_analysis": {
       "consensus_stocks": {
         "NVDA": {
@@ -149,19 +149,19 @@
           ],
           "agent_count": 3
         },
-        "CPRT": {
+        "PEP": {
           "consensus_rate": 0.4,
           "recommending_agents": [
-            "BenjaminGraham",
-            "EdwardAltman"
+            "JoelGreenblatt",
+            "WarrenBuffett"
           ],
           "agent_count": 2
         },
-        "ADP": {
+        "CDW": {
           "consensus_rate": 0.4,
           "recommending_agents": [
-            "JosephPiotroski",
-            "WarrenBuffett"
+            "BenjaminGraham",
+            "JoelGreenblatt"
           ],
           "agent_count": 2
         },
@@ -173,43 +173,115 @@
           ],
           "agent_count": 2
         },
-        "ROE": {
+        "CMCSA": {
           "consensus_rate": 0.4,
           "recommending_agents": [
-            "BenjaminGraham",
+            "JosephPiotroski",
+            "JoelGreenblatt"
+          ],
+          "agent_count": 2
+        },
+        "ADP": {
+          "consensus_rate": 0.4,
+          "recommending_agents": [
+            "JosephPiotroski",
             "WarrenBuffett"
           ],
           "agent_count": 2
         },
-        "AMD": {
+        "CPRT": {
+          "consensus_rate": 0.4,
+          "recommending_agents": [
+            "BenjaminGraham",
+            "EdwardAltman"
+          ],
+          "agent_count": 2
+        },
+        "GOOGL": {
           "consensus_rate": 0.2,
           "recommending_agents": [
-            "JosephPiotroski"
+            "WarrenBuffett"
           ],
           "agent_count": 1
         },
-        "EV": {
+        "PCAR": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "JoelGreenblatt"
           ],
           "agent_count": 1
         },
-        "VRTX": {
+        "GILD": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "NXPI": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "REGN": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "BenjaminGraham"
           ],
           "agent_count": 1
         },
-        "MSFT": {
+        "BIIB": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "MNST": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "IDXX": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "BKR": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "PAYX": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "META": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "WarrenBuffett"
           ],
           "agent_count": 1
         },
-        "GILD": {
+        "QCOM": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JoelGreenblatt"
+          ],
+          "agent_count": 1
+        },
+        "LULU": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "JoelGreenblatt"
@@ -223,42 +295,14 @@
           ],
           "agent_count": 1
         },
-        "BKR": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JosephPiotroski"
-          ],
-          "agent_count": 1
-        },
-        "MNST": {
+        "ISRG": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "EdwardAltman"
           ],
           "agent_count": 1
         },
-        "AAPL": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "WarrenBuffett"
-          ],
-          "agent_count": 1
-        },
-        "EBIT": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "EdwardAltman"
-          ],
-          "agent_count": 1
-        },
-        "PCAR": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JoelGreenblatt"
-          ],
-          "agent_count": 1
-        },
-        "PAYX": {
+        "FTNT": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "JosephPiotroski"
@@ -272,45 +316,66 @@
           ],
           "agent_count": 1
         },
-        "ROA": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JosephPiotroski"
-          ],
-          "agent_count": 1
-        },
-        "NXPI": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JoelGreenblatt"
-          ],
-          "agent_count": 1
-        },
-        "EY": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JoelGreenblatt"
-          ],
-          "agent_count": 1
-        },
-        "TA": {
+        "FAST": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "EdwardAltman"
           ],
           "agent_count": 1
         },
-        "GOOGL": {
+        "CSGP": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "EdwardAltman"
+          ],
+          "agent_count": 1
+        },
+        "COST": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "WarrenBuffett"
           ],
           "agent_count": 1
         },
-        "FTNT": {
+        "AVGO": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "BenjaminGraham"
+          ],
+          "agent_count": 1
+        },
+        "CSX": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "AMD": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "JosephPiotroski"
+          ],
+          "agent_count": 1
+        },
+        "AAPL": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "WarrenBuffett"
+          ],
+          "agent_count": 1
+        },
+        "SNPS": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "BenjaminGraham"
+          ],
+          "agent_count": 1
+        },
+        "MSFT": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "WarrenBuffett"
           ],
           "agent_count": 1
         },
@@ -321,7 +386,14 @@
           ],
           "agent_count": 1
         },
-        "AVGO": {
+        "TMUS": {
+          "consensus_rate": 0.2,
+          "recommending_agents": [
+            "BenjaminGraham"
+          ],
+          "agent_count": 1
+        },
+        "VRTX": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "BenjaminGraham"
@@ -335,105 +407,21 @@
           ],
           "agent_count": 1
         },
-        "PEP": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JoelGreenblatt"
-          ],
-          "agent_count": 1
-        },
-        "META": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "WarrenBuffett"
-          ],
-          "agent_count": 1
-        },
-        "COST": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "WarrenBuffett"
-          ],
-          "agent_count": 1
-        },
-        "TMUS": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "BenjaminGraham"
-          ],
-          "agent_count": 1
-        },
-        "CMCSA": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JoelGreenblatt"
-          ],
-          "agent_count": 1
-        },
-        "QCOM": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JoelGreenblatt"
-          ],
-          "agent_count": 1
-        },
-        "ISRG": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "EdwardAltman"
-          ],
-          "agent_count": 1
-        },
-        "CHRT": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JosephPiotroski"
-          ],
-          "agent_count": 1
-        },
-        "FAST": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "EdwardAltman"
-          ],
-          "agent_count": 1
-        },
-        "SNPS": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "BenjaminGraham"
-          ],
-          "agent_count": 1
-        },
         "LRCX": {
           "consensus_rate": 0.2,
           "recommending_agents": [
             "EdwardAltman"
           ],
           "agent_count": 1
-        },
-        "CDW": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "BenjaminGraham"
-          ],
-          "agent_count": 1
-        },
-        "ROIC": {
-          "consensus_rate": 0.2,
-          "recommending_agents": [
-            "JoelGreenblatt"
-          ],
-          "agent_count": 1
         }
       },
-      "total_unique_stocks": 41,
+      "total_unique_stocks": 39,
       "agent_recommendations": {
-        "BenjaminGraham": "{'NVDA', 'CDW', 'AVGO', 'CTAS', 'PLTR', 'VRTX', 'SNPS', 'TMUS', 'CPRT', 'ROE'}",
-        "JosephPiotroski": "{'NVDA', 'FTNT', 'PAYX', 'ADP', 'AMD', 'APP', 'CHRT', 'ROA', 'ADBE', 'BKR'}",
-        "JoelGreenblatt": "{'PCAR', 'EV', 'CTAS', 'PEP', 'GILD', 'NXPI', 'EY', 'CMCSA', 'QCOM', 'ROIC'}",
-        "EdwardAltman": "{'EBIT', 'NVDA', 'CTAS', 'FAST', 'TA', 'LRCX', 'MNST', 'TXN', 'CPRT', 'ISRG'}",
-        "WarrenBuffett": "{'NVDA', 'ADP', 'AMZN', 'MSFT', 'META', 'COST', 'GOOGL', 'TXN', 'ROE', 'AAPL'}"
+        "BenjaminGraham": "{'CPRT', 'AVGO', 'CDW', 'NVDA', 'TMUS', 'CTAS', 'REGN', 'VRTX', 'PLTR', 'SNPS'}",
+        "JosephPiotroski": "{'APP', 'ADBE', 'CMCSA', 'NVDA', 'CSX', 'AMD', 'FTNT', 'BKR', 'PAYX', 'ADP'}",
+        "JoelGreenblatt": "{'QCOM', 'LULU', 'PEP', 'CDW', 'CMCSA', 'PCAR', 'GILD', 'CTAS', 'NXPI', 'BIIB'}",
+        "EdwardAltman": "{'CPRT', 'TXN', 'ISRG', 'NVDA', 'CTAS', 'MNST', 'IDXX', 'FAST', 'LRCX', 'CSGP'}",
+        "WarrenBuffett": "{'MSFT', 'COST', 'PEP', 'GOOGL', 'TXN', 'NVDA', 'AAPL', 'AMZN', 'META', 'ADP'}"
       }
     },
     "agent_results_summary": {
@@ -479,11 +467,11 @@
       "JosephPiotroski"
     ],
     "router_context": {
-      "market_analysis": "### 최종 선택된 투자 에이전트 및 선택 이유\n\n1. **WarrenBuffett**\n   - **선택 이유**: 안정적 시장에서 가치투자 전략을 통해 우량주에 장기 투자하는 데 강점을 보입니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경을 제공합니다.\n\n2. **JoelGreenblatt**\n   - **선택 이유**: Magic Formula를 통해 수익률과 밸류에이션의 균형을 맞추는 전략이 경기 회복기에 적합합니다. 현재 시장의 강한 상승세와 금융섹터의 강세는 이 전략에 유리합니다.\n\n3. **JosephPiotroski**\n   - **선택 이유**: F-Score를 통한 재무건전성 분석이 불안정한 시장에서 유용합니다. 현재 시장의 과매수 상태와 높은 변동성 가능성에 대비하여 질적 분석을 통한 리스크 관리가 필요합니다.\n\n이 조합은 현재 시장의 상승 추세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다. WarrenBuffett의 가치투자, JoelGreenblatt의 수익률과 밸류에이션 균형, JosephPiotroski의 재무건전성 분석을 통해 다양한 시장 상황에 대응할 수 있습니다.",
+      "market_analysis": "최종적으로 선택된 투자 에이전트는 다음과 같습니다:\n\n1. **WarrenBuffett**:\n   - **선택 이유**: 현재 시장의 강한 상승세와 낮은 변동성에서 가치투자 전략을 통해 우량주에 대한 장기투자가 유리할 수 있습니다. 안정적인 경제 환경에서 그의 전략은 효과적입니다.\n\n2. **JoelGreenblatt**:\n   - **선택 이유**: Magic Formula는 수익률과 밸류에이션의 균형을 맞추는 데 강점이 있으며, 현재 시장의 강한 상승세와 맞물려 중소형주에서 효과적일 수 있습니다.\n\n3. **JosephPiotroski**:\n   - **선택 이유**: 시장이 과매수 상태에 있을 때, 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 전략이 유용합니다. 이는 불안정한 시장에서도 리스크를 관리할 수 있는 전략을 제공합니다.\n\n이러한 에이전트 조합은 현재 시장의 상승세를 활용하면서도 리스크를 관리할 수 있는 균형 잡힌 접근을 제공합니다.",
       "selection_reasons": [
-        "WarrenBuffett는 안정적 시장에서 가치투자 전략을 통해 우량주에 장기 투자하는 데 강점을 보입니다. 현재 시장의 강한 상승 추세와 낮은 변동성은 가치투자에 유리한 환경을 제공합니다.",
-        "JoelGreenblatt의 Magic Formula는 수익률과 밸류에이션의 균형을 맞추는 전략으로, 경기 회복기와 금융섹터의 강세에 적합합니다. 현재 시장의 상승세는 이 전략에 유리합니다.",
-        "JosephPiotroski는 F-Score를 통한 재무건전성 분석을 통해 시장의 과매수 상태와 잠재적 변동성에 대비할 수 있는 리스크 관리 전략을 제공합니다. 이는 현재 시장에서 질적 분석을 통한 리스크 관리에 유용합니다."
+        "WarrenBuffett는 현재 시장의 강한 상승세와 낮은 변동성에서 가치투자 전략을 통해 우량주에 대한 장기투자가 유리할 수 있습니다. 안정적인 경제 환경에서 그의 전략은 효과적입니다.",
+        "JoelGreenblatt의 Magic Formula는 수익률과 밸류에이션의 균형을 맞추는 데 강점이 있으며, 현재 시장의 강한 상승세와 맞물려 중소형주에서 효과적일 수 있습니다.",
+        "JosephPiotroski는 시장이 과매수 상태에 있을 때 재무건전성을 분석하여 질적 우수한 종목을 발굴하는 데 유리합니다. 이는 불안정한 시장에서도 리스크를 관리할 수 있는 전략을 제공합니다."
       ],
       "selected_agents": [
         "WarrenBuffett",
@@ -492,7 +480,7 @@
       ],
       "execution_summary": "3/3 agents successfully analyzed"
     },
-    "summary": "포트폴리오 최적 구성 완료: 41개 투자 후보에서 포트폴리오 구성"
+    "summary": "포트폴리오 최적 구성 완료: 39개 투자 후보에서 포트폴리오 구성"
   },
   "summary": {
     "total_agents_available": 5,

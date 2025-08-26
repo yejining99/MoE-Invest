@@ -1,44 +1,40 @@
 stock,consensus_rate,agent_count,recommending_agents
 NVDA,0.6,3,"BenjaminGraham, EdwardAltman, WarrenBuffett"
+MNST,0.4,2,"BenjaminGraham, EdwardAltman"
+IDXX,0.4,2,"JosephPiotroski, EdwardAltman"
+BKR,0.4,2,"JosephPiotroski, JoelGreenblatt"
+CDW,0.4,2,"BenjaminGraham, JoelGreenblatt"
 KLAC,0.4,2,"JosephPiotroski, WarrenBuffett"
-CPRT,0.4,2,"BenjaminGraham, EdwardAltman"
-CTAS,0.4,2,"BenjaminGraham, EdwardAltman"
-ROE,0.4,2,"BenjaminGraham, WarrenBuffett"
+AVGO,0.4,2,"BenjaminGraham, JosephPiotroski"
 CMCSA,0.4,2,"JosephPiotroski, JoelGreenblatt"
-AMD,0.2,1,JosephPiotroski
-EV,0.2,1,JoelGreenblatt
-ABNB,0.2,1,JosephPiotroski
-AMAT,0.2,1,EdwardAltman
-VRTX,0.2,1,BenjaminGraham
-MSFT,0.2,1,WarrenBuffett
-GILD,0.2,1,JoelGreenblatt
-ADBE,0.2,1,JosephPiotroski
-BKR,0.2,1,JosephPiotroski
-MNST,0.2,1,EdwardAltman
-AAPL,0.2,1,WarrenBuffett
-EBIT,0.2,1,EdwardAltman
-PCAR,0.2,1,JoelGreenblatt
-PLTR,0.2,1,BenjaminGraham
-ROA,0.2,1,JosephPiotroski
-NXPI,0.2,1,JoelGreenblatt
-CDNS,0.2,1,EdwardAltman
-EY,0.2,1,JoelGreenblatt
-TA,0.2,1,EdwardAltman
+CTAS,0.4,2,"BenjaminGraham, EdwardAltman"
+CPRT,0.4,2,"BenjaminGraham, EdwardAltman"
 GOOGL,0.2,1,WarrenBuffett
-APP,0.2,1,JosephPiotroski
-ADP,0.2,1,WarrenBuffett
-AVGO,0.2,1,BenjaminGraham
-AMZN,0.2,1,WarrenBuffett
-META,0.2,1,WarrenBuffett
-TMUS,0.2,1,BenjaminGraham
-TXN,0.2,1,WarrenBuffett
-QCOM,0.2,1,JosephPiotroski
-BIIB,0.2,1,JoelGreenblatt
-FAST,0.2,1,EdwardAltman
-SNPS,0.2,1,BenjaminGraham
-IDXX,0.2,1,JosephPiotroski
-LRCX,0.2,1,EdwardAltman
+PCAR,0.2,1,JoelGreenblatt
 KHC,0.2,1,JoelGreenblatt
+GILD,0.2,1,JoelGreenblatt
+NXPI,0.2,1,JoelGreenblatt
+BIIB,0.2,1,JoelGreenblatt
+REGN,0.2,1,EdwardAltman
+META,0.2,1,WarrenBuffett
+QCOM,0.2,1,JosephPiotroski
+ROST,0.2,1,WarrenBuffett
+AMAT,0.2,1,EdwardAltman
+ADBE,0.2,1,JosephPiotroski
+CDNS,0.2,1,EdwardAltman
+PLTR,0.2,1,BenjaminGraham
+FAST,0.2,1,EdwardAltman
+TXN,0.2,1,WarrenBuffett
 PYPL,0.2,1,JoelGreenblatt
-CDW,0.2,1,BenjaminGraham
-ROIC,0.2,1,JoelGreenblatt
+AMD,0.2,1,JosephPiotroski
+AAPL,0.2,1,WarrenBuffett
+ABNB,0.2,1,JosephPiotroski
+ADP,0.2,1,WarrenBuffett
+SNPS,0.2,1,BenjaminGraham
+MSFT,0.2,1,WarrenBuffett
+GEHC,0.2,1,JoelGreenblatt
+APP,0.2,1,JosephPiotroski
+TMUS,0.2,1,BenjaminGraham
+VRTX,0.2,1,BenjaminGraham
+AMZN,0.2,1,WarrenBuffett
+LRCX,0.2,1,EdwardAltman

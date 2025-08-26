@@ -1,49 +1,46 @@
 # 📊 최적 포트폴리오 구성 보고서
 **분석 기간**: 2022-04-01 ~ 2022-06-30
-**구성 일시**: 2025-08-24 06:24:57
+**구성 일시**: 2025-08-26 12:57:49
 
 ## 💼 포트폴리오 매니저 최적 할당 결정
 
 **PORTFOLIO ALLOCATION DECISION**
 
 **INVESTMENT PHILOSOPHY:**
-For this portfolio, we will focus on a blend of consensus-driven and quality investing principles, leveraging insights from our expert panel. Our core principles are:
-1. **Consensus and Conviction**: Prioritize stocks with the highest consensus among experts, indicating strong collective conviction.
-2. **Quality and Financial Health**: Focus on companies with robust financial metrics and sustainable competitive advantages.
-3. **Risk Mitigation through Diversification**: Balance concentration in high-conviction stocks with diversification to manage risk.
+In constructing this portfolio, I am guided by three core principles: leveraging expert consensus to identify high-conviction opportunities, balancing concentration with diversification to manage risk, and aligning sector/style exposures with long-term growth potential. The goal is to create a robust portfolio that maximizes expected returns while maintaining a prudent risk profile.
 
 **KEY ALLOCATION DRIVERS:**
-1. **Expert Consensus**: Stocks with the highest consensus rates are prioritized, reflecting strong agreement among experts.
-2. **Quality Metrics**: Emphasis on financial strength, competitive moats, and growth potential.
-3. **Diversification**: Ensure a balanced portfolio across sectors and styles to mitigate risk.
+1. **Expert Consensus:** The primary driver for allocation is the level of consensus among the experts. Stocks with higher consensus rates are given more weight, as they reflect a stronger collective conviction.
+2. **Diversification:** While consensus is important, ensuring a diversified portfolio across sectors and investment styles is crucial to mitigate risk.
+3. **Risk Management:** Consideration of the risk level associated with each stock, including financial stability and market volatility, to ensure a balanced risk-return profile.
 
 **FINAL PORTFOLIO ALLOCATION:**
 
-| Rank | Stock  | Weight(%) | Supporting Experts          | Key Investment Thesis                              | Risk Level |
-|------|--------|-----------|-----------------------------|----------------------------------------------------|------------|
-| 1    | REGN   | 15.0      | Graham, Greenblatt, Buffett | Strong consensus, robust financials, growth potential | Medium     |
-| 2    | TXN    | 15.0      | Graham, Altman, Buffett     | High consensus, financial stability, tech exposure  | Medium     |
-| 3    | QCOM   | 15.0      | Graham, Greenblatt, Buffett | High consensus, strong ROIC, tech sector growth     | Medium     |
-| 4    | MSFT   | 12.5      | Graham, Buffett             | Quality compounder, strong moat, tech leader        | Medium     |
-| 5    | GILD   | 10.0      | Greenblatt, Buffett         | Strong fundamentals, healthcare exposure            | Medium     |
-| 6    | AAPL   | 10.0      | Graham, Buffett             | Strong brand, growth potential, tech sector         | Medium     |
-| 7    | EBIT   | 7.5       | Greenblatt, Altman          | Attractive valuation, financial health              | Medium     |
-| 8    | MU     | 7.5       | Graham, Altman              | Value opportunity, tech sector                      | Medium     |
-| 9    | GOOGL  | 5.0       | Graham, Altman              | Strong moat, growth potential, tech leader          | Medium     |
-| 10   | CTAS   | 2.5       | Piotroski, Altman           | Quality metrics, industrial sector exposure         | Medium     |
+| Rank | Stock  | Weight(%) | Supporting Experts                  | Key Investment Thesis                              | Risk Level |
+|------|--------|-----------|-------------------------------------|---------------------------------------------------|------------|
+| 1    | REGN   | 20.0      | BenjaminGraham, JoelGreenblatt, EdwardAltman, WarrenBuffett | Strong consensus, robust financials, growth potential | Medium    |
+| 2    | MU     | 15.0      | BenjaminGraham, JoelGreenblatt, EdwardAltman | High consensus, value opportunity, tech exposure   | Medium    |
+| 3    | NVDA   | 12.5      | BenjaminGraham, EdwardAltman, WarrenBuffett | Growth potential, tech leadership, quality compounder | Medium    |
+| 4    | QCOM   | 12.5      | BenjaminGraham, JoelGreenblatt, WarrenBuffett | Strong fundamentals, tech sector, value and growth | Medium    |
+| 5    | TXN    | 12.5      | BenjaminGraham, EdwardAltman, WarrenBuffett | Consistent performer, tech exposure, financial strength | Medium    |
+| 6    | GOOGL  | 10.0      | BenjaminGraham, EdwardAltman        | Dominant market position, growth potential         | Medium    |
+| 7    | GILD   | 7.5       | JoelGreenblatt, WarrenBuffett       | Strong fundamentals, healthcare exposure           | Medium    |
+| 8    | FANG   | 5.0       | JosephPiotroski, WarrenBuffett      | Energy sector exposure, value opportunity          | Medium    |
+| 9    | META   | 2.5       | JoelGreenblatt, WarrenBuffett       | Growth potential, tech sector                      | Medium    |
+| 10   | CTAS   | 2.5       | JosephPiotroski, EdwardAltman       | Consistent performer, industrial sector            | Medium    |
 
 **PORTFOLIO CHARACTERISTICS:**
 - Total Allocation: 100%
 - Number of Holdings: 10 stocks
-- Top 5 Holdings: 67.5% of portfolio
-- Sector Concentration: Significant exposure to technology and healthcare sectors, with some industrial exposure for diversification.
+- Top 5 Holdings: 72.5% of portfolio
+- Sector Concentration: Predominantly technology, with exposure to healthcare, energy, and industrial sectors
 
 **RISK MANAGEMENT:**
-- Key portfolio risks: Over-concentration in technology sector, potential market volatility.
-- Monitoring metrics: Regular review of financial health, market conditions, and sector performance.
-- Rebalancing triggers: Significant changes in consensus, financial health deterioration, or sector overexposure.
+- Key portfolio risks: High concentration in technology sector, potential market volatility
+- Monitoring metrics: Regular review of financial performance, market conditions, and expert consensus updates
+- Rebalancing triggers: Significant changes in expert consensus, sector performance, or individual stock performance
 
-This portfolio construction leverages the collective wisdom of our expert panel, focusing on high-consensus, quality stocks while maintaining diversification to manage risk effectively.
+This portfolio is designed to capitalize on high-consensus opportunities while maintaining a diversified exposure across sectors. The focus on technology reflects its growth potential, balanced by allocations in healthcare, energy, and industrials to manage risk. Regular monitoring and rebalancing will ensure the portfolio remains aligned with our investment philosophy and market conditions.
 
 ---
 
@@ -73,21 +70,21 @@ This portfolio construction leverages the collective wisdom of our expert panel,
 
 ### 전문가 간 합의 분석
 
-- **총 고유 추천 종목**: 35개
+- **총 고유 추천 종목**: 31개
 - **상위 합의 종목들**:
 
-1. **REGN**: 60.0% 합의율 (BenjaminGraham, JoelGreenblatt, WarrenBuffett)
-2. **TXN**: 60.0% 합의율 (BenjaminGraham, EdwardAltman, WarrenBuffett)
-3. **QCOM**: 60.0% 합의율 (BenjaminGraham, JoelGreenblatt, WarrenBuffett)
-4. **MSFT**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
-5. **GILD**: 40.0% 합의율 (JoelGreenblatt, WarrenBuffett)
-6. **AAPL**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
-7. **EBIT**: 40.0% 합의율 (JoelGreenblatt, EdwardAltman)
-8. **MU**: 40.0% 합의율 (BenjaminGraham, EdwardAltman)
-9. **GOOGL**: 40.0% 합의율 (BenjaminGraham, EdwardAltman)
+1. **REGN**: 80.0% 합의율 (BenjaminGraham, JoelGreenblatt, EdwardAltman, WarrenBuffett)
+2. **MU**: 60.0% 합의율 (BenjaminGraham, JoelGreenblatt, EdwardAltman)
+3. **NVDA**: 60.0% 합의율 (BenjaminGraham, EdwardAltman, WarrenBuffett)
+4. **QCOM**: 60.0% 합의율 (BenjaminGraham, JoelGreenblatt, WarrenBuffett)
+5. **TXN**: 60.0% 합의율 (BenjaminGraham, EdwardAltman, WarrenBuffett)
+6. **GOOGL**: 40.0% 합의율 (BenjaminGraham, EdwardAltman)
+7. **GILD**: 40.0% 합의율 (JoelGreenblatt, WarrenBuffett)
+8. **FANG**: 40.0% 합의율 (JosephPiotroski, WarrenBuffett)
+9. **META**: 40.0% 합의율 (JoelGreenblatt, WarrenBuffett)
 10. **CTAS**: 40.0% 합의율 (JosephPiotroski, EdwardAltman)
-11. **LRCX**: 40.0% 합의율 (JoelGreenblatt, EdwardAltman)
-12. **FANG**: 40.0% 합의율 (JosephPiotroski, WarrenBuffett)
-13. **EV**: 20.0% 합의율 (JoelGreenblatt)
-14. **AMAT**: 20.0% 합의율 (BenjaminGraham)
-15. **ABNB**: 20.0% 합의율 (JosephPiotroski)
+11. **AAPL**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
+12. **MSFT**: 40.0% 합의율 (BenjaminGraham, WarrenBuffett)
+13. **LRCX**: 40.0% 합의율 (JoelGreenblatt, EdwardAltman)
+14. **AMGN**: 20.0% 합의율 (JosephPiotroski)
+15. **CTSH**: 20.0% 합의율 (JosephPiotroski)

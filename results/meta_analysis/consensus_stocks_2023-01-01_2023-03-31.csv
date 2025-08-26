@@ -1,37 +1,36 @@
 stock,consensus_rate,agent_count,recommending_agents
+TXN,0.8,4,"BenjaminGraham, JoelGreenblatt, EdwardAltman, WarrenBuffett"
+GOOGL,0.6,3,"BenjaminGraham, EdwardAltman, WarrenBuffett"
+AVGO,0.6,3,"BenjaminGraham, JosephPiotroski, WarrenBuffett"
 AAPL,0.6,3,"BenjaminGraham, JosephPiotroski, WarrenBuffett"
 ADP,0.6,3,"BenjaminGraham, JosephPiotroski, WarrenBuffett"
-AVGO,0.6,3,"BenjaminGraham, JosephPiotroski, WarrenBuffett"
-TXN,0.6,3,"BenjaminGraham, EdwardAltman, WarrenBuffett"
-MSFT,0.4,2,"BenjaminGraham, WarrenBuffett"
-EBIT,0.4,2,"JoelGreenblatt, EdwardAltman"
-GOOGL,0.4,2,"BenjaminGraham, WarrenBuffett"
 NVDA,0.4,2,"BenjaminGraham, WarrenBuffett"
-ROE,0.4,2,"BenjaminGraham, WarrenBuffett"
+COST,0.4,2,"BenjaminGraham, WarrenBuffett"
+MSFT,0.4,2,"BenjaminGraham, WarrenBuffett"
 LRCX,0.4,2,"JoelGreenblatt, EdwardAltman"
-EV,0.2,1,JoelGreenblatt
-AMAT,0.2,1,EdwardAltman
-CPTR,0.2,1,EdwardAltman
-VRTX,0.2,1,EdwardAltman
-LULU,0.2,1,EdwardAltman
-GILD,0.2,1,JoelGreenblatt
-ADBE,0.2,1,JosephPiotroski
-MNST,0.2,1,EdwardAltman
-PCAR,0.2,1,JoelGreenblatt
-PAYX,0.2,1,JosephPiotroski
-PLTR,0.2,1,JosephPiotroski
-ROA,0.2,1,JosephPiotroski
-CDNS,0.2,1,BenjaminGraham
-EY,0.2,1,JoelGreenblatt
-TA,0.2,1,EdwardAltman
-MCHP,0.2,1,JosephPiotroski
-FTNT,0.2,1,JosephPiotroski
-AMZN,0.2,1,BenjaminGraham
-META,0.2,1,WarrenBuffett
-COST,0.2,1,WarrenBuffett
-ISRG,0.2,1,EdwardAltman
-CSX,0.2,1,JoelGreenblatt
-ADI,0.2,1,JosephPiotroski
 CTSH,0.2,1,JoelGreenblatt
+PCAR,0.2,1,JoelGreenblatt
+GILD,0.2,1,JoelGreenblatt
+CSCO,0.2,1,WarrenBuffett
+NXPI,0.2,1,JoelGreenblatt
+BIIB,0.2,1,JoelGreenblatt
+ADSK,0.2,1,JosephPiotroski
+MNST,0.2,1,EdwardAltman
+IDXX,0.2,1,EdwardAltman
 FANG,0.2,1,JoelGreenblatt
-ROIC,0.2,1,JoelGreenblatt
+PAYX,0.2,1,JosephPiotroski
+META,0.2,1,WarrenBuffett
+LULU,0.2,1,EdwardAltman
+AMAT,0.2,1,EdwardAltman
+ADBE,0.2,1,JosephPiotroski
+ISRG,0.2,1,EdwardAltman
+CDNS,0.2,1,BenjaminGraham
+FTNT,0.2,1,JosephPiotroski
+MCHP,0.2,1,JosephPiotroski
+KLAC,0.2,1,JoelGreenblatt
+PLTR,0.2,1,JosephPiotroski
+ADI,0.2,1,JosephPiotroski
+CSX,0.2,1,JoelGreenblatt
+CTAS,0.2,1,EdwardAltman
+VRTX,0.2,1,EdwardAltman
+AMZN,0.2,1,BenjaminGraham

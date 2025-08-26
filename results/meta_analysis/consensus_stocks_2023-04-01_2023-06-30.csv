@@ -1,38 +1,34 @@
 stock,consensus_rate,agent_count,recommending_agents
-AAPL,0.6,3,"BenjaminGraham, JosephPiotroski, WarrenBuffett"
 TXN,0.6,3,"BenjaminGraham, EdwardAltman, WarrenBuffett"
-MSFT,0.4,2,"BenjaminGraham, WarrenBuffett"
-KHC,0.4,2,"JosephPiotroski, JoelGreenblatt"
-MNST,0.4,2,"BenjaminGraham, EdwardAltman"
+AAPL,0.6,3,"BenjaminGraham, JosephPiotroski, WarrenBuffett"
+LRCX,0.6,3,"JoelGreenblatt, EdwardAltman, WarrenBuffett"
+AMGN,0.4,2,"JoelGreenblatt, WarrenBuffett"
 GOOGL,0.4,2,"BenjaminGraham, WarrenBuffett"
 NVDA,0.4,2,"BenjaminGraham, WarrenBuffett"
-CTAS,0.4,2,"JosephPiotroski, JoelGreenblatt"
-ROE,0.4,2,"BenjaminGraham, WarrenBuffett"
-FAST,0.4,2,"JosephPiotroski, EdwardAltman"
+KHC,0.4,2,"JosephPiotroski, JoelGreenblatt"
 CSCO,0.4,2,"JosephPiotroski, JoelGreenblatt"
-EV,0.2,1,JoelGreenblatt
-AMAT,0.2,1,EdwardAltman
-AMGN,0.2,1,WarrenBuffett
-EBIT,0.2,1,EdwardAltman
+MNST,0.4,2,"BenjaminGraham, EdwardAltman"
+MCHP,0.4,2,"JosephPiotroski, JoelGreenblatt"
+FAST,0.4,2,"JosephPiotroski, EdwardAltman"
+AVGO,0.4,2,"JosephPiotroski, WarrenBuffett"
+CTAS,0.4,2,"JosephPiotroski, JoelGreenblatt"
+MSFT,0.4,2,"BenjaminGraham, WarrenBuffett"
 PCAR,0.2,1,JoelGreenblatt
-ROCE,0.2,1,WarrenBuffett
-CSGP,0.2,1,EdwardAltman
-ROA,0.2,1,JosephPiotroski
-KLAC,0.2,1,WarrenBuffett
 NXPI,0.2,1,JoelGreenblatt
-INTU,0.2,1,JosephPiotroski
-EY,0.2,1,JoelGreenblatt
 FANG,0.2,1,JoelGreenblatt
-TA,0.2,1,EdwardAltman
-CPRT,0.2,1,EdwardAltman
-MCHP,0.2,1,JoelGreenblatt
-FTNT,0.2,1,JosephPiotroski
-AVGO,0.2,1,JosephPiotroski
-AMZN,0.2,1,BenjaminGraham
-PEP,0.2,1,BenjaminGraham
 META,0.2,1,WarrenBuffett
-CRWD,0.2,1,JosephPiotroski
-ISRG,0.2,1,EdwardAltman
-LRCX,0.2,1,EdwardAltman
+QCOM,0.2,1,BenjaminGraham
 ROST,0.2,1,BenjaminGraham
-ROIC,0.2,1,JoelGreenblatt
+LULU,0.2,1,EdwardAltman
+AMAT,0.2,1,EdwardAltman
+PEP,0.2,1,BenjaminGraham
+CDW,0.2,1,JoelGreenblatt
+ISRG,0.2,1,EdwardAltman
+FTNT,0.2,1,JosephPiotroski
+KLAC,0.2,1,WarrenBuffett
+INTU,0.2,1,JosephPiotroski
+CSGP,0.2,1,EdwardAltman
+CRWD,0.2,1,JosephPiotroski
+CPRT,0.2,1,EdwardAltman
+VRTX,0.2,1,EdwardAltman
+AMZN,0.2,1,BenjaminGraham

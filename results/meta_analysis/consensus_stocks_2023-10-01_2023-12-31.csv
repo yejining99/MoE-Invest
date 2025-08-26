@@ -1,38 +1,38 @@
 stock,consensus_rate,agent_count,recommending_agents
 FAST,0.6,3,"BenjaminGraham, JosephPiotroski, EdwardAltman"
-LULU,0.4,2,"JosephPiotroski, EdwardAltman"
-MSFT,0.4,2,"BenjaminGraham, WarrenBuffett"
-MNST,0.4,2,"BenjaminGraham, EdwardAltman"
-AAPL,0.4,2,"JosephPiotroski, WarrenBuffett"
-EBIT,0.4,2,"JoelGreenblatt, EdwardAltman"
+CTAS,0.6,3,"JosephPiotroski, JoelGreenblatt, EdwardAltman"
 GOOGL,0.4,2,"BenjaminGraham, WarrenBuffett"
 NVDA,0.4,2,"BenjaminGraham, WarrenBuffett"
-ADP,0.4,2,"JosephPiotroski, WarrenBuffett"
-CTAS,0.4,2,"JosephPiotroski, JoelGreenblatt"
-ROE,0.4,2,"BenjaminGraham, WarrenBuffett"
+MNST,0.4,2,"BenjaminGraham, EdwardAltman"
+LULU,0.4,2,"JosephPiotroski, EdwardAltman"
 ISRG,0.4,2,"BenjaminGraham, EdwardAltman"
-EV,0.2,1,JoelGreenblatt
-AMAT,0.2,1,JosephPiotroski
-VRTX,0.2,1,EdwardAltman
-GILD,0.2,1,JoelGreenblatt
-ADBE,0.2,1,JosephPiotroski
-ROIC,0.2,1,JoelGreenblatt
+ADBE,0.4,2,"BenjaminGraham, JosephPiotroski"
+AAPL,0.4,2,"JosephPiotroski, WarrenBuffett"
+ADP,0.4,2,"JosephPiotroski, WarrenBuffett"
+MSFT,0.4,2,"BenjaminGraham, WarrenBuffett"
 PCAR,0.2,1,JoelGreenblatt
-EA,0.2,1,JosephPiotroski
-PLTR,0.2,1,BenjaminGraham
-NXPI,0.2,1,JoelGreenblatt
-EY,0.2,1,JoelGreenblatt
-TA,0.2,1,EdwardAltman
-CPRT,0.2,1,EdwardAltman
-AMZN,0.2,1,WarrenBuffett
-META,0.2,1,WarrenBuffett
-COST,0.2,1,WarrenBuffett
-REGN,0.2,1,BenjaminGraham
-TXN,0.2,1,BenjaminGraham
-CRWD,0.2,1,JosephPiotroski
-TSLA,0.2,1,WarrenBuffett
-IDXX,0.2,1,EdwardAltman
-LRCX,0.2,1,EdwardAltman
-FANG,0.2,1,JoelGreenblatt
+GILD,0.2,1,JoelGreenblatt
 CSCO,0.2,1,JoelGreenblatt
+KHC,0.2,1,JoelGreenblatt
+NXPI,0.2,1,JoelGreenblatt
+REGN,0.2,1,BenjaminGraham
+IDXX,0.2,1,EdwardAltman
+FANG,0.2,1,JoelGreenblatt
+META,0.2,1,WarrenBuffett
 MDLZ,0.2,1,JosephPiotroski
+AMAT,0.2,1,JosephPiotroski
+PEP,0.2,1,WarrenBuffett
+MCHP,0.2,1,JoelGreenblatt
+PLTR,0.2,1,BenjaminGraham
+CRWD,0.2,1,JosephPiotroski
+COST,0.2,1,WarrenBuffett
+TXN,0.2,1,BenjaminGraham
+PYPL,0.2,1,JoelGreenblatt
+SHOP,0.2,1,EdwardAltman
+EA,0.2,1,JosephPiotroski
+CPRT,0.2,1,EdwardAltman
+TMUS,0.2,1,JoelGreenblatt
+TSLA,0.2,1,WarrenBuffett
+VRTX,0.2,1,EdwardAltman
+AMZN,0.2,1,WarrenBuffett
+LRCX,0.2,1,EdwardAltman

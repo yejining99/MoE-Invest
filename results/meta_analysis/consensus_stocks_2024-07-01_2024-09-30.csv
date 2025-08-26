@@ -1,42 +1,40 @@
 stock,consensus_rate,agent_count,recommending_agents
 NVDA,0.8,4,"BenjaminGraham, JosephPiotroski, EdwardAltman, WarrenBuffett"
 CTAS,0.6,3,"BenjaminGraham, JoelGreenblatt, EdwardAltman"
-CPRT,0.4,2,"BenjaminGraham, EdwardAltman"
-ADP,0.4,2,"JosephPiotroski, WarrenBuffett"
+PEP,0.4,2,"JoelGreenblatt, WarrenBuffett"
+CDW,0.4,2,"BenjaminGraham, JoelGreenblatt"
 TXN,0.4,2,"EdwardAltman, WarrenBuffett"
-ROE,0.4,2,"BenjaminGraham, WarrenBuffett"
-AMD,0.2,1,JosephPiotroski
-EV,0.2,1,JoelGreenblatt
-VRTX,0.2,1,BenjaminGraham
-MSFT,0.2,1,WarrenBuffett
-GILD,0.2,1,JoelGreenblatt
-ADBE,0.2,1,JosephPiotroski
-BKR,0.2,1,JosephPiotroski
-MNST,0.2,1,EdwardAltman
-AAPL,0.2,1,WarrenBuffett
-EBIT,0.2,1,EdwardAltman
-PCAR,0.2,1,JoelGreenblatt
-PAYX,0.2,1,JosephPiotroski
-PLTR,0.2,1,BenjaminGraham
-ROA,0.2,1,JosephPiotroski
-NXPI,0.2,1,JoelGreenblatt
-EY,0.2,1,JoelGreenblatt
-TA,0.2,1,EdwardAltman
+CMCSA,0.4,2,"JosephPiotroski, JoelGreenblatt"
+ADP,0.4,2,"JosephPiotroski, WarrenBuffett"
+CPRT,0.4,2,"BenjaminGraham, EdwardAltman"
 GOOGL,0.2,1,WarrenBuffett
-FTNT,0.2,1,JosephPiotroski
-APP,0.2,1,JosephPiotroski
-AVGO,0.2,1,BenjaminGraham
-AMZN,0.2,1,WarrenBuffett
-PEP,0.2,1,JoelGreenblatt
+PCAR,0.2,1,JoelGreenblatt
+GILD,0.2,1,JoelGreenblatt
+NXPI,0.2,1,JoelGreenblatt
+REGN,0.2,1,BenjaminGraham
+BIIB,0.2,1,JoelGreenblatt
+MNST,0.2,1,EdwardAltman
+IDXX,0.2,1,EdwardAltman
+BKR,0.2,1,JosephPiotroski
+PAYX,0.2,1,JosephPiotroski
 META,0.2,1,WarrenBuffett
-COST,0.2,1,WarrenBuffett
-TMUS,0.2,1,BenjaminGraham
-CMCSA,0.2,1,JoelGreenblatt
 QCOM,0.2,1,JoelGreenblatt
+LULU,0.2,1,JoelGreenblatt
+ADBE,0.2,1,JosephPiotroski
 ISRG,0.2,1,EdwardAltman
-CHRT,0.2,1,JosephPiotroski
+FTNT,0.2,1,JosephPiotroski
+PLTR,0.2,1,BenjaminGraham
 FAST,0.2,1,EdwardAltman
+CSGP,0.2,1,EdwardAltman
+COST,0.2,1,WarrenBuffett
+AVGO,0.2,1,BenjaminGraham
+CSX,0.2,1,JosephPiotroski
+AMD,0.2,1,JosephPiotroski
+AAPL,0.2,1,WarrenBuffett
 SNPS,0.2,1,BenjaminGraham
+MSFT,0.2,1,WarrenBuffett
+APP,0.2,1,JosephPiotroski
+TMUS,0.2,1,BenjaminGraham
+VRTX,0.2,1,BenjaminGraham
+AMZN,0.2,1,WarrenBuffett
 LRCX,0.2,1,EdwardAltman
-CDW,0.2,1,BenjaminGraham
-ROIC,0.2,1,JoelGreenblatt
