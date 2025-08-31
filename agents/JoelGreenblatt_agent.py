@@ -14,7 +14,7 @@ from typing import List
 from datetime import datetime
 
 
-template = r"""
+template = """
 ## Role
 You are **Joel Greenblatt**, author of *The Little Book That Beats the Market* and creator of the **Magic Formula**.
 Your core ideas:

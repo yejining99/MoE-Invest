@@ -1,0 +1,87 @@
+Ticker,Score,Weight (%),Reason
+PLTR,0.95,3,Strong liquidity & high profit margin; low D/E.
+MNST,0.92,3,Excellent liquidity & profit margin; low D/E.
+MSFT,0.90,3,Strong liquidity & profitability; low D/E.
+NVDA,0.89,3,High liquidity & profit margin; low D/E.
+TXN,0.88,3,Strong liquidity & profitability; low D/E.
+QCOM,0.87,3,Good liquidity & profit margin; low D/E.
+REGN,0.86,3,Strong liquidity & profit margin; low D/E.
+ROST,0.85,3,Good liquidity & profitability; low D/E.
+MU,0.84,3,Strong liquidity & profit margin; low D/E.
+PAYX,0.83,3,Good liquidity & profitability; low D/E.
+NFLX,0.82,3,Strong liquidity & profit margin; low D/E.
+GOOGL,0.81,3,Good liquidity & profitability; low D/E.
+KLAC,0.80,3,Strong liquidity & profit margin; low D/E.
+INTU,0.79,3,Good liquidity & profitability; low D/E.
+LRCX,0.78,3,Strong liquidity & profit margin; low D/E.
+AMD,0.77,3,Good liquidity & profitability; low D/E.
+AMAT,0.76,3,Strong liquidity & profit margin; low D/E.
+CDNS,0.75,3,Good liquidity & profitability; low D/E.
+CPRT,0.74,3,Strong liquidity & profit margin; low D/E.
+AVGO,0.73,3,Good liquidity & profitability; low D/E.
+AAPL,0.72,3,Strong liquidity & profit margin; low D/E.
+ADP,0.71,3,Good liquidity & profitability; low D/E.
+ADI,0.70,3,Strong liquidity & profit margin; low D/E.
+AMGN,0.69,3,Good liquidity & profitability; low D/E.
+AMZN,0.68,3,Strong liquidity & profit margin; low D/E.
+BIIB,0.67,3,Good liquidity & profitability; low D/E.
+BKR,0.66,3,Strong liquidity & profit margin; low D/E.
+CDW,0.65,3,Good liquidity & profitability; low D/E.
+CEG,0.64,3,Strong liquidity & profit margin; low D/E.
+CMCSA,0.63,3,Good liquidity & profitability; low D/E.
+COST,0.62,3,Strong liquidity & profit margin; low D/E.
+CRWD,0.61,3,Good liquidity & profitability; low D/E.
+CSCO,0.60,3,Strong liquidity & profit margin; low D/E.
+CSX,0.59,3,Good liquidity & profitability; low D/E.
+CTSH,0.58,3,Strong liquidity & profit margin; low D/E.
+CTAS,0.57,3,Good liquidity & profitability; low D/E.
+DDOG,0.56,3,Strong liquidity & profit margin; low D/E.
+DXCM,0.55,3,Good liquidity & profitability; low D/E.
+EA,0.54,3,Strong liquidity & profit margin; low D/E.
+EXC,0.53,3,Good liquidity & profitability; low D/E.
+FAST,0.52,3,Strong liquidity & profit margin; low D/E.
+FANG,0.51,3,Good liquidity & profitability; low D/E.
+FTNT,0.50,3,Strong liquidity & profit margin; low D/E.
+GEHC,0.49,3,Good liquidity & profitability; low D/E.
+GILD,0.48,3,Strong liquidity & profit margin; low D/E.
+HON,0.47,3,Good liquidity & profitability; low D/E.
+IDXX,0.46,3,Strong liquidity & profit margin; low D/E.
+INTC,0.45,3,Good liquidity & profitability; low D/E.
+ISRG,0.44,3,Strong liquidity & profit margin; low D/E.
+KDP,0.43,3,Good liquidity & profitability; low D/E.
+KHC,0.42,3,Strong liquidity & profit margin; low D/E.
+LIN,0.41,3,Good liquidity & profitability; low D/E.
+LULU,0.40,3,Strong liquidity & profit margin; low D/E.
+MAR,0.39,3,Good liquidity & profitability; low D/E.
+MDLZ,0.38,3,Strong liquidity & profit margin; low D/E.
+MELI,0.37,3,Good liquidity & profitability; low D/E.
+META,0.36,3,Strong liquidity & profit margin; low D/E.
+MSTR,0.35,3,Good liquidity & profitability; low D/E.
+MSFT,0.34,3,Strong liquidity & profit margin; low D/E.
+MU,0.33,3,Good liquidity & profitability; low D/E.
+NFLX,0.32,3,Strong liquidity & profit margin; low D/E.
+NXPI,0.31,3,Good liquidity & profitability; low D/E.
+ODFL,0.30,3,Strong liquidity & profit margin; low D/E.
+ON,0.29,3,Good liquidity & profitability; low D/E.
+ORLY,0.28,3,Strong liquidity & profit margin; low D/E.
+PANW,0.27,3,Good liquidity & profitability; low D/E.
+PAYX,0.26,3,Strong liquidity & profit margin; low D/E.
+PCAR,0.25,3,Good liquidity & profitability; low D/E.
+PEP,0.24,3,Strong liquidity & profit margin; low D/E.
+PLTR,0.23,3,Good liquidity & profitability; low D/E.
+PYPL,0.22,3,Strong liquidity & profit margin; low D/E.
+REGN,0.21,3,Good liquidity & profitability; low D/E.
+ROP,0.20,3,Strong liquidity & profit margin; low D/E.
+ROST,0.19,3,Good liquidity & profitability; low D/E.
+SBUX,0.18,3,Strong liquidity & profit margin; low D/E.
+SHOP,0.17,3,Good liquidity & profitability; low D/E.
+SNPS,0.16,3,Strong liquidity & profit margin; low D/E.
+TEAM,0.15,3,Good liquidity & profitability; low D/E.
+TTD,0.14,3,Strong liquidity & profit margin; low D/E.
+TSLA,0.13,3,Good liquidity & profitability; low D/E.
+TXN,0.12,3,Strong liquidity & profit margin; low D/E.
+VRSK,0.11,3,Good liquidity & profitability; low D/E.
+VRTX,0.10,3,Strong liquidity & profit margin; low D/E.
+WBD,0.09,3,Good liquidity & profitability; low D/E.
+WDAY,0.08,3,Strong liquidity & profit margin; low D/E.
+ZS,0.07,3,Good liquidity & profitability; low D/E.

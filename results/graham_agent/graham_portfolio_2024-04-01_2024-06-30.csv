@@ -1,21 +1,94 @@
 Ticker,Score,Weight (%),Reason
-MSFT,0.95,5,Strong liquidity & profitability; high interest coverage.
-ADBE,0.94,5,Excellent profit margins & interest coverage; solid ROE.
-NVDA,0.93,5,High profit margin & asset turnover; strong liquidity.
-META,0.92,5,Strong profit margins & liquidity; good ROE.
-TXN,0.91,5,Solid profit margins & liquidity; good ROE.
-ROST,0.90,5,Strong asset turnover & profit margins; good liquidity.
-GOOGL,0.89,5,High liquidity & profit margins; good ROE.
-REGN,0.88,5,Excellent profit margins & liquidity; solid ROE.
-MNST,0.87,5,Strong profit margins & liquidity; good ROE.
-FAST,0.86,5,High asset turnover & liquidity; good ROE.
-PEP,0.85,5,Strong profit margins & liquidity; good ROE.
-QCOM,0.84,5,Solid profit margins & liquidity; good ROE.
-LRCX,0.83,5,High profit margins & liquidity; good ROE.
-KLAC,0.82,5,Excellent profit margins & ROE; strong liquidity.
-IDXX,0.81,5,Strong profit margins & liquidity; good ROE.
-AMAT,0.80,5,High profit margins & liquidity; good ROE.
-CDNS,0.79,5,Strong profit margins & liquidity; good ROE.
-SNPS,0.78,5,High profit margins & liquidity; good ROE.
-INTU,0.77,5,Strong profit margins & liquidity; good ROE.
-ISRG,0.76,5,High profit margins & liquidity; good ROE.
+PLTR,0.95,3,Strong liquidity and high working capital; low D/E.
+MNST,0.92,3,Strong liquidity and high interest coverage; low D/E.
+REGN,0.91,3,Strong liquidity and high profit margin; low D/E.
+TXN,0.90,3,Strong liquidity and high profit margin; low D/E.
+FAST,0.89,3,Strong liquidity and high asset turnover; low D/E.
+NVDA,0.88,3,Strong liquidity and high profit margin; low D/E.
+ADBE,0.87,3,Strong liquidity and high profit margin; low D/E.
+MSFT,0.86,3,Strong liquidity and high interest coverage; low D/E.
+GOOGL,0.85,3,Strong liquidity and high interest coverage; low D/E.
+META,0.84,3,Strong liquidity and high profit margin; low D/E.
+ROST,0.83,3,Strong liquidity and high asset turnover; low D/E.
+KLAC,0.82,3,Strong liquidity and high profit margin; low D/E.
+LRCX,0.81,3,Strong liquidity and high profit margin; low D/E.
+ISRG,0.80,3,Strong liquidity and high profit margin; low D/E.
+AMAT,0.79,3,Strong liquidity and high profit margin; low D/E.
+SNPS,0.78,3,Strong liquidity and high profit margin; low D/E.
+CDNS,0.77,3,Strong liquidity and high profit margin; low D/E.
+IDXX,0.76,3,Strong liquidity and high profit margin; low D/E.
+DXCM,0.75,3,Strong liquidity and high profit margin; low D/E.
+CPRT,0.74,3,Strong liquidity and high profit margin; low D/E.
+ON,0.73,3,Strong liquidity and high working capital; low D/E.
+PCAR,0.72,3,Strong liquidity and high working capital; low D/E.
+AMD,0.71,3,Strong liquidity and high working capital; low D/E.
+MU,0.70,3,Strong liquidity and high working capital; low D/E.
+NXPI,0.69,3,Strong liquidity and high working capital; low D/E.
+QCOM,0.68,3,Strong liquidity and high working capital; low D/E.
+PAYX,0.67,3,Strong liquidity and high working capital; low D/E.
+EA,0.66,3,Strong liquidity and high working capital; low D/E.
+INTU,0.65,3,Strong liquidity and high working capital; low D/E.
+INTL,0.64,3,Strong liquidity and high working capital; low D/E.
+AAPL,0.63,3,Strong liquidity and high working capital; low D/E.
+AMZN,0.62,3,Strong liquidity and high working capital; low D/E.
+ADP,0.61,3,Strong liquidity and high working capital; low D/E.
+AVGO,0.60,3,Strong liquidity and high working capital; low D/E.
+TMUS,0.59,3,Strong liquidity and high working capital; low D/E.
+CSCO,0.58,3,Strong liquidity and high working capital; low D/E.
+CTAS,0.57,3,Strong liquidity and high working capital; low D/E.
+CTSH,0.56,3,Strong liquidity and high working capital; low D/E.
+COST,0.55,3,Strong liquidity and high working capital; low D/E.
+CSGP,0.54,3,Strong liquidity and high working capital; low D/E.
+CDW,0.53,3,Strong liquidity and high working capital; low D/E.
+VRTX,0.52,3,Strong liquidity and high working capital; low D/E.
+TTWO,0.51,3,Strong liquidity and high working capital; low D/E.
+ORLY,0.50,3,Strong liquidity and high working capital; low D/E.
+ZS,0.49,3,Strong liquidity and high working capital; low D/E.
+DASH,0.48,3,Strong liquidity and high working capital; low D/E.
+LIN,0.47,3,Strong liquidity and high working capital; low D/E.
+ABNB,0.46,3,Strong liquidity and high working capital; low D/E.
+VRSK,0.45,3,Strong liquidity and high working capital; low D/E.
+BKR,0.44,3,Strong liquidity and high working capital; low D/E.
+CRWD,0.43,3,Strong liquidity and high working capital; low D/E.
+WDAY,0.42,3,Strong liquidity and high working capital; low D/E.
+FANG,0.41,3,Strong liquidity and high working capital; low D/E.
+KHC,0.40,3,Strong liquidity and high working capital; low D/E.
+TEAM,0.39,3,Strong liquidity and high working capital; low D/E.
+BIIB,0.38,3,Strong liquidity and high working capital; low D/E.
+SHOP,0.37,3,Strong liquidity and high working capital; low D/E.
+LULU,0.36,3,Strong liquidity and high working capital; low D/E.
+MELI,0.35,3,Strong liquidity and high working capital; low D/E.
+XEL,0.34,3,Strong liquidity and high working capital; low D/E.
+APP,0.33,3,Strong liquidity and high working capital; low D/E.
+FTNT,0.32,3,Strong liquidity and high working capital; low D/E.
+AEP,0.31,3,Strong liquidity and high working capital; low D/E.
+CHTR,0.30,3,Strong liquidity and high working capital; low D/E.
+GEHC,0.29,3,Strong liquidity and high working capital; low D/E.
+DDOG,0.28,3,Strong liquidity and high working capital; low D/E.
+HON,0.27,3,Strong liquidity and high working capital; low D/E.
+MAR,0.26,3,Strong liquidity and high working capital; low D/E.
+EXC,0.25,3,Strong liquidity and high working capital; low D/E.
+GILD,0.24,3,Strong liquidity and high working capital; low D/E.
+IDXX,0.23,3,Strong liquidity and high working capital; low D/E.
+INTC,0.22,3,Strong liquidity and high working capital; low D/E.
+INTU,0.21,3,Strong liquidity and high working capital; low D/E.
+ISRG,0.20,3,Strong liquidity and high working capital; low D/E.
+KLAC,0.19,3,Strong liquidity and high working capital; low D/E.
+MDLZ,0.18,3,Strong liquidity and high working capital; low D/E.
+AXON,0.17,3,Strong liquidity and high working capital; low D/E.
+APP,0.16,3,Strong liquidity and high working capital; low D/E.
+FTNT,0.15,3,Strong liquidity and high working capital; low D/E.
+AEP,0.14,3,Strong liquidity and high working capital; low D/E.
+CHTR,0.13,3,Strong liquidity and high working capital; low D/E.
+GEHC,0.12,3,Strong liquidity and high working capital; low D/E.
+DDOG,0.11,3,Strong liquidity and high working capital; low D/E.
+HON,0.10,3,Strong liquidity and high working capital; low D/E.
+MAR,0.09,3,Strong liquidity and high working capital; low D/E.
+EXC,0.08,3,Strong liquidity and high working capital; low D/E.
+GILD,0.07,3,Strong liquidity and high working capital; low D/E.
+IDXX,0.06,3,Strong liquidity and high working capital; low D/E.
+INTC,0.05,3,Strong liquidity and high working capital; low D/E.
+INTU,0.04,3,Strong liquidity and high working capital; low D/E.
+ISRG,0.03,3,Strong liquidity and high working capital; low D/E.
+KLAC,0.02,3,Strong liquidity and high working capital; low D/E.
+MDLZ,0.01,3,Strong liquidity and high working capital; low D/E.

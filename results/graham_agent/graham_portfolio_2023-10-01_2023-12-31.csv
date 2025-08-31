@@ -1,82 +1,93 @@
 Ticker,Score,Weight (%),Reason
-PLTR,0.95,3,Strong liquidity & high profit margin; low D/E.
-MNST,0.92,3,Excellent interest coverage & profit margin; low D/E.
-REGN,0.91,3,Strong liquidity & profit margin; low D/E.
-TXN,0.89,3,Strong liquidity & profit margin; low D/E.
-NVDA,0.88,3,High ROE & profit margin; low D/E.
-MSFT,0.87,3,Strong liquidity & profit margin; low D/E.
-ADBE,0.86,3,Strong liquidity & profit margin; low D/E.
-ISRG,0.85,3,Strong liquidity & profit margin; low D/E.
-GOOGL,0.84,3,Strong liquidity & profit margin; low D/E.
-ROST,0.83,3,Strong liquidity & profit margin; low D/E.
-TXN,0.82,3,Strong liquidity & profit margin; low D/E.
-FAST,0.81,3,Strong liquidity & profit margin; low D/E.
-ODFL,0.80,3,Strong liquidity & profit margin; low D/E.
-ON,0.79,3,Strong liquidity & profit margin; low D/E.
-PCAR,0.78,3,Strong liquidity & profit margin; low D/E.
-PEP,0.77,3,Strong liquidity & profit margin; low D/E.
-SBUX,0.76,3,Strong liquidity & profit margin; low D/E.
-GOOGL,0.75,3,Strong liquidity & profit margin; low D/E.
-ROP,0.74,3,Strong liquidity & profit margin; low D/E.
-TTD,0.73,3,Strong liquidity & profit margin; low D/E.
-EA,0.72,3,Strong liquidity & profit margin; low D/E.
-EXC,0.71,3,Strong liquidity & profit margin; low D/E.
-FAST,0.70,3,Strong liquidity & profit margin; low D/E.
-GILD,0.69,3,Strong liquidity & profit margin; low D/E.
-IDXX,0.68,3,Strong liquidity & profit margin; low D/E.
-INTC,0.67,3,Strong liquidity & profit margin; low D/E.
-INTU,0.66,3,Strong liquidity & profit margin; low D/E.
-ISRG,0.65,3,Strong liquidity & profit margin; low D/E.
-KLAC,0.64,3,Strong liquidity & profit margin; low D/E.
-MDLZ,0.63,3,Strong liquidity & profit margin; low D/E.
-APP,0.62,3,Strong liquidity & profit margin; low D/E.
-FTNT,0.61,3,Strong liquidity & profit margin; low D/E.
-AEP,0.60,3,Strong liquidity & profit margin; low D/E.
-CHTR,0.59,3,Strong liquidity & profit margin; low D/E.
-LRCX,0.58,3,Strong liquidity & profit margin; low D/E.
-MAR,0.57,3,Strong liquidity & profit margin; low D/E.
-GEHC,0.56,3,Strong liquidity & profit margin; low D/E.
-DDOG,0.55,3,Strong liquidity & profit margin; low D/E.
-HON,0.54,3,Strong liquidity & profit margin; low D/E.
-FANG,0.53,3,Strong liquidity & profit margin; low D/E.
-KHC,0.52,3,Strong liquidity & profit margin; low D/E.
-TEAM,0.51,3,Strong liquidity & profit margin; low D/E.
-META,0.50,3,Strong liquidity & profit margin; low D/E.
-BIIB,0.49,3,Strong liquidity & profit margin; low D/E.
-SHOP,0.48,3,Strong liquidity & profit margin; low D/E.
-LULU,0.47,3,Strong liquidity & profit margin; low D/E.
-MELI,0.46,3,Strong liquidity & profit margin; low D/E.
-XEL,0.45,3,Strong liquidity & profit margin; low D/E.
-BKR,0.44,3,Strong liquidity & profit margin; low D/E.
-CRWD,0.43,3,Strong liquidity & profit margin; low D/E.
-WDAY,0.42,3,Strong liquidity & profit margin; low D/E.
-DASH,0.41,3,Strong liquidity & profit margin; low D/E.
-LIN,0.40,3,Strong liquidity & profit margin; low D/E.
-ABNB,0.39,3,Strong liquidity & profit margin; low D/E.
-VRSK,0.38,3,Strong liquidity & profit margin; low D/E.
-DXCM,0.37,3,Strong liquidity & profit margin; low D/E.
-ZS,0.36,3,Strong liquidity & profit margin; low D/E.
-AMD,0.35,3,Strong liquidity & profit margin; low D/E.
-AMZN,0.34,3,Strong liquidity & profit margin; low D/E.
-AMGN,0.33,3,Strong liquidity & profit margin; low D/E.
-ADI,0.32,3,Strong liquidity & profit margin; low D/E.
-AAPL,0.31,3,Strong liquidity & profit margin; low D/E.
-AMAT,0.30,3,Strong liquidity & profit margin; low D/E.
-ADSK,0.29,3,Strong liquidity & profit margin; low D/E.
-ADP,0.28,3,Strong liquidity & profit margin; low D/E.
-CSX,0.27,3,Strong liquidity & profit margin; low D/E.
-CDNS,0.26,3,Strong liquidity & profit margin; low D/E.
-CSCO,0.25,3,Strong liquidity & profit margin; low D/E.
-CTAS,0.24,3,Strong liquidity & profit margin; low D/E.
-CTSH,0.23,3,Strong liquidity & profit margin; low D/E.
-CPRT,0.22,3,Strong liquidity & profit margin; low D/E.
-COST,0.21,3,Strong liquidity & profit margin; low D/E.
-CSGP,0.20,3,Strong liquidity & profit margin; low D/E.
-CDW,0.19,3,Strong liquidity & profit margin; low D/E.
-AVGO,0.18,3,Strong liquidity & profit margin; low D/E.
-TMUS,0.17,3,Strong liquidity & profit margin; low D/E.
-SNPS,0.16,3,Strong liquidity & profit margin; low D/E.
-NVDA,0.15,3,Strong liquidity & profit margin; low D/E.
-ORLY,0.14,3,Strong liquidity & profit margin; low D/E.
-TTWO,0.13,3,Strong liquidity & profit margin; low D/E.
-VRTX,0.12,3,Strong liquidity & profit margin; low D/E.
+PLTR,0.95,10,Strong liquidity & margins; low D/E.
+MNST,0.92,9,Excellent interest coverage & profit margin.
+TSLA,0.90,9,High interest coverage & profit margin.
+MSFT,0.88,8,Strong profitability & interest coverage.
+ADBE,0.87,8,High profit margin & interest coverage.
+NVDA,0.86,8,Strong asset turnover & profit margin.
+GOOGL,0.85,7,High interest coverage & profit margin.
+REGN,0.84,7,Strong liquidity & profitability.
+TXN,0.83,6,Solid profit margin & interest coverage.
+ROST,0.82,6,Strong asset turnover & profit margin.
+QCOM,0.81,6,High profit margin & interest coverage.
+IDXX,0.80,6,Strong liquidity & profitability.
+ISRG,0.79,5,High profit margin & liquidity.
+KLAC,0.78,5,Strong ROE & profit margin.
+LULU,0.77,5,High asset turnover & profit margin.
+AAPL,0.76,5,Strong profitability & asset turnover.
+AMAT,0.75,4,High profit margin & liquidity.
+CPTR,0.74,4,Strong liquidity & profit margin.
+CDNS,0.73,4,High profit margin & interest coverage.
+DXCM,0.72,4,Strong liquidity & profitability.
+SHOP,0.71,3,High liquidity & profit margin.
+AMD,0.70,3,Strong asset turnover & liquidity.
+MELI,0.69,3,High asset turnover & liquidity.
+VRTX,0.68,3,Strong profit margin & liquidity.
+AVGO,0.67,3,High profit margin & interest coverage.
+ADP,0.66,3,Strong ROE & profit margin.
+SNPS,0.65,3,High profit margin & interest coverage.
+COST,0.64,3,Strong asset turnover & liquidity.
+CSCO,0.63,3,High liquidity & interest coverage.
+CTAS,0.62,3,Strong liquidity & profitability.
+CPRT,0.61,3,High liquidity & profit margin.
+CSGP,0.60,3,Strong liquidity & profitability.
+CDW,0.59,3,High liquidity & interest coverage.
+TMUS,0.58,3,Strong asset turnover & liquidity.
+ORLY,0.57,3,High asset turnover & liquidity.
+TTWO,0.56,3,Strong liquidity & profitability.
+ZS,0.55,3,High liquidity & asset turnover.
+ABNB,0.54,3,Strong liquidity & asset turnover.
+VRSK,0.53,3,High liquidity & profitability.
+DASH,0.52,3,Strong liquidity & asset turnover.
+LIN,0.51,3,High liquidity & profitability.
+AMGN,0.50,3,Strong liquidity & profitability.
+ADI,0.49,3,High liquidity & asset turnover.
+AEP,0.48,3,Strong liquidity & asset turnover.
+CHRT,0.47,3,High liquidity & asset turnover.
+LRCX,0.46,3,Strong liquidity & profitability.
+MAR,0.45,3,High liquidity & asset turnover.
+GEHC,0.44,3,Strong liquidity & asset turnover.
+DDOG,0.43,3,High liquidity & asset turnover.
+HON,0.42,3,Strong liquidity & asset turnover.
+FANG,0.41,3,High liquidity & asset turnover.
+KHC,0.40,3,Strong liquidity & asset turnover.
+TEAM,0.39,3,High liquidity & asset turnover.
+META,0.38,3,Strong liquidity & asset turnover.
+BIIB,0.37,3,High liquidity & asset turnover.
+SHOP,0.36,3,Strong liquidity & asset turnover.
+LULU,0.35,3,High liquidity & asset turnover.
+MELI,0.34,3,Strong liquidity & asset turnover.
+XEL,0.33,3,High liquidity & asset turnover.
+BKR,0.32,3,Strong liquidity & asset turnover.
+CRWD,0.31,3,High liquidity & asset turnover.
+WDAY,0.30,3,Strong liquidity & asset turnover.
+DASH,0.29,3,High liquidity & asset turnover.
+LIN,0.28,3,Strong liquidity & asset turnover.
+ABNB,0.27,3,High liquidity & asset turnover.
+VRSK,0.26,3,Strong liquidity & asset turnover.
+DXCM,0.25,3,High liquidity & asset turnover.
+ZS,0.24,3,Strong liquidity & asset turnover.
+AMD,0.23,3,High liquidity & asset turnover.
+AMZN,0.22,3,Strong liquidity & asset turnover.
+AMGN,0.21,3,High liquidity & asset turnover.
+ADI,0.20,3,Strong liquidity & asset turnover.
+AAPL,0.19,3,High liquidity & asset turnover.
+AMAT,0.18,3,Strong liquidity & asset turnover.
+ADSK,0.17,3,High liquidity & asset turnover.
+ADP,0.16,3,Strong liquidity & asset turnover.
+CSX,0.15,3,High liquidity & asset turnover.
+CDNS,0.14,3,Strong liquidity & asset turnover.
+CSCO,0.13,3,High liquidity & asset turnover.
+CTAS,0.12,3,Strong liquidity & asset turnover.
+CTSH,0.11,3,High liquidity & asset turnover.
+CPRT,0.10,3,Strong liquidity & asset turnover.
+COST,0.09,3,High liquidity & asset turnover.
+CSGP,0.08,3,Strong liquidity & asset turnover.
+CDW,0.07,3,High liquidity & asset turnover.
+AVGO,0.06,3,Strong liquidity & asset turnover.
+TMUS,0.05,3,High liquidity & asset turnover.
+SNPS,0.04,3,Strong liquidity & asset turnover.
+NVDA,0.03,3,High liquidity & asset turnover.
+ORLY,0.02,3,Strong liquidity & asset turnover.
+TTWO,0.01,3,High liquidity & asset turnover.
+VRTX,0.00,3,Strong liquidity & asset turnover.
